@@ -1,0 +1,3207 @@
+[
+  {
+    "id": "about",
+    "path": "/about",
+    "bodyText": "ABOUT OUR EXPERTISE PROJECTS NEWSROOM GET STARTED GET STARTED Generations of building, one standard of excellence Our team comprises over 250 talented individuals, some known to senior management for many years and others hired for their additional experience and expertise. We value the mix of strengths and insights this approach brings, and we are proud to have built a team with a diversity of perspectives and backgrounds. Our active in-house graduate recruitment and training programmes also play a key role in creating an effective and united team while also helping foster the industry’s next generation. RED has no B-teams, only dedicated individuals who have a vested interest in building our reputation for successful delivery. OUR NORTH STAR Mission & Vision. Our Mission To deliver high-quality construction projects with precision, transparency, and reliability—building spaces that stand the test of time. Our Vision To be a trusted construction partner known for delivering durable, high-quality spaces that shape communities and support growth. FROM THE DIRECTOR'S DESK A Note from Our Director At the heart of everything we build is a simple belief—quality should never be compromised. Over the years, we’ve had the privilege of working on diverse projects, each one teaching us the importance of precision, trust, and accountability. Construction is more than just structures; it’s about creating spaces where people live, work, and grow. That responsibility drives us to maintain the highest standards in every stage of our work. As we continue to grow, our focus remains unchanged—to deliver projects that are built with integrity, completed with care, and designed to stand the test of time. Dan Farrelly Founder, Cogniv OUR JOURNEY Our values What drives our mission 2024 Celebrates 15 years with a retrospective showcase of the company’s most iconic projects and milestones. 2022 Wins a prestigious national design award for an innovative mixed-use development project. 2021 Participates in a national interior design expo, showcasing innovative concepts and gaining industry recognition. 2019 Opens a second office in a neighboring city to meet growing demand and takes on larger projects, such as retail spaces and restaurants. North America New York +1 (212) 555-8700 newyork@residence.com Los Angeles +1 (310) 555-4290 losangeles@residence.com Miami +1 (305) 555-6823 miami@residence.com Toronto +1 (416) 555-9172 toronto@residence.com Vancouver +1 (604) 555-3845 vancouver@residence.com OUR TEAM The people behind every project Alexander Morrison Founder & Managing Partner Sarah Okonkwo Partner, Growth & Strategy James Whitfield Partner, Operations Chris Renwick Managing Consultant Ariana Patel Senior Consultant, Digital David Liang Senior Consultant, Digital GET IN TOUCH Ready to build something that lasts? Whether it’s a residential project, commercial space, or renovation, we’re here to bring your vision to life—with quality, clarity, and on-time delivery. Let's talk about your goals Fill out the form below and our nearest regional office will get back to you within 24 hours. NAME EMAIL ADDRESS YOU ARE INTERESTED IN Select a service... Property Development Design & Planning Construction Management Infrastructure & Logistics MESSAGE Yes, I'd like to receive product updates and insights from Construa. Unsubscribe anytime. SEND ENQUIRY Explore how Formed can bring your next development to life. GET STARTED GET STARTED Partner with us to turn strategic ambition into measurable business results. GET STARTED GET STARTED MAIN PAGES Home About Us Projects Blogs Contact CONTACT hello@construa.com +44 (0) 20 7946 0318 12 Aldgate Square, London, EC3N 1AB Terms Private Policy Designed & Developed By Vinayak Thakur Create a free website with Framer, the website builder loved by startups, designers and agencies.",
+    "directChildren": [
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "script",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "div",
+        "text": ":root body { background: var(--token-3289daf8-1827-43a6-a6b3-173665bbeb33, rgb(237, 237, 237)); }AboutOur ExpertiseProjectsNewsRoomGet StartedGet Startedhtml body { background: var(--token-3289daf8-1827-43a6-a6b3-173665bbeb33, rgb(237, 237, 237)); }G"
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "script",
+        "text": "(()=>{function u(){function n(t,e,i){let r=document.createElement(\"a\");r.href=t,r.target=i,r.rel=e,document.body.appendChild(r),r.click(),r.remove()}function o(t){if(this.dataset.hydrated){this.removeEventListener(\"click\",o);return}t.preventDefault()"
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "script",
+        "text": "!function(){var w=\"framer_variant\";function u(a,r){let e=r.indexOf(\"#\"),t=e===-1?r:r.substring(0,e),o=e===-1?\"\":r.substring(e),n=t.indexOf(\"?\"),h=n===-1?t:t.substring(0,n),d=n===-1?\"\":t.substring(n),s=new URLSearchParams(d),m=new URLSearchParams(a);f"
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "div",
+        "text": "Create a free website with Framer, the website builder loved by startups, designers and agencies."
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "script",
+        "text": "var animator=(()=>{var L=(e,r,t)=>t>r?r:t<e?e:t;var U=()=>{};function _(e){let r;return()=>(r===void 0&&(r=e()),r)}var Q=e=>e;var D=e=>e*1e3,O=e=>e/1e3;var J=e=>Array.isArray(e)&&typeof e[0]==\"number\";var ee={value:null,addProjectionMetrics:null};var"
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "script",
+        "text": "{\"1w58q27\":{\"default\":{\"initial\":{\"opacity\":0.001,\"rotate\":0,\"rotateX\":0,\"rotateY\":0,\"scale\":1,\"skewX\":0,\"skewY\":0,\"x\":0,\"y\":0},\"animate\":{\"opacity\":1,\"rotate\":0,\"rotateX\":0,\"rotateY\":0,\"scale\":1,\"skewX\":0,\"skewY\":0,\"transition\":{\"damping\":40,\"delay\""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "script",
+        "text": "[{\"hash\":\"6jzg95\",\"mediaQuery\":\"(min-width: 1200px)\"},{\"hash\":\"sailyc\",\"mediaQuery\":\"(min-width: 810px) and (max-width: 1199.98px)\"},{\"hash\":\"v7rwbz\",\"mediaQuery\":\"(max-width: 809.98px)\"},{\"hash\":\"1vjgfq1\",\"mediaQuery\":\"(max-width: 809.98px)\"},{\"hash"
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "script",
+        "text": "(()=>{function c(i,o,s){if(window.__framer_disable_appear_effects_optimization__||typeof animator>\"u\")return;let e={detail:{bg:document.hidden}};requestAnimationFrame(()=>{let a=\"framer-appear-start\";performance.mark(a,e),animator.animateAppearEffect"
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "script",
+        "text": "typeof document<\"u\"&&(window.process={...window.process,env:{...window.process?.env,NODE_ENV:\"production\"}});"
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "script",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "script",
+        "text": "[{\"0\":1,\"1\":73},[\"Map\",2,3],\"{\\\"from\\\":\\\"81ffb74b-2c79-445d-8d47-265dd950b374\\\",\\\"select\\\":[{\\\"collection\\\":\\\"UDKSHuZxH\\\",\\\"name\\\":\\\"FReenJolG\\\",\\\"type\\\":\\\"Identifier\\\"},{\\\"collection\\\":\\\"UDKSHuZxH\\\",\\\"name\\\":\\\"dm38fKpb4\\\",\\\"type\\\":\\\"Identifier\\\"},{\\"
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "div",
+        "text": ""
+      }
+    ],
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Generations of building, one standard of excellence"
+      },
+      {
+        "tag": "h2",
+        "text": "Mission & Vision."
+      },
+      {
+        "tag": "h3",
+        "text": "Our Mission"
+      },
+      {
+        "tag": "h3",
+        "text": "Our Vision"
+      },
+      {
+        "tag": "h2",
+        "text": "A Note from Our Director"
+      },
+      {
+        "tag": "h2",
+        "text": "Our values What drives our mission"
+      },
+      {
+        "tag": "h2",
+        "text": "The people behind every project"
+      },
+      {
+        "tag": "h2",
+        "text": "Ready to build something that lasts?"
+      },
+      {
+        "tag": "h3",
+        "text": "Let's talk about your goals"
+      },
+      {
+        "tag": "h2",
+        "text": "Explore how Formed can bring your next development to life."
+      }
+    ],
+    "images": [
+      {
+        "alt": "Company logo in white",
+        "height": 19,
+        "src": "https://framerusercontent.com/images/7yGOh7DYr11HtXDswYhX77k.png?scale-down-to=512&width=939&height=174",
+        "width": 104
+      },
+      {
+        "alt": "Banner\n",
+        "height": 907,
+        "src": "https://framerusercontent.com/images/xA9AUL80KAQT7mUfRaqk9JRsHiM.webp?scale-down-to=2048&width=5500&height=3672",
+        "width": 1360
+      },
+      {
+        "alt": "Founder",
+        "height": 0,
+        "src": "https://framerusercontent.com/images/V3Iykxm4kKENbpK45neasm8OE.webp?width=2048&height=2744",
+        "width": 0
+      },
+      {
+        "alt": "man",
+        "height": 0,
+        "src": "https://framerusercontent.com/images/Va7PBp2CLGOHMdGv0kSXzLI6HQ.webp?width=2048&height=2744",
+        "width": 0
+      },
+      {
+        "alt": "women",
+        "height": 0,
+        "src": "https://framerusercontent.com/images/UOvyhtQanTBaiDgJJHehfSM3v2Y.webp?width=2048&height=2744",
+        "width": 0
+      },
+      {
+        "alt": "man",
+        "height": 0,
+        "src": "https://framerusercontent.com/images/BPGyHFQBc4G9edeIfZtuHLrBq4.webp?width=2048&height=2928",
+        "width": 0
+      },
+      {
+        "alt": "man",
+        "height": 0,
+        "src": "https://framerusercontent.com/images/d1RxEo4zJkHPywKQX7F4AoEZQ.webp?width=2048&height=2744",
+        "width": 0
+      },
+      {
+        "alt": "women",
+        "height": 0,
+        "src": "https://framerusercontent.com/images/NiT8D4AjVx5T77XFsjUfoB9LqY.webp?width=2048&height=2744",
+        "width": 0
+      },
+      {
+        "alt": "man",
+        "height": 0,
+        "src": "https://framerusercontent.com/images/RmajwBIsteXcq73NjxHzvHAwxso.webp?width=2048&height=2744",
+        "width": 0
+      },
+      {
+        "alt": "Banner",
+        "height": 1147,
+        "src": "https://framerusercontent.com/images/xil7I6l5QGBFKgYQWzIcUX9pH8.webp?width=1500&height=1195",
+        "width": 1440
+      },
+      {
+        "alt": "Company logo in white",
+        "height": 0,
+        "src": "https://framerusercontent.com/images/4DqGwUqDnx49TJFKP55aBWcrNA.png?width=939&height=174",
+        "width": 0
+      }
+    ],
+    "listItems": [],
+    "pageSize": {
+      "height": 8162,
+      "width": 1425
+    },
+    "paragraphs": [
+      "About",
+      "Our Expertise",
+      "Projects",
+      "NewsRoom",
+      "Get Started",
+      "Get Started",
+      "Our team comprises over 250 talented individuals, some known to senior management for many years and others hired for their additional experience and expertise.",
+      "We value the mix of strengths and insights this approach brings, and we are proud to have built a team with a diversity of perspectives and backgrounds.",
+      "Our active in-house graduate recruitment and training programmes also play a key role in creating an effective and united team while also helping foster the industry’s next generation.",
+      "RED has no B-teams, only dedicated individuals who have a vested interest in building our reputation for successful delivery.",
+      "Our North Star",
+      "To deliver high-quality construction projects with precision, transparency, and reliability—building spaces that stand the test of time.",
+      "To be a trusted construction partner known for delivering durable, high-quality spaces that shape communities and support growth.",
+      "From the Director's Desk",
+      "At the heart of everything we build is a simple belief—quality should never be compromised. Over the years, we’ve had the privilege of working on diverse projects, each one teaching us the importance of precision, trust, and accountability. Construction is more than just structures; it’s about creating spaces where people live, work, and grow. That responsibility drives us to maintain the highest standards in every stage of our work. As we continue to grow, our focus remains unchanged—to deliver projects that are built with integrity, completed with care, and designed to stand the test of time.",
+      "Dan Farrelly",
+      "Founder, Cogniv",
+      "Our Journey",
+      "2024",
+      "Celebrates 15 years with a retrospective showcase of the company’s most iconic projects and milestones.",
+      "2022",
+      "Wins a prestigious national design award for an innovative mixed-use development project.",
+      "2021",
+      "Participates in a national interior design expo, showcasing innovative concepts and gaining industry recognition.",
+      "2019",
+      "Opens a second office in a neighboring city to meet growing demand and takes on larger projects, such as retail spaces and restaurants.",
+      "North America",
+      "New York",
+      "+1 (212) 555-8700",
+      "newyork@residence.com",
+      "Los Angeles",
+      "+1 (310) 555-4290",
+      "losangeles@residence.com",
+      "Miami",
+      "+1 (305) 555-6823",
+      "miami@residence.com",
+      "Toronto",
+      "+1 (416) 555-9172",
+      "toronto@residence.com",
+      "Vancouver",
+      "+1 (604) 555-3845",
+      "vancouver@residence.com",
+      "Our Team",
+      "Alexander Morrison",
+      "Founder & Managing Partner",
+      "Sarah Okonkwo",
+      "Partner, Growth & Strategy",
+      "James Whitfield",
+      "Partner, Operations",
+      "Chris Renwick",
+      "Managing Consultant",
+      "Ariana Patel",
+      "Senior Consultant, Digital",
+      "David Liang",
+      "Senior Consultant, Digital",
+      "Get In Touch",
+      "Whether it’s a residential project, commercial space, or renovation, we’re here to bring your vision to life—with quality, clarity, and on-time delivery.",
+      "Fill out the form below and our nearest regional office will get back to you within 24 hours.",
+      "Name",
+      "Email",
+      "Address",
+      "You are interested in",
+      "message",
+      "Yes, I'd like to receive product updates and insights from Construa. Unsubscribe anytime.",
+      "Send Enquiry",
+      "Get Started",
+      "Get Started",
+      "Partner with us to turn strategic ambition into measurable business results.",
+      "Get Started",
+      "Get Started",
+      "Main pages",
+      "Home",
+      "About Us",
+      "Projects",
+      "Blogs",
+      "Contact",
+      "CONTACT",
+      "hello@construa.com",
+      "+44 (0) 20 7946 0318",
+      "12 Aldgate Square, London, EC3N 1AB",
+      "Terms",
+      "Private Policy",
+      "Designed & Developed By Vinayak Thakur",
+      "Create a free website with Framer, the website builder loved by startups, designers and agencies."
+    ],
+    "style": {
+      "bodyBackground": "rgb(237, 237, 237)",
+      "fonts": [
+        "sans-serif",
+        "\"Chivo Mono\", monospace",
+        "\"Overused Grotesk Medium\", \"Overused Grotesk Medium Placeholder\", sans-serif",
+        "Inter, \"Inter Placeholder\", sans-serif",
+        "\"IBM Plex Mono\", monospace"
+      ]
+    },
+    "title": "Construa — Construction & Building Company Framer Template",
+    "videos": []
+  },
+  {
+    "id": "projects",
+    "path": "/projects",
+    "bodyText": "ABOUT OUR EXPERTISE PROJECTS NEWSROOM GET STARTED GET STARTED CASE STUDIES Built with precision. Delivered with confidence. Explore a selection of residential, commercial, and hospitality projects each delivered with precision, quality, and attention to detail. HOSPITALITY Grand Horizon Hotel & Suites Goa, India STUDENT HOUSING Urban Nest Student Living Pune, India COMMERCIAL / TECH Vertex Tech Park Bangalore, India GOVERNMENT / INSTITUTIONAL City Administrative Complex Bhopal, India Explore how Formed can bring your next development to life. GET STARTED GET STARTED Partner with us to turn strategic ambition into measurable business results. GET STARTED GET STARTED MAIN PAGES Home About Us Projects Blogs Contact CONTACT hello@construa.com +44 (0) 20 7946 0318 12 Aldgate Square, London, EC3N 1AB Terms Private Policy Designed & Developed By Vinayak Thakur Create a free website with Framer, the website builder loved by startups, designers and agencies.",
+    "directChildren": [
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "script",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "div",
+        "text": ":root body { background: var(--token-3289daf8-1827-43a6-a6b3-173665bbeb33, rgb(237, 237, 237)); }AboutOur ExpertiseProjectsNewsRoomGet StartedGet Startedhtml body { background: var(--token-3289daf8-1827-43a6-a6b3-173665bbeb33, rgb(237, 237, 237)); }C"
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "script",
+        "text": "(()=>{function u(){function n(t,e,i){let r=document.createElement(\"a\");r.href=t,r.target=i,r.rel=e,document.body.appendChild(r),r.click(),r.remove()}function o(t){if(this.dataset.hydrated){this.removeEventListener(\"click\",o);return}t.preventDefault()"
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "script",
+        "text": "!function(){var w=\"framer_variant\";function u(a,r){let e=r.indexOf(\"#\"),t=e===-1?r:r.substring(0,e),o=e===-1?\"\":r.substring(e),n=t.indexOf(\"?\"),h=n===-1?t:t.substring(0,n),d=n===-1?\"\":t.substring(n),s=new URLSearchParams(d),m=new URLSearchParams(a);f"
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "div",
+        "text": "Create a free website with Framer, the website builder loved by startups, designers and agencies."
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "script",
+        "text": "var animator=(()=>{var L=(e,r,t)=>t>r?r:t<e?e:t;var U=()=>{};function _(e){let r;return()=>(r===void 0&&(r=e()),r)}var Q=e=>e;var D=e=>e*1e3,O=e=>e/1e3;var J=e=>Array.isArray(e)&&typeof e[0]==\"number\";var ee={value:null,addProjectionMetrics:null};var"
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "script",
+        "text": "{\"1w58q27\":{\"default\":{\"initial\":{\"opacity\":0.001,\"rotate\":0,\"rotateX\":0,\"rotateY\":0,\"scale\":1,\"skewX\":0,\"skewY\":0,\"x\":0,\"y\":0},\"animate\":{\"opacity\":1,\"rotate\":0,\"rotateX\":0,\"rotateY\":0,\"scale\":1,\"skewX\":0,\"skewY\":0,\"transition\":{\"damping\":40,\"delay\""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "script",
+        "text": "[{\"hash\":\"16fgraf\",\"mediaQuery\":\"(min-width: 1200px)\"},{\"hash\":\"1bglw1f\",\"mediaQuery\":\"(min-width: 810px) and (max-width: 1199.98px)\"},{\"hash\":\"dtvsbz\",\"mediaQuery\":\"(max-width: 809.98px)\"},{\"hash\":\"1vjgfq1\",\"mediaQuery\":\"(max-width: 809.98px)\"},{\"ha"
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "script",
+        "text": "(()=>{function c(i,o,s){if(window.__framer_disable_appear_effects_optimization__||typeof animator>\"u\")return;let e={detail:{bg:document.hidden}};requestAnimationFrame(()=>{let a=\"framer-appear-start\";performance.mark(a,e),animator.animateAppearEffect"
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "script",
+        "text": "typeof document<\"u\"&&(window.process={...window.process,env:{...window.process?.env,NODE_ENV:\"production\"}});"
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "script",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "div",
+        "text": ""
+      },
+      {
+        "classes": [
+          "status_hidden"
+        ],
+        "tag": "iframe",
+        "text": ""
+      }
+    ],
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Built with precision. Delivered with confidence."
+      },
+      {
+        "tag": "h4",
+        "text": "Grand Horizon Hotel & Suites"
+      },
+      {
+        "tag": "h4",
+        "text": "Urban Nest Student Living"
+      },
+      {
+        "tag": "h4",
+        "text": "Vertex Tech Park"
+      },
+      {
+        "tag": "h4",
+        "text": "City Administrative Complex"
+      },
+      {
+        "tag": "h2",
+        "text": "Explore how Formed can bring your next development to life."
+      }
+    ],
+    "images": [
+      {
+        "alt": "Company logo in white",
+        "height": 19,
+        "src": "https://framerusercontent.com/images/7yGOh7DYr11HtXDswYhX77k.png?scale-down-to=512&width=939&height=174",
+        "width": 104
+      },
+      {
+        "alt": "Hotel",
+        "height": 433,
+        "src": "https://framerusercontent.com/images/RzuKiGIxyf4IqJpamwo0bzyUPGI.webp?scale-down-to=1024&width=1920&height=1280",
+        "width": 650
+      },
+      {
+        "alt": "elevated living",
+        "height": 435,
+        "src": "https://framerusercontent.com/images/8HTYyC16R1aOugiYMCMJ6RTg5s.jpg?scale-down-to=1024&width=1920&height=1287",
+        "width": 650
+      },
+      {
+        "alt": "garden view",
+        "height": 433,
+        "src": "https://framerusercontent.com/images/Ka4em1hAfkmNJp7mMT3Bnw5RWzk.jpg?scale-down-to=1024&width=1920&height=1280",
+        "width": 650
+      },
+      {
+        "alt": "building",
+        "height": 433,
+        "src": "https://framerusercontent.com/images/mqBo5XYbZABXS8GsW38besVJI.webp?scale-down-to=1024&width=1920&height=1280",
+        "width": 650
+      },
+      {
+        "alt": "Banner",
+        "height": 1147,
+        "src": "https://framerusercontent.com/images/xil7I6l5QGBFKgYQWzIcUX9pH8.webp?width=1500&height=1195",
+        "width": 1440
+      },
+      {
+        "alt": "Company logo in white",
+        "height": 0,
+        "src": "https://framerusercontent.com/images/4DqGwUqDnx49TJFKP55aBWcrNA.png?width=939&height=174",
+        "width": 0
+      }
+    ],
+    "listItems": [],
+    "pageSize": {
+      "height": 2995,
+      "width": 1425
+    },
+    "paragraphs": [
+      "About",
+      "Our Expertise",
+      "Projects",
+      "NewsRoom",
+      "Get Started",
+      "Get Started",
+      "Case Studies",
+      "Explore a selection of residential, commercial, and hospitality projects each delivered with precision, quality, and attention to detail.",
+      "Hospitality",
+      "Goa, India",
+      "Student Housing",
+      "Pune, India",
+      "Commercial / Tech",
+      "Bangalore, India",
+      "Government / Institutional",
+      "Bhopal, India",
+      "Get Started",
+      "Get Started",
+      "Partner with us to turn strategic ambition into measurable business results.",
+      "Get Started",
+      "Get Started",
+      "Main pages",
+      "Home",
+      "About Us",
+      "Projects",
+      "Blogs",
+      "Contact",
+      "CONTACT",
+      "hello@construa.com",
+      "+44 (0) 20 7946 0318",
+      "12 Aldgate Square, London, EC3N 1AB",
+      "Terms",
+      "Private Policy",
+      "Designed & Developed By Vinayak Thakur",
+      "Create a free website with Framer, the website builder loved by startups, designers and agencies."
+    ],
+    "style": {
+      "bodyBackground": "rgb(237, 237, 237)",
+      "fonts": [
+        "sans-serif",
+        "\"Chivo Mono\", monospace",
+        "\"IBM Plex Mono\", monospace",
+        "\"Overused Grotesk Medium\", \"Overused Grotesk Medium Placeholder\", sans-serif",
+        "Inter, \"Inter Placeholder\", sans-serif"
+      ]
+    },
+    "title": "Construa — Construction & Building Company Framer Template",
+    "videos": []
+  },
+  {
+    "id": "project-grand-horizon",
+    "path": "/projects/loss-making-division-turnaround",
+    "bodyText": "Grand Horizon Hotel & Suites Property details Location Goa, India Completion March 2024 Contract Design & Build Client Horizon Hospitality Group Project Manager Axis Project Consultants Quantity Surveyor CoreCost Associates Services Consultant MEP Solutions India Grand Horizon Hotel & Suites is a thoughtfully designed hospitality project located along the vibrant coastline of Goa. The vision behind this development was to create a premium hotel experience that seamlessly blends modern luxury with the natural charm of its surroundings. From the initial planning stages to final execution, the project focused on delivering both aesthetic excellence and long-term operational efficiency. The structure features multiple floors of elegantly designed guest rooms, each optimized for natural light, ventilation, and privacy. Large windows and open layouts were incorporated to enhance the connection between indoor and outdoor spaces, allowing guests to experience the surrounding landscape without compromise. In addition to accommodation spaces, the hotel includes a rooftop lounge, infinity pool, fine-dining restaurant, and dedicated service areas designed to support high occupancy levels. One of the key challenges of this project was the coastal environment. High humidity, salt exposure, and seasonal weather conditions required careful material selection and construction techniques. The team used corrosion-resistant materials, waterproofing systems, and reinforced structural components to ensure durability and reduce long-term maintenance costs. Efficiency in operations was another major consideration. Service corridors, back-end logistics, and vertical circulation were planned to ensure smooth movement of staff and resources without disrupting the guest experience. This balance between front-end luxury and back-end functionality played a critical role in the project’s success. \"Everyone told us to cut the division loose. We're glad we didn't. The forensic clarity we got in the first two weeks changed everything — we finally understood what we'd actually bought, and what it could become.\" James Whitfield Group CEO, Meridian Industrial Group You also might like HOSPITALITY Grand Horizon Hotel & Suites Goa, India STUDENT HOUSING Urban Nest Student Living Pune, India",
+    "directChildren": [
+      {
+        "classes": [
+          "framer-n6ousi"
+        ],
+        "tag": "header",
+        "text": "Grand Horizon Hotel & Suites"
+      },
+      {
+        "classes": [
+          "framer-qs6oi4"
+        ],
+        "tag": "section",
+        "text": "Property detailsLocationGoa, IndiaCompletionMarch 2024ContractDesign & BuildClientHorizon Hospitality GroupProject ManagerAxis Project ConsultantsQuantity SurveyorCoreCost AssociatesServices ConsultantMEP Solutions IndiaGrand Horizon Hotel & Suites i"
+      },
+      {
+        "classes": [
+          "framer-1kr38j"
+        ],
+        "tag": "section",
+        "text": "You also might likeHospitalityGrand Horizon Hotel & SuitesGoa, IndiaStudent HousingUrban Nest Student LivingPune, India"
+      }
+    ],
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Grand Horizon Hotel & Suites"
+      },
+      {
+        "tag": "h2",
+        "text": "You also might like"
+      },
+      {
+        "tag": "h4",
+        "text": "Grand Horizon Hotel & Suites"
+      },
+      {
+        "tag": "h4",
+        "text": "Urban Nest Student Living"
+      },
+      {
+        "tag": "h2",
+        "text": "Explore how Construa can bring your next development to life."
+      }
+    ],
+    "images": [
+      {
+        "alt": "Company logo in white",
+        "height": 21,
+        "src": "https://framerusercontent.com/images/4DqGwUqDnx49TJFKP55aBWcrNA.png?scale-down-to=512&width=939&height=174",
+        "width": 118
+      },
+      {
+        "alt": "Hotel",
+        "height": 933,
+        "src": "https://framerusercontent.com/images/RzuKiGIxyf4IqJpamwo0bzyUPGI.webp?width=1920&height=1280",
+        "width": 1399
+      },
+      {
+        "alt": "man",
+        "height": 74,
+        "src": "https://framerusercontent.com/images/8LXfwzOX00LyIjAe33yUSu4U.webp?scale-down-to=1024&width=900&height=1200",
+        "width": 56
+      },
+      {
+        "alt": "",
+        "height": 214,
+        "src": "https://framerusercontent.com/images/AQtTkzAvxQeIwqx4Z1IosqTHvcg.webp?scale-down-to=512&width=5000&height=3333",
+        "width": 322
+      },
+      {
+        "alt": "",
+        "height": 215,
+        "src": "https://framerusercontent.com/images/Ji5v9WpxvqCbIv8FjEfx0yoL2M.webp?scale-down-to=512&width=1500&height=1001",
+        "width": 322
+      },
+      {
+        "alt": "",
+        "height": 214,
+        "src": "https://framerusercontent.com/images/CQTHBQhGg5VPjh4ZFHihWsI4aQ.webp?scale-down-to=512&width=1920&height=1280",
+        "width": 322
+      },
+      {
+        "alt": "",
+        "height": 214,
+        "src": "https://framerusercontent.com/images/4DVdbRsmTSKfZwlMNfcTjSoN5R8.webp?scale-down-to=512&width=1500&height=998",
+        "width": 322
+      },
+      {
+        "alt": "",
+        "height": 181,
+        "src": "https://framerusercontent.com/images/Ks9UrkqbFXlOY2jg5Vm03mymUYE.webp?scale-down-to=512&width=6000&height=3376",
+        "width": 322
+      },
+      {
+        "alt": "",
+        "height": 214,
+        "src": "https://framerusercontent.com/images/zNx17hSY5Tz17qd506cZ7SAdQ.webp?scale-down-to=512&width=1500&height=1000",
+        "width": 322
+      },
+      {
+        "alt": "",
+        "height": 214,
+        "src": "https://framerusercontent.com/images/G8MyQhfOq1Bh8zkEEt4wDu8ho.webp?scale-down-to=512&width=1500&height=1000",
+        "width": 322
+      },
+      {
+        "alt": "",
+        "height": 214,
+        "src": "https://framerusercontent.com/images/KfpnemlC0u7oi83sH0O2dMpxiM.webp?scale-down-to=512&width=1920&height=1280",
+        "width": 322
+      },
+      {
+        "alt": "",
+        "height": 0,
+        "src": "https://framerusercontent.com/images/HojoOBUHRtKL5TdW5HiS1RGS1rg.webp?width=1920&height=1280",
+        "width": 0
+      },
+      {
+        "alt": "Hotel",
+        "height": 933,
+        "src": "https://framerusercontent.com/images/RzuKiGIxyf4IqJpamwo0bzyUPGI.webp?width=1920&height=1280",
+        "width": 1399
+      },
+      {
+        "alt": "elevated living",
+        "height": 435,
+        "src": "https://framerusercontent.com/images/8HTYyC16R1aOugiYMCMJ6RTg5s.jpg?scale-down-to=1024&width=1920&height=1287",
+        "width": 650
+      },
+      {
+        "alt": "Banner",
+        "height": 1147,
+        "src": "https://framerusercontent.com/images/xil7I6l5QGBFKgYQWzIcUX9pH8.webp?width=1500&height=1195",
+        "width": 1440
+      },
+      {
+        "alt": "Company logo in white",
+        "height": 21,
+        "src": "https://framerusercontent.com/images/4DqGwUqDnx49TJFKP55aBWcrNA.png?scale-down-to=512&width=939&height=174",
+        "width": 118
+      }
+    ],
+    "listItems": [],
+    "pageSize": {
+      "height": 4932,
+      "width": 1425
+    },
+    "paragraphs": [
+      "About",
+      "Our Expertise",
+      "Projects",
+      "NewsRoom",
+      "Get Started",
+      "Get Started",
+      "Property details",
+      "Location",
+      "Goa, India",
+      "Completion",
+      "March 2024",
+      "Contract",
+      "Design & Build",
+      "Client",
+      "Horizon Hospitality Group",
+      "Project Manager",
+      "Axis Project Consultants",
+      "Quantity Surveyor",
+      "CoreCost Associates",
+      "Services Consultant",
+      "MEP Solutions India",
+      "Grand Horizon Hotel & Suites is a thoughtfully designed hospitality project located along the vibrant coastline of Goa. The vision behind this development was to create a premium hotel experience that seamlessly blends modern luxury with the natural charm of its surroundings. From the initial planning stages to final execution, the project focused on delivering both aesthetic excellence and long-term operational efficiency.",
+      "The structure features multiple floors of elegantly designed guest rooms, each optimized for natural light, ventilation, and privacy. Large windows and open layouts were incorporated to enhance the connection between indoor and outdoor spaces, allowing guests to experience the surrounding landscape without compromise. In addition to accommodation spaces, the hotel includes a rooftop lounge, infinity pool, fine-dining restaurant, and dedicated service areas designed to support high occupancy levels.",
+      "One of the key challenges of this project was the coastal environment. High humidity, salt exposure, and seasonal weather conditions required careful material selection and construction techniques. The team used corrosion-resistant materials, waterproofing systems, and reinforced structural components to ensure durability and reduce long-term maintenance costs.",
+      "Efficiency in operations was another major consideration. Service corridors, back-end logistics, and vertical circulation were planned to ensure smooth movement of staff and resources without disrupting the guest experience. This balance between front-end luxury and back-end functionality played a critical role in the project’s success.",
+      "\"Everyone told us to cut the division loose. We're glad we didn't. The forensic clarity we got in the first two weeks changed everything — we finally understood what we'd actually bought, and what it could become.\"",
+      "James Whitfield",
+      "Group CEO, Meridian Industrial Group",
+      "Hospitality",
+      "Goa, India",
+      "Student Housing",
+      "Pune, India",
+      "Get Started",
+      "Get Started",
+      "Partner with us to turn strategic ambition into measurable business results.",
+      "Get Started",
+      "Get Started",
+      "Main pages",
+      "Home",
+      "About Us",
+      "Projects",
+      "Blogs",
+      "Contact",
+      "CONTACT",
+      "hello@construa.com",
+      "+44 (0) 20 7946 0318",
+      "12 Aldgate Square, London, EC3N 1AB",
+      "Terms",
+      "Private Policy",
+      "Designed & Developed By Vinayak Thakur",
+      "Create a free website with Framer, the website builder loved by startups, designers and agencies."
+    ],
+    "style": {
+      "bodyBackground": "rgb(237, 237, 237)",
+      "fonts": [
+        "sans-serif",
+        "\"Chivo Mono\", monospace",
+        "\"Overused Grotesk Medium\", \"Overused Grotesk Medium Placeholder\", sans-serif",
+        "Inter, \"Inter Placeholder\", sans-serif",
+        "\"IBM Plex Mono\", monospace"
+      ]
+    },
+    "title": "Grand Horizon Hotel & Suites - My Framer Site",
+    "videos": []
+  },
+  {
+    "id": "project-tech-park",
+    "path": "/projects/manufacturing-efficiency-turnaround",
+    "bodyText": "Vertex Tech Park Property details Location Bangalore, India Completion November 2024 Contract Design & Build Client Vertex Global Pvt. Ltd. Project Manager PrimeBuild Consultants Quantity Surveyor CostMatrix Group Services Consultant IntelliMEP Solutions Urban Nest Student Living is a contemporary hostel project developed to address the growing demand for organized, safe, and comfortable student accommodation in Pune. Designed with both functionality and community in mind, the project creates a balanced living environment that supports academic focus as well as social interaction. The building includes multiple floors of shared and private rooms, each designed to maximize space utilization without compromising comfort. Smart furniture layouts, integrated storage solutions, and efficient circulation spaces ensure that residents can make the most of limited square footage. Natural ventilation and ample daylight were prioritized to create a healthy and pleasant indoor environment. Beyond individual rooms, the project places strong emphasis on shared spaces. Common study areas, lounges, dining facilities, and recreational zones were strategically distributed across the building to encourage interaction and collaboration among residents. These shared environments help create a sense of community, which is often missing in traditional housing setups. Durability and cost-efficiency were key considerations throughout the construction process. Materials were selected not only for their affordability but also for their ability to withstand high usage over time. Finishes were chosen to be low-maintenance while still maintaining a clean and modern aesthetic. \"We thought we needed to cut prices to compete. We didn't — we needed to stop the internal bleeding we didn't even know we had. The team found things we'd been sitting on for years and gave us a real path forward.\" Daniel Hargrove CEO, Hargrove Precision Components You also might like HOSPITALITY Grand Horizon Hotel & Suites Goa, India STUDENT HOUSING Urban Nest Student Living Pune, India",
+    "directChildren": [
+      {
+        "classes": [
+          "framer-n6ousi"
+        ],
+        "tag": "header",
+        "text": "Vertex Tech Park"
+      },
+      {
+        "classes": [
+          "framer-qs6oi4"
+        ],
+        "tag": "section",
+        "text": "Property detailsLocationBangalore, IndiaCompletionNovember 2024ContractDesign & BuildClientVertex Global Pvt. Ltd.Project ManagerPrimeBuild ConsultantsQuantity SurveyorCostMatrix GroupServices ConsultantIntelliMEP SolutionsUrban Nest Student Living i"
+      },
+      {
+        "classes": [
+          "framer-1kr38j"
+        ],
+        "tag": "section",
+        "text": "You also might likeHospitalityGrand Horizon Hotel & SuitesGoa, IndiaStudent HousingUrban Nest Student LivingPune, India"
+      }
+    ],
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Vertex Tech Park"
+      },
+      {
+        "tag": "h2",
+        "text": "You also might like"
+      },
+      {
+        "tag": "h4",
+        "text": "Grand Horizon Hotel & Suites"
+      },
+      {
+        "tag": "h4",
+        "text": "Urban Nest Student Living"
+      },
+      {
+        "tag": "h2",
+        "text": "Explore how Construa can bring your next development to life."
+      }
+    ],
+    "images": [
+      {
+        "alt": "Company logo in white",
+        "height": 21,
+        "src": "https://framerusercontent.com/images/4DqGwUqDnx49TJFKP55aBWcrNA.png?scale-down-to=512&width=939&height=174",
+        "width": 118
+      },
+      {
+        "alt": "garden view",
+        "height": 933,
+        "src": "https://framerusercontent.com/images/Ka4em1hAfkmNJp7mMT3Bnw5RWzk.jpg?width=1920&height=1280",
+        "width": 1399
+      },
+      {
+        "alt": "women",
+        "height": 84,
+        "src": "https://framerusercontent.com/images/Rgrq1nl4o4yDIMMrtsopSUAMt5g.webp?scale-down-to=1024&width=800&height=1200",
+        "width": 56
+      },
+      {
+        "alt": "",
+        "height": 181,
+        "src": "https://framerusercontent.com/images/8eNr88iJxECsAj21boEAuc4Vro.webp?scale-down-to=512&width=1920&height=1080",
+        "width": 322
+      },
+      {
+        "alt": "",
+        "height": 484,
+        "src": "https://framerusercontent.com/images/wNQzRkkTcFuWPNAlmJ9g5GczeA4.webp?scale-down-to=1024&width=1704&height=2560",
+        "width": 322
+      },
+      {
+        "alt": "",
+        "height": 214,
+        "src": "https://framerusercontent.com/images/OO3gXLocyLYlyGjomo59szBlw.webp?scale-down-to=512&width=1920&height=1280",
+        "width": 322
+      },
+      {
+        "alt": "",
+        "height": 214,
+        "src": "https://framerusercontent.com/images/mYBefMhqu4W6beTlBLHwS2I2Tc.webp?scale-down-to=512&width=1920&height=1280",
+        "width": 322
+      },
+      {
+        "alt": "",
+        "height": 214,
+        "src": "https://framerusercontent.com/images/TxycfBAWyEPncRQYw9NhFfNVRbg.webp?scale-down-to=512&width=2048&height=1363",
+        "width": 322
+      },
+      {
+        "alt": "",
+        "height": 231,
+        "src": "https://framerusercontent.com/images/2jjxe1qb8DPSeQnTJBcq7ErHhkw.webp?scale-down-to=512&width=1920&height=1376",
+        "width": 322
+      },
+      {
+        "alt": "",
+        "height": 241,
+        "src": "https://framerusercontent.com/images/LushWvzwEceKcHsFltVc0TwfVqA.webp?scale-down-to=512&width=1920&height=1440",
+        "width": 322
+      },
+      {
+        "alt": "",
+        "height": 214,
+        "src": "https://framerusercontent.com/images/4JXwBMFTVJUzaTlfzetnlX1ygo4.webp?scale-down-to=512&width=1920&height=1280",
+        "width": 322
+      },
+      {
+        "alt": "Hotel",
+        "height": 433,
+        "src": "https://framerusercontent.com/images/RzuKiGIxyf4IqJpamwo0bzyUPGI.webp?width=1920&height=1280",
+        "width": 650
+      },
+      {
+        "alt": "elevated living",
+        "height": 435,
+        "src": "https://framerusercontent.com/images/8HTYyC16R1aOugiYMCMJ6RTg5s.jpg?scale-down-to=1024&width=1920&height=1287",
+        "width": 650
+      },
+      {
+        "alt": "Banner",
+        "height": 1147,
+        "src": "https://framerusercontent.com/images/xil7I6l5QGBFKgYQWzIcUX9pH8.webp?width=1500&height=1195",
+        "width": 1440
+      },
+      {
+        "alt": "Company logo in white",
+        "height": 21,
+        "src": "https://framerusercontent.com/images/4DqGwUqDnx49TJFKP55aBWcrNA.png?scale-down-to=512&width=939&height=174",
+        "width": 118
+      }
+    ],
+    "listItems": [],
+    "pageSize": {
+      "height": 4685,
+      "width": 1425
+    },
+    "paragraphs": [
+      "About",
+      "Our Expertise",
+      "Projects",
+      "NewsRoom",
+      "Get Started",
+      "Get Started",
+      "Property details",
+      "Location",
+      "Bangalore, India",
+      "Completion",
+      "November 2024",
+      "Contract",
+      "Design & Build",
+      "Client",
+      "Vertex Global Pvt. Ltd.",
+      "Project Manager",
+      "PrimeBuild Consultants",
+      "Quantity Surveyor",
+      "CostMatrix Group",
+      "Services Consultant",
+      "IntelliMEP Solutions",
+      "Urban Nest Student Living is a contemporary hostel project developed to address the growing demand for organized, safe, and comfortable student accommodation in Pune. Designed with both functionality and community in mind, the project creates a balanced living environment that supports academic focus as well as social interaction.",
+      "The building includes multiple floors of shared and private rooms, each designed to maximize space utilization without compromising comfort. Smart furniture layouts, integrated storage solutions, and efficient circulation spaces ensure that residents can make the most of limited square footage. Natural ventilation and ample daylight were prioritized to create a healthy and pleasant indoor environment.",
+      "Beyond individual rooms, the project places strong emphasis on shared spaces. Common study areas, lounges, dining facilities, and recreational zones were strategically distributed across the building to encourage interaction and collaboration among residents. These shared environments help create a sense of community, which is often missing in traditional housing setups.",
+      "Durability and cost-efficiency were key considerations throughout the construction process. Materials were selected not only for their affordability but also for their ability to withstand high usage over time. Finishes were chosen to be low-maintenance while still maintaining a clean and modern aesthetic.",
+      "\"We thought we needed to cut prices to compete. We didn't — we needed to stop the internal bleeding we didn't even know we had. The team found things we'd been sitting on for years and gave us a real path forward.\"",
+      "Daniel Hargrove",
+      "CEO, Hargrove Precision Components",
+      "Hospitality",
+      "Goa, India",
+      "Student Housing",
+      "Pune, India",
+      "Get Started",
+      "Get Started",
+      "Partner with us to turn strategic ambition into measurable business results.",
+      "Get Started",
+      "Get Started",
+      "Main pages",
+      "Home",
+      "About Us",
+      "Projects",
+      "Blogs",
+      "Contact",
+      "CONTACT",
+      "hello@construa.com",
+      "+44 (0) 20 7946 0318",
+      "12 Aldgate Square, London, EC3N 1AB",
+      "Terms",
+      "Private Policy",
+      "Designed & Developed By Vinayak Thakur",
+      "Create a free website with Framer, the website builder loved by startups, designers and agencies."
+    ],
+    "style": {
+      "bodyBackground": "rgb(237, 237, 237)",
+      "fonts": [
+        "sans-serif",
+        "\"Chivo Mono\", monospace",
+        "\"Overused Grotesk Medium\", \"Overused Grotesk Medium Placeholder\", sans-serif",
+        "Inter, \"Inter Placeholder\", sans-serif",
+        "\"IBM Plex Mono\", monospace"
+      ]
+    },
+    "title": "Vertex Tech Park - My Framer Site",
+    "videos": []
+  },
+  {
+    "id": "project-urban-nest",
+    "path": "/projects/saas-founder-doubled-revenue",
+    "bodyText": "Urban Nest Student Living Property details Location Pune, India Completion July 2023 Contract Turnkey Construction Client Urban Nest Developers Project Manager BuildRight Consultants Quantity Surveyor QuantEdge Services Services Consultant Urban MEP Systems Vertex Tech Park is a large-scale commercial office development built to meet the evolving needs of multinational companies operating in Bangalore’s dynamic business environment. The project was designed to provide a flexible, efficient, and future-ready workspace that supports both productivity and growth. The building features expansive open-plan office floors that allow for adaptable layouts based on organizational needs. Dedicated meeting rooms, collaborative zones, breakout areas, and executive spaces are seamlessly integrated into the overall design. This flexibility enables companies to scale operations without requiring major structural changes. A strong emphasis was placed on infrastructure and performance. The building incorporates advanced HVAC systems, high-speed connectivity, and energy-efficient lighting solutions. These systems not only enhance user comfort but also contribute to reduced operational costs over time. Natural light plays a significant role in the design. Large glass facades and optimized floor plates ensure that workspaces remain well-lit throughout the day, reducing dependence on artificial lighting. This approach improves employee well-being while also supporting sustainability goals. \"Every consultant I'd spoken to told me to delegate more. No one told me exactly what to delegate, to whom, and what needed to change for that to actually work. This engagement did all three. The business feels completely different now — and I'm not exhausted anymore.\" Raghav S. Founder & CEO, NovaDash You also might like HOSPITALITY Grand Horizon Hotel & Suites Goa, India STUDENT HOUSING Urban Nest Student Living Pune, India",
+    "directChildren": [
+      {
+        "classes": [
+          "framer-n6ousi"
+        ],
+        "tag": "header",
+        "text": "Urban Nest Student Living"
+      },
+      {
+        "classes": [
+          "framer-qs6oi4"
+        ],
+        "tag": "section",
+        "text": "Property detailsLocationPune, IndiaCompletionJuly 2023ContractTurnkey ConstructionClientUrban Nest DevelopersProject ManagerBuildRight ConsultantsQuantity SurveyorQuantEdge ServicesServices ConsultantUrban MEP SystemsVertex Tech Park is a large-scale"
+      },
+      {
+        "classes": [
+          "framer-1kr38j"
+        ],
+        "tag": "section",
+        "text": "You also might likeHospitalityGrand Horizon Hotel & SuitesGoa, IndiaStudent HousingUrban Nest Student LivingPune, India"
+      }
+    ],
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Urban Nest Student Living"
+      },
+      {
+        "tag": "h2",
+        "text": "You also might like"
+      },
+      {
+        "tag": "h4",
+        "text": "Grand Horizon Hotel & Suites"
+      },
+      {
+        "tag": "h4",
+        "text": "Urban Nest Student Living"
+      },
+      {
+        "tag": "h2",
+        "text": "Explore how Construa can bring your next development to life."
+      }
+    ],
+    "images": [
+      {
+        "alt": "Company logo in white",
+        "height": 21,
+        "src": "https://framerusercontent.com/images/4DqGwUqDnx49TJFKP55aBWcrNA.png?scale-down-to=512&width=939&height=174",
+        "width": 118
+      },
+      {
+        "alt": "elevated living",
+        "height": 938,
+        "src": "https://framerusercontent.com/images/8HTYyC16R1aOugiYMCMJ6RTg5s.jpg?width=1920&height=1287",
+        "width": 1399
+      },
+      {
+        "alt": "women",
+        "height": 84,
+        "src": "https://framerusercontent.com/images/66xXrSmHpn5kNpGp2Z57A6Uw.webp?scale-down-to=1024&width=800&height=1200",
+        "width": 56
+      },
+      {
+        "alt": "",
+        "height": 214,
+        "src": "https://framerusercontent.com/images/VdtY336aNbREaMWM6cLUI5U7xoU.webp?scale-down-to=512&width=1920&height=1280",
+        "width": 322
+      },
+      {
+        "alt": "",
+        "height": 214,
+        "src": "https://framerusercontent.com/images/dqwkPSzD6b1rzc5c69zagKkQMY.webp?scale-down-to=512&width=2560&height=1707",
+        "width": 322
+      },
+      {
+        "alt": "",
+        "height": 216,
+        "src": "https://framerusercontent.com/images/IAwEv95HOKEp0rnTzAd8Ma45Ys.jpg?scale-down-to=512&width=1920&height=1287",
+        "width": 322
+      },
+      {
+        "alt": "",
+        "height": 226,
+        "src": "https://framerusercontent.com/images/YAfDu9rqHUup4MFGcvRKhwWrdY.webp?scale-down-to=512&width=1920&height=1350",
+        "width": 322
+      },
+      {
+        "alt": "",
+        "height": 241,
+        "src": "https://framerusercontent.com/images/v1Onl1bJKu4KVhcrOmTKCLq73g.jpg?scale-down-to=512&width=1920&height=1440",
+        "width": 322
+      },
+      {
+        "alt": "",
+        "height": 180,
+        "src": "https://framerusercontent.com/images/VXLHcMpoAkLf22S6LjV5qP3nW7s.webp?scale-down-to=512&width=1920&height=1078",
+        "width": 322
+      },
+      {
+        "alt": "",
+        "height": 215,
+        "src": "https://framerusercontent.com/images/GbpDJ1RgCAtSJLqsJhcYNgFEwI.webp?scale-down-to=512&width=1920&height=1281",
+        "width": 322
+      },
+      {
+        "alt": "",
+        "height": 214,
+        "src": "https://framerusercontent.com/images/f4vH75ew80RT0XdiLWUw86JHXys.webp?scale-down-to=512&width=1920&height=1280",
+        "width": 322
+      },
+      {
+        "alt": "",
+        "height": 0,
+        "src": "https://framerusercontent.com/images/AdaEDXPrqDo9XOMLIogYidwrlvg.webp?width=2560&height=1707",
+        "width": 0
+      },
+      {
+        "alt": "",
+        "height": 0,
+        "src": "https://framerusercontent.com/images/Apy8ZlrJusi3I3WrFOHeSnDiVcc.jpg?width=1920&height=1392",
+        "width": 0
+      },
+      {
+        "alt": "",
+        "height": 0,
+        "src": "https://framerusercontent.com/images/Mdmx9dT8kRFPjYCDt3KI6fQucic.webp?width=1920&height=1280",
+        "width": 0
+      },
+      {
+        "alt": "",
+        "height": 0,
+        "src": "https://framerusercontent.com/images/p0uQjYdoO7fNw3Qd8AA222A4V9U.webp?width=1920&height=1280",
+        "width": 0
+      },
+      {
+        "alt": "Hotel",
+        "height": 433,
+        "src": "https://framerusercontent.com/images/RzuKiGIxyf4IqJpamwo0bzyUPGI.webp?width=1920&height=1280",
+        "width": 650
+      },
+      {
+        "alt": "elevated living",
+        "height": 938,
+        "src": "https://framerusercontent.com/images/8HTYyC16R1aOugiYMCMJ6RTg5s.jpg?width=1920&height=1287",
+        "width": 1399
+      },
+      {
+        "alt": "Banner",
+        "height": 1147,
+        "src": "https://framerusercontent.com/images/xil7I6l5QGBFKgYQWzIcUX9pH8.webp?width=1500&height=1195",
+        "width": 1440
+      },
+      {
+        "alt": "Company logo in white",
+        "height": 21,
+        "src": "https://framerusercontent.com/images/4DqGwUqDnx49TJFKP55aBWcrNA.png?scale-down-to=512&width=939&height=174",
+        "width": 118
+      }
+    ],
+    "listItems": [],
+    "pageSize": {
+      "height": 4930,
+      "width": 1425
+    },
+    "paragraphs": [
+      "About",
+      "Our Expertise",
+      "Projects",
+      "NewsRoom",
+      "Get Started",
+      "Get Started",
+      "Property details",
+      "Location",
+      "Pune, India",
+      "Completion",
+      "July 2023",
+      "Contract",
+      "Turnkey Construction",
+      "Client",
+      "Urban Nest Developers",
+      "Project Manager",
+      "BuildRight Consultants",
+      "Quantity Surveyor",
+      "QuantEdge Services",
+      "Services Consultant",
+      "Urban MEP Systems",
+      "Vertex Tech Park is a large-scale commercial office development built to meet the evolving needs of multinational companies operating in Bangalore’s dynamic business environment. The project was designed to provide a flexible, efficient, and future-ready workspace that supports both productivity and growth.",
+      "The building features expansive open-plan office floors that allow for adaptable layouts based on organizational needs. Dedicated meeting rooms, collaborative zones, breakout areas, and executive spaces are seamlessly integrated into the overall design. This flexibility enables companies to scale operations without requiring major structural changes.",
+      "A strong emphasis was placed on infrastructure and performance. The building incorporates advanced HVAC systems, high-speed connectivity, and energy-efficient lighting solutions. These systems not only enhance user comfort but also contribute to reduced operational costs over time.",
+      "Natural light plays a significant role in the design. Large glass facades and optimized floor plates ensure that workspaces remain well-lit throughout the day, reducing dependence on artificial lighting. This approach improves employee well-being while also supporting sustainability goals.",
+      "\"Every consultant I'd spoken to told me to delegate more. No one told me exactly what to delegate, to whom, and what needed to change for that to actually work. This engagement did all three. The business feels completely different now — and I'm not exhausted anymore.\"",
+      "Raghav S.",
+      "Founder & CEO, NovaDash",
+      "Hospitality",
+      "Goa, India",
+      "Student Housing",
+      "Pune, India",
+      "Get Started",
+      "Get Started",
+      "Partner with us to turn strategic ambition into measurable business results.",
+      "Get Started",
+      "Get Started",
+      "Main pages",
+      "Home",
+      "About Us",
+      "Projects",
+      "Blogs",
+      "Contact",
+      "CONTACT",
+      "hello@construa.com",
+      "+44 (0) 20 7946 0318",
+      "12 Aldgate Square, London, EC3N 1AB",
+      "Terms",
+      "Private Policy",
+      "Designed & Developed By Vinayak Thakur",
+      "Create a free website with Framer, the website builder loved by startups, designers and agencies."
+    ],
+    "style": {
+      "bodyBackground": "rgb(237, 237, 237)",
+      "fonts": [
+        "sans-serif",
+        "\"Chivo Mono\", monospace",
+        "\"Overused Grotesk Medium\", \"Overused Grotesk Medium Placeholder\", sans-serif",
+        "Inter, \"Inter Placeholder\", sans-serif",
+        "\"IBM Plex Mono\", monospace"
+      ]
+    },
+    "title": "Urban Nest Student Living - My Framer Site",
+    "videos": []
+  },
+  {
+    "id": "project-city-admin",
+    "path": "/projects/retail-expansion-decision-speed",
+    "bodyText": "City Administrative Complex Property details Location Bhopal, India Completion January 2025 Contract EPC (Engineering, Procurement & Construction) Client Government of Madhya Pradesh Project Manager State Infrastructure Authority Quantity Surveyor Public Works Cost Division Services Consultant InfraTech MEP Services The City Administrative Complex is a major government infrastructure project developed to centralize multiple public service departments within a single, accessible location in Bhopal. The goal was to create a functional, durable, and user-friendly space capable of handling high daily footfall while maintaining operational efficiency. The building houses various administrative offices, public service counters, meeting rooms, and waiting areas. The layout was carefully planned to ensure smooth movement of visitors and staff, minimizing congestion and improving overall accessibility. Clear signage, wide corridors, and organized service zones contribute to a streamlined user experience. Durability was a primary focus in both design and construction. Materials were selected to withstand heavy usage over extended periods, reducing maintenance requirements and ensuring long-term reliability. Structural systems were reinforced to meet strict safety and regulatory standards. Accessibility and inclusivity were key priorities. The facility includes ramps, elevators, and designated service areas to accommodate individuals with different mobility needs. This ensures that public services remain accessible to all citizens. \"We had the strategy and the money. We just couldn't move. The restructure felt uncomfortable at first — giving up control always does — but within weeks the whole organization felt lighter and faster.\" Sandra Elliot Chief Operating Officer, Fieldstone Home You also might like HOSPITALITY Grand Horizon Hotel & Suites Goa, India STUDENT HOUSING Urban Nest Student Living Pune, India",
+    "directChildren": [
+      {
+        "classes": [
+          "framer-n6ousi"
+        ],
+        "tag": "header",
+        "text": "City Administrative Complex"
+      },
+      {
+        "classes": [
+          "framer-qs6oi4"
+        ],
+        "tag": "section",
+        "text": "Property detailsLocationBhopal, IndiaCompletionJanuary 2025ContractEPC (Engineering, Procurement & Construction)ClientGovernment of Madhya PradeshProject ManagerState Infrastructure AuthorityQuantity SurveyorPublic Works Cost DivisionServices Consult"
+      },
+      {
+        "classes": [
+          "framer-1kr38j"
+        ],
+        "tag": "section",
+        "text": "You also might likeHospitalityGrand Horizon Hotel & SuitesGoa, IndiaStudent HousingUrban Nest Student LivingPune, India"
+      }
+    ],
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "City Administrative Complex"
+      },
+      {
+        "tag": "h2",
+        "text": "You also might like"
+      },
+      {
+        "tag": "h4",
+        "text": "Grand Horizon Hotel & Suites"
+      },
+      {
+        "tag": "h4",
+        "text": "Urban Nest Student Living"
+      },
+      {
+        "tag": "h2",
+        "text": "Explore how Construa can bring your next development to life."
+      }
+    ],
+    "images": [
+      {
+        "alt": "Company logo in white",
+        "height": 21,
+        "src": "https://framerusercontent.com/images/4DqGwUqDnx49TJFKP55aBWcrNA.png?scale-down-to=512&width=939&height=174",
+        "width": 118
+      },
+      {
+        "alt": "building",
+        "height": 933,
+        "src": "https://framerusercontent.com/images/mqBo5XYbZABXS8GsW38besVJI.webp?width=1920&height=1280",
+        "width": 1399
+      },
+      {
+        "alt": "man",
+        "height": 98,
+        "src": "https://framerusercontent.com/images/A09LS26wJVlm96sm18mskoCYsyA.webp?scale-down-to=1024&width=800&height=1200",
+        "width": 65
+      },
+      {
+        "alt": "",
+        "height": 181,
+        "src": "https://framerusercontent.com/images/GxpYwJ7JAWhHDApQ9UsNluzTwzs.webp?scale-down-to=512&width=1920&height=1080",
+        "width": 322
+      },
+      {
+        "alt": "",
+        "height": 275,
+        "src": "https://framerusercontent.com/images/M4mO3KdF2VtDd6N4ScV3EHKsZ4.webp?scale-down-to=512&width=2560&height=2191",
+        "width": 322
+      },
+      {
+        "alt": "",
+        "height": 214,
+        "src": "https://framerusercontent.com/images/OjojK0IrE4wpUr9ZZ2WXCDZEcA.webp?scale-down-to=512&width=1920&height=1280",
+        "width": 322
+      },
+      {
+        "alt": "",
+        "height": 243,
+        "src": "https://framerusercontent.com/images/VhDUCsSVOGMUVaQK0TxC1KSpdk.webp?scale-down-to=512&width=1920&height=1446",
+        "width": 322
+      },
+      {
+        "alt": "",
+        "height": 214,
+        "src": "https://framerusercontent.com/images/IGi0YnnPFSjLHwv1nz6QpuW7Vk.webp?scale-down-to=512&width=1920&height=1280",
+        "width": 322
+      },
+      {
+        "alt": "",
+        "height": 243,
+        "src": "https://framerusercontent.com/images/ns0CWzyNwIVkJw2KRcB6pA0bdM.webp?scale-down-to=512&width=2560&height=1934",
+        "width": 322
+      },
+      {
+        "alt": "",
+        "height": 484,
+        "src": "https://framerusercontent.com/images/GUld3RDgReRir7z7XR2KPuNaLo.webp?scale-down-to=1024&width=1920&height=2881",
+        "width": 322
+      },
+      {
+        "alt": "",
+        "height": 214,
+        "src": "https://framerusercontent.com/images/kxNfxgMaueQfBXaXZDX62W0L38A.webp?scale-down-to=512&width=1920&height=1280",
+        "width": 322
+      },
+      {
+        "alt": "",
+        "height": 0,
+        "src": "https://framerusercontent.com/images/pGk3uyDmhEKRtp1K7oeBodDIzIg.webp?width=2560&height=1373",
+        "width": 0
+      },
+      {
+        "alt": "",
+        "height": 0,
+        "src": "https://framerusercontent.com/images/vmnld5zELZwppibmtxnWqIb7190.webp?width=1920&height=1280",
+        "width": 0
+      },
+      {
+        "alt": "Hotel",
+        "height": 433,
+        "src": "https://framerusercontent.com/images/RzuKiGIxyf4IqJpamwo0bzyUPGI.webp?width=1920&height=1280",
+        "width": 650
+      },
+      {
+        "alt": "elevated living",
+        "height": 435,
+        "src": "https://framerusercontent.com/images/8HTYyC16R1aOugiYMCMJ6RTg5s.jpg?width=1920&height=1287",
+        "width": 650
+      },
+      {
+        "alt": "Banner",
+        "height": 1147,
+        "src": "https://framerusercontent.com/images/xil7I6l5QGBFKgYQWzIcUX9pH8.webp?width=1500&height=1195",
+        "width": 1440
+      },
+      {
+        "alt": "Company logo in white",
+        "height": 21,
+        "src": "https://framerusercontent.com/images/4DqGwUqDnx49TJFKP55aBWcrNA.png?scale-down-to=512&width=939&height=174",
+        "width": 118
+      }
+    ],
+    "listItems": [],
+    "pageSize": {
+      "height": 4830,
+      "width": 1425
+    },
+    "paragraphs": [
+      "About",
+      "Our Expertise",
+      "Projects",
+      "NewsRoom",
+      "Get Started",
+      "Get Started",
+      "Property details",
+      "Location",
+      "Bhopal, India",
+      "Completion",
+      "January 2025",
+      "Contract",
+      "EPC (Engineering, Procurement & Construction)",
+      "Client",
+      "Government of Madhya Pradesh",
+      "Project Manager",
+      "State Infrastructure Authority",
+      "Quantity Surveyor",
+      "Public Works Cost Division",
+      "Services Consultant",
+      "InfraTech MEP Services",
+      "The City Administrative Complex is a major government infrastructure project developed to centralize multiple public service departments within a single, accessible location in Bhopal. The goal was to create a functional, durable, and user-friendly space capable of handling high daily footfall while maintaining operational efficiency.",
+      "The building houses various administrative offices, public service counters, meeting rooms, and waiting areas. The layout was carefully planned to ensure smooth movement of visitors and staff, minimizing congestion and improving overall accessibility. Clear signage, wide corridors, and organized service zones contribute to a streamlined user experience.",
+      "Durability was a primary focus in both design and construction. Materials were selected to withstand heavy usage over extended periods, reducing maintenance requirements and ensuring long-term reliability. Structural systems were reinforced to meet strict safety and regulatory standards.",
+      "Accessibility and inclusivity were key priorities. The facility includes ramps, elevators, and designated service areas to accommodate individuals with different mobility needs. This ensures that public services remain accessible to all citizens.",
+      "\"We had the strategy and the money. We just couldn't move. The restructure felt uncomfortable at first — giving up control always does — but within weeks the whole organization felt lighter and faster.\"",
+      "Sandra Elliot",
+      "Chief Operating Officer, Fieldstone Home",
+      "Hospitality",
+      "Goa, India",
+      "Student Housing",
+      "Pune, India",
+      "Get Started",
+      "Get Started",
+      "Partner with us to turn strategic ambition into measurable business results.",
+      "Get Started",
+      "Get Started",
+      "Main pages",
+      "Home",
+      "About Us",
+      "Projects",
+      "Blogs",
+      "Contact",
+      "CONTACT",
+      "hello@construa.com",
+      "+44 (0) 20 7946 0318",
+      "12 Aldgate Square, London, EC3N 1AB",
+      "Terms",
+      "Private Policy",
+      "Designed & Developed By Vinayak Thakur",
+      "Create a free website with Framer, the website builder loved by startups, designers and agencies."
+    ],
+    "style": {
+      "bodyBackground": "rgb(237, 237, 237)",
+      "fonts": [
+        "sans-serif",
+        "\"Chivo Mono\", monospace",
+        "\"Overused Grotesk Medium\", \"Overused Grotesk Medium Placeholder\", sans-serif",
+        "Inter, \"Inter Placeholder\", sans-serif",
+        "\"IBM Plex Mono\", monospace"
+      ]
+    },
+    "title": "City Administrative Complex - My Framer Site",
+    "videos": []
+  },
+  {
+    "id": "blogs",
+    "path": "/blogs",
+    "bodyText": "ABOUT OUR EXPERTISE PROJECTS NEWSROOM GET STARTED GET STARTED BLOGS Built on Knowledge. Backed by Experience. Explore expert insights, industry trends, and practical guides from our team of construction professionals. Whether you're building from scratch or renovating, we've got the knowledge you need. SITE SAFETY Top 10 Construction Site Safety Practices Every Worker Must Know Apr 22, 2025 Date 5 min read BUILDING MATERIALS Concrete vs. Steel vs. Timber — Choosing the Right Building Material Jun 12, 2025 Date 14 min read CONSTRUCTION TECH How BIM is Revolutionizing Modern Construction Projects Jan 30, 2026 Date 16 min read TIPS & GUIDES How to Plan a Home Renovation Without Going Over Budget Feb 2, 2026 Date 3 min read Explore how Formed can bring your next development to life. GET STARTED GET STARTED Partner with us to turn strategic ambition into measurable business results. GET STARTED GET STARTED MAIN PAGES Home About Us Projects Blogs Contact CONTACT hello@construa.com +44 (0) 20 7946 0318 12 Aldgate Square, London, EC3N 1AB Terms Private Policy Designed & Developed By Vinayak Thakur Create a free website with Framer, the website builder loved by startups, designers and agencies.",
+    "directChildren": [
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "script",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "div",
+        "text": ":root body { background: var(--token-3289daf8-1827-43a6-a6b3-173665bbeb33, rgb(237, 237, 237)); }AboutOur ExpertiseProjectsNewsRoomGet StartedGet Startedhtml body { background: var(--token-3289daf8-1827-43a6-a6b3-173665bbeb33, rgb(237, 237, 237)); }B"
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "script",
+        "text": "(()=>{function u(){function n(t,e,i){let r=document.createElement(\"a\");r.href=t,r.target=i,r.rel=e,document.body.appendChild(r),r.click(),r.remove()}function o(t){if(this.dataset.hydrated){this.removeEventListener(\"click\",o);return}t.preventDefault()"
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "script",
+        "text": "!function(){var w=\"framer_variant\";function u(a,r){let e=r.indexOf(\"#\"),t=e===-1?r:r.substring(0,e),o=e===-1?\"\":r.substring(e),n=t.indexOf(\"?\"),h=n===-1?t:t.substring(0,n),d=n===-1?\"\":t.substring(n),s=new URLSearchParams(d),m=new URLSearchParams(a);f"
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "div",
+        "text": "Create a free website with Framer, the website builder loved by startups, designers and agencies."
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "script",
+        "text": "var animator=(()=>{var L=(e,r,t)=>t>r?r:t<e?e:t;var U=()=>{};function _(e){let r;return()=>(r===void 0&&(r=e()),r)}var Q=e=>e;var D=e=>e*1e3,O=e=>e/1e3;var J=e=>Array.isArray(e)&&typeof e[0]==\"number\";var ee={value:null,addProjectionMetrics:null};var"
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "script",
+        "text": "{\"1w58q27\":{\"default\":{\"initial\":{\"opacity\":0.001,\"rotate\":0,\"rotateX\":0,\"rotateY\":0,\"scale\":1,\"skewX\":0,\"skewY\":0,\"x\":0,\"y\":0},\"animate\":{\"opacity\":1,\"rotate\":0,\"rotateX\":0,\"rotateY\":0,\"scale\":1,\"skewX\":0,\"skewY\":0,\"transition\":{\"damping\":40,\"delay\""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "script",
+        "text": "[{\"hash\":\"3vbuz5\",\"mediaQuery\":\"(min-width: 1200px)\"},{\"hash\":\"5t846o\",\"mediaQuery\":\"(min-width: 810px) and (max-width: 1199.98px)\"},{\"hash\":\"ehahz8\",\"mediaQuery\":\"(max-width: 809.98px)\"},{\"hash\":\"1vjgfq1\",\"mediaQuery\":\"(max-width: 809.98px)\"},{\"hash"
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "script",
+        "text": "(()=>{function c(i,o,s){if(window.__framer_disable_appear_effects_optimization__||typeof animator>\"u\")return;let e={detail:{bg:document.hidden}};requestAnimationFrame(()=>{let a=\"framer-appear-start\";performance.mark(a,e),animator.animateAppearEffect"
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "script",
+        "text": "(()=>{function d(e){let t=Date.prototype.toLocaleString,o=Date.prototype.toLocaleDateString;t&&(Date.prototype.toLocaleString=function(r,n){let i=s(this,r,n);return u(e.current.Date.toLocaleString,i,()=>t.call(this,r,n))}),o&&(Date.prototype.toLocale"
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "script",
+        "text": "typeof document<\"u\"&&(window.process={...window.process,env:{...window.process?.env,NODE_ENV:\"production\"}});"
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "script",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "div",
+        "text": ""
+      },
+      {
+        "classes": [
+          "status_hidden"
+        ],
+        "tag": "iframe",
+        "text": ""
+      }
+    ],
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Built on Knowledge. Backed by Experience."
+      },
+      {
+        "tag": "h2",
+        "text": "Explore how Formed can bring your next development to life."
+      }
+    ],
+    "images": [
+      {
+        "alt": "Company logo in white",
+        "height": 19,
+        "src": "https://framerusercontent.com/images/7yGOh7DYr11HtXDswYhX77k.png?width=939&height=174",
+        "width": 105
+      },
+      {
+        "alt": "Blog Thumbnail",
+        "height": 292,
+        "src": "https://framerusercontent.com/images/dWAYDwgwFsSzZHEJUiCnNbZXGQ.webp?scale-down-to=512&width=3300&height=2203",
+        "width": 437
+      },
+      {
+        "alt": "Blog Thumbnail",
+        "height": 328,
+        "src": "https://framerusercontent.com/images/NGORKVsfXW88cpNLbvukYmso578.webp?scale-down-to=512&width=720&height=540",
+        "width": 437
+      },
+      {
+        "alt": "Blog Thumbnail",
+        "height": 245,
+        "src": "https://framerusercontent.com/images/y70cWfrXDwoK40xgfJJuH9bjiQ.webp?scale-down-to=512&width=1200&height=673",
+        "width": 437
+      },
+      {
+        "alt": "Blog Thumbnail",
+        "height": 292,
+        "src": "https://framerusercontent.com/images/7SzZGglBuygYglnuKjRGkSKyHXg.webp?scale-down-to=512&width=3610&height=2410",
+        "width": 437
+      },
+      {
+        "alt": "Banner",
+        "height": 1147,
+        "src": "https://framerusercontent.com/images/xil7I6l5QGBFKgYQWzIcUX9pH8.webp?width=1500&height=1195",
+        "width": 1440
+      },
+      {
+        "alt": "Company logo in white",
+        "height": 21,
+        "src": "https://framerusercontent.com/images/4DqGwUqDnx49TJFKP55aBWcrNA.png?scale-down-to=512&width=939&height=174",
+        "width": 118
+      }
+    ],
+    "listItems": [],
+    "pageSize": {
+      "height": 2681,
+      "width": 1425
+    },
+    "paragraphs": [
+      "About",
+      "Our Expertise",
+      "Projects",
+      "NewsRoom",
+      "Get Started",
+      "Get Started",
+      "Blogs",
+      "Explore expert insights, industry trends, and practical guides from our team of construction professionals. Whether you're building from scratch or renovating, we've got the knowledge you need.",
+      "Site Safety",
+      "Top 10 Construction Site Safety Practices Every Worker Must Know",
+      "Apr 22, 2025",
+      "Date",
+      "5 min read",
+      "Building Materials",
+      "Concrete vs. Steel vs. Timber — Choosing the Right Building Material",
+      "Jun 12, 2025",
+      "Date",
+      "14 min read",
+      "Construction Tech",
+      "How BIM is Revolutionizing Modern Construction Projects",
+      "Jan 30, 2026",
+      "Date",
+      "16 min read",
+      "Tips & Guides",
+      "How to Plan a Home Renovation Without Going Over Budget",
+      "Feb 2, 2026",
+      "Date",
+      "3 min read",
+      "Get Started",
+      "Get Started",
+      "Partner with us to turn strategic ambition into measurable business results.",
+      "Get Started",
+      "Get Started",
+      "Main pages",
+      "Home",
+      "About Us",
+      "Projects",
+      "Blogs",
+      "Contact",
+      "CONTACT",
+      "hello@construa.com",
+      "+44 (0) 20 7946 0318",
+      "12 Aldgate Square, London, EC3N 1AB",
+      "Terms",
+      "Private Policy",
+      "Designed & Developed By Vinayak Thakur",
+      "Create a free website with Framer, the website builder loved by startups, designers and agencies."
+    ],
+    "style": {
+      "bodyBackground": "rgb(237, 237, 237)",
+      "fonts": [
+        "sans-serif",
+        "\"Chivo Mono\", monospace",
+        "\"IBM Plex Mono\", monospace",
+        "\"Overused Grotesk Medium\", \"Overused Grotesk Medium Placeholder\", sans-serif",
+        "Inter, \"Inter Placeholder\", sans-serif"
+      ]
+    },
+    "title": "Construa — Construction & Building Company Framer Template",
+    "videos": []
+  },
+  {
+    "id": "blog-safety",
+    "path": "/blogs/why-strategies-fail-before-execution",
+    "bodyText": "Top 10 Construction Site Safety Practices Every Worker Must Know Construction sites are high-risk environments—but most accidents are preventable. Here are the essential safety practices every team should follow to stay protected and productive. Apr 22, 2025 Site Safety The strategy is done. Now what? Every year, companies spend millions on strategy — offsite sessions, consulting engagements, facilitated workshops. Leadership teams walk out aligned, energized, and genuinely convinced that this time, things will be different. Then six months pass. The market moves. Priorities shift. A hiring crisis lands. And the strategy — that carefully crafted document — sits in a shared folder that fewer and fewer people open. This isn't a failure of intelligence. It's a failure of architecture. The three gaps that kill strategy After working across more than 200 engagements, we've found that strategy execution fails in one of three consistent places — and rarely where leaders expect. The first is the translation gap. Strategy is written at an altitude where it makes complete sense — \"expand into adjacent markets,\" \"build operational excellence,\" \"become a customer-centric organization.\" But no one defines what those phrases mean on a Tuesday afternoon when a real decision needs to be made. Abstraction protects the strategy from being wrong. It also makes it impossible to execute. The second is the ownership gap. A strategy with five priorities and no named owners is just a wishlist. Execution requires someone whose career is meaningfully tied to each outcome — not a committee, not a working group, not \"the leadership team collectively.\" A single accountable person, with authority and resources to match. The third is the rhythm gap. Strategy dies in the silence between quarterly reviews. The businesses that execute well build a weekly operational rhythm — short, structured check-ins that connect daily decisions back to strategic priorities. It sounds simple. Most companies don't do it. What good looks like The strategies we've seen executed successfully share three characteristics. They are specific enough that a mid-level manager can use them to make a decision without escalating. They have owners — real, named individuals with clear mandates. And they are reviewed frequently enough that drift is caught early, before it compounds. None of this requires a complicated system. It requires discipline and the willingness to make the strategy uncomfortable — to commit to something specific enough that you can actually be wrong about it. That discomfort is not a bug. It's the point. The question worth asking If you showed your current strategy to someone two levels below the leadership team and asked them to explain how it affects their work this week, what would they say? If the answer is \"they couldn't,\" the problem isn't execution. It's the strategy itself. You also might like BUILDING MATERIALS Concrete vs. Steel vs. Timber — Choosing the Right Building Material Jun 12, 2025 Date 14 min read CONSTRUCTION TECH How BIM is Revolutionizing Modern Construction Projects Jan 30, 2026 Date 16 min read TIPS & GUIDES How to Plan a Home Renovation Without Going Over Budget Feb 2, 2026 Date 3 min read",
+    "directChildren": [
+      {
+        "classes": [
+          "framer-ci65x9"
+        ],
+        "tag": "section",
+        "text": "Top 10 Construction Site Safety Practices Every Worker Must KnowConstruction sites are high-risk environments—but most accidents are preventable. Here are the essential safety practices every team should follow to stay protected and productive.Apr 22"
+      },
+      {
+        "classes": [
+          "framer-1pw3yxh"
+        ],
+        "tag": "section",
+        "text": "You also might likeBuilding MaterialsConcrete vs. Steel vs. Timber — Choosing the Right Building MaterialJun 12, 2025Date14 min readConstruction TechHow BIM is Revolutionizing Modern Construction ProjectsJan 30, 2026Date16 min readTips & Guides How t"
+      }
+    ],
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Top 10 Construction Site Safety Practices Every Worker Must Know"
+      },
+      {
+        "tag": "h2",
+        "text": "You also might like"
+      },
+      {
+        "tag": "h2",
+        "text": "Explore how Formed can bring your next development to life."
+      }
+    ],
+    "images": [
+      {
+        "alt": "Company logo in white",
+        "height": 19,
+        "src": "https://framerusercontent.com/images/7yGOh7DYr11HtXDswYhX77k.png?width=939&height=174",
+        "width": 105
+      },
+      {
+        "alt": "Blog Thumbnail",
+        "height": 881,
+        "src": "https://framerusercontent.com/images/dWAYDwgwFsSzZHEJUiCnNbZXGQ.webp?scale-down-to=2048&width=3300&height=2203",
+        "width": 1320
+      },
+      {
+        "alt": "Blog Thumbnail",
+        "height": 328,
+        "src": "https://framerusercontent.com/images/NGORKVsfXW88cpNLbvukYmso578.webp?scale-down-to=512&width=720&height=540",
+        "width": 437
+      },
+      {
+        "alt": "Blog Thumbnail",
+        "height": 245,
+        "src": "https://framerusercontent.com/images/y70cWfrXDwoK40xgfJJuH9bjiQ.webp?scale-down-to=512&width=1200&height=673",
+        "width": 437
+      },
+      {
+        "alt": "Blog Thumbnail",
+        "height": 292,
+        "src": "https://framerusercontent.com/images/7SzZGglBuygYglnuKjRGkSKyHXg.webp?scale-down-to=512&width=3610&height=2410",
+        "width": 437
+      },
+      {
+        "alt": "Banner",
+        "height": 1147,
+        "src": "https://framerusercontent.com/images/xil7I6l5QGBFKgYQWzIcUX9pH8.webp?width=1500&height=1195",
+        "width": 1440
+      },
+      {
+        "alt": "Company logo in white",
+        "height": 21,
+        "src": "https://framerusercontent.com/images/4DqGwUqDnx49TJFKP55aBWcrNA.png?scale-down-to=512&width=939&height=174",
+        "width": 118
+      }
+    ],
+    "listItems": [],
+    "pageSize": {
+      "height": 4425,
+      "width": 1425
+    },
+    "paragraphs": [
+      "About",
+      "Our Expertise",
+      "Projects",
+      "NewsRoom",
+      "Get Started",
+      "Get Started",
+      "Construction sites are high-risk environments—but most accidents are preventable. Here are the essential safety practices every team should follow to stay protected and productive.",
+      "Apr 22, 2025",
+      "Site Safety",
+      "The strategy is done. Now what?",
+      "Every year, companies spend millions on strategy — offsite sessions, consulting engagements, facilitated workshops. Leadership teams walk out aligned, energized, and genuinely convinced that this time, things will be different.",
+      "Then six months pass. The market moves. Priorities shift. A hiring crisis lands. And the strategy — that carefully crafted document — sits in a shared folder that fewer and fewer people open.",
+      "This isn't a failure of intelligence. It's a failure of architecture.",
+      "The three gaps that kill strategy",
+      "After working across more than 200 engagements, we've found that strategy execution fails in one of three consistent places — and rarely where leaders expect.",
+      "The first is the translation gap. Strategy is written at an altitude where it makes complete sense — \"expand into adjacent markets,\" \"build operational excellence,\" \"become a customer-centric organization.\" But no one defines what those phrases mean on a Tuesday afternoon when a real decision needs to be made. Abstraction protects the strategy from being wrong. It also makes it impossible to execute.",
+      "The second is the ownership gap. A strategy with five priorities and no named owners is just a wishlist. Execution requires someone whose career is meaningfully tied to each outcome — not a committee, not a working group, not \"the leadership team collectively.\" A single accountable person, with authority and resources to match.",
+      "The third is the rhythm gap. Strategy dies in the silence between quarterly reviews. The businesses that execute well build a weekly operational rhythm — short, structured check-ins that connect daily decisions back to strategic priorities. It sounds simple. Most companies don't do it.",
+      "What good looks like",
+      "The strategies we've seen executed successfully share three characteristics. They are specific enough that a mid-level manager can use them to make a decision without escalating. They have owners — real, named individuals with clear mandates. And they are reviewed frequently enough that drift is caught early, before it compounds.",
+      "None of this requires a complicated system. It requires discipline and the willingness to make the strategy uncomfortable — to commit to something specific enough that you can actually be wrong about it.",
+      "That discomfort is not a bug. It's the point.",
+      "The question worth asking",
+      "If you showed your current strategy to someone two levels below the leadership team and asked them to explain how it affects their work this week, what would they say?",
+      "If the answer is \"they couldn't,\" the problem isn't execution. It's the strategy itself.",
+      "Building Materials",
+      "Concrete vs. Steel vs. Timber — Choosing the Right Building Material",
+      "Jun 12, 2025",
+      "Date",
+      "14 min read",
+      "Construction Tech",
+      "How BIM is Revolutionizing Modern Construction Projects",
+      "Jan 30, 2026",
+      "Date",
+      "16 min read",
+      "Tips & Guides",
+      "How to Plan a Home Renovation Without Going Over Budget",
+      "Feb 2, 2026",
+      "Date",
+      "3 min read",
+      "Get Started",
+      "Get Started",
+      "Partner with us to turn strategic ambition into measurable business results.",
+      "Get Started",
+      "Get Started",
+      "Main pages",
+      "Home",
+      "About Us",
+      "Projects",
+      "Blogs",
+      "Contact",
+      "CONTACT",
+      "hello@construa.com",
+      "+44 (0) 20 7946 0318",
+      "12 Aldgate Square, London, EC3N 1AB",
+      "Terms",
+      "Private Policy",
+      "Designed & Developed By Vinayak Thakur",
+      "Create a free website with Framer, the website builder loved by startups, designers and agencies."
+    ],
+    "style": {
+      "bodyBackground": "rgb(237, 237, 237)",
+      "fonts": [
+        "sans-serif",
+        "\"Chivo Mono\", monospace",
+        "\"Overused Grotesk Medium\", \"Overused Grotesk Medium Placeholder\", sans-serif",
+        "Inter, \"Inter Placeholder\", sans-serif",
+        "\"IBM Plex Mono\", monospace"
+      ]
+    },
+    "title": "Top 10 Construction Site Safety Practices Every Worker Must Know - My Framer Site",
+    "videos": []
+  },
+  {
+    "id": "blog-materials",
+    "path": "/blogs/hidden-cost-of-slow-decisions",
+    "bodyText": "Concrete vs. Steel vs. Timber — Choosing the Right Building Material Choosing the right structural material is one of the most consequential decisions in any construction project. Each material — concrete, steel, and timber — comes with distinct advantages, limitations, cost profiles, and environmental impacts. Understanding these trade-offs helps architects, engineers, and clients make smarter decisions. Jun 12, 2025 Building Materials Caution has a price tag Nobody thinks of themselves as a slow decision-maker. Leaders who sit on decisions for weeks typically describe themselves as thorough, considered, or appropriately cautious. And sometimes they're right. But in most businesses, slowness isn't a feature — it's a symptom. A symptom of unclear ownership, insufficient trust in the team, or a culture where being wrong is more costly than being late. The compounding math of this is brutal. A decision that takes 11 days instead of 2 doesn't just cost 9 days. It costs 9 days multiplied by every person waiting on that decision, every downstream action that's blocked, and every external relationship left in uncertainty. In a business making 50 significant decisions a month, that math adds up to months of lost momentum per year. Where the slowness actually lives Most slow decisions aren't slow because the decision itself is hard. They're slow because the right person doesn't have the authority to make them, so they escalate. Or because there's no agreed framework for what \"enough information\" looks like, so gathering continues indefinitely. Or because the culture rewards consensus over clarity, so meetings multiply. The fix for each of these is different, but they all start in the same place: mapping where decisions actually live versus where they should live. In our experience, the majority of decisions that land on a CEO's desk in a 50-plus person business shouldn't be there. Not because the CEO isn't capable of making them — but because the cost of their involvement is too high, and the team beneath them is capable of making them well with the right framework. Building a faster operating model The goal isn't to make decisions carelessly. It's to make them at the right level, with the right information, in a reasonable timeframe. Three things that move the needle: a clear authority matrix that defines who can decide what without escalation; a decision log that creates visibility and accountability without bureaucracy; and a cultural norm that treats a well-reasoned fast decision as more valuable than a slow perfect one — because in most cases, the slow perfect one isn't actually more correct. The right question isn't \"how do we avoid mistakes.\" It's \"how do we make good decisions faster, and learn from the ones that don't land?\" That shift — from risk avoidance to decision quality — is where the fastest-moving businesses live. You also might like SITE SAFETY Top 10 Construction Site Safety Practices Every Worker Must Know Apr 22, 2025 Date 5 min read CONSTRUCTION TECH How BIM is Revolutionizing Modern Construction Projects Jan 30, 2026 Date 16 min read TIPS & GUIDES How to Plan a Home Renovation Without Going Over Budget Feb 2, 2026 Date 3 min read",
+    "directChildren": [
+      {
+        "classes": [
+          "framer-ci65x9"
+        ],
+        "tag": "section",
+        "text": "Concrete vs. Steel vs. Timber — Choosing the Right Building MaterialChoosing the right structural material is one of the most consequential decisions in any construction project. Each material — concrete, steel, and timber — comes with distinct advan"
+      },
+      {
+        "classes": [
+          "framer-1pw3yxh"
+        ],
+        "tag": "section",
+        "text": "You also might likeSite SafetyTop 10 Construction Site Safety Practices Every Worker Must KnowApr 22, 2025Date5 min readConstruction TechHow BIM is Revolutionizing Modern Construction ProjectsJan 30, 2026Date16 min readTips & Guides How to Plan a Hom"
+      }
+    ],
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Concrete vs. Steel vs. Timber — Choosing the Right Building Material"
+      },
+      {
+        "tag": "h2",
+        "text": "You also might like"
+      },
+      {
+        "tag": "h2",
+        "text": "Explore how Formed can bring your next development to life."
+      }
+    ],
+    "images": [
+      {
+        "alt": "Company logo in white",
+        "height": 19,
+        "src": "https://framerusercontent.com/images/7yGOh7DYr11HtXDswYhX77k.png?width=939&height=174",
+        "width": 105
+      },
+      {
+        "alt": "Blog Thumbnail",
+        "height": 989,
+        "src": "https://framerusercontent.com/images/NGORKVsfXW88cpNLbvukYmso578.webp?width=720&height=540",
+        "width": 1320
+      },
+      {
+        "alt": "Blog Thumbnail",
+        "height": 292,
+        "src": "https://framerusercontent.com/images/dWAYDwgwFsSzZHEJUiCnNbZXGQ.webp?scale-down-to=2048&width=3300&height=2203",
+        "width": 437
+      },
+      {
+        "alt": "Blog Thumbnail",
+        "height": 245,
+        "src": "https://framerusercontent.com/images/y70cWfrXDwoK40xgfJJuH9bjiQ.webp?scale-down-to=512&width=1200&height=673",
+        "width": 437
+      },
+      {
+        "alt": "Blog Thumbnail",
+        "height": 292,
+        "src": "https://framerusercontent.com/images/7SzZGglBuygYglnuKjRGkSKyHXg.webp?scale-down-to=512&width=3610&height=2410",
+        "width": 437
+      },
+      {
+        "alt": "Banner",
+        "height": 1147,
+        "src": "https://framerusercontent.com/images/xil7I6l5QGBFKgYQWzIcUX9pH8.webp?width=1500&height=1195",
+        "width": 1440
+      },
+      {
+        "alt": "Company logo in white",
+        "height": 21,
+        "src": "https://framerusercontent.com/images/4DqGwUqDnx49TJFKP55aBWcrNA.png?scale-down-to=512&width=939&height=174",
+        "width": 118
+      }
+    ],
+    "listItems": [],
+    "pageSize": {
+      "height": 4430,
+      "width": 1425
+    },
+    "paragraphs": [
+      "About",
+      "Our Expertise",
+      "Projects",
+      "NewsRoom",
+      "Get Started",
+      "Get Started",
+      "Choosing the right structural material is one of the most consequential decisions in any construction project. Each material — concrete, steel, and timber — comes with distinct advantages, limitations, cost profiles, and environmental impacts. Understanding these trade-offs helps architects, engineers, and clients make smarter decisions.",
+      "Jun 12, 2025",
+      "Building Materials",
+      "Caution has a price tag",
+      "Nobody thinks of themselves as a slow decision-maker. Leaders who sit on decisions for weeks typically describe themselves as thorough, considered, or appropriately cautious. And sometimes they're right.",
+      "But in most businesses, slowness isn't a feature — it's a symptom. A symptom of unclear ownership, insufficient trust in the team, or a culture where being wrong is more costly than being late.",
+      "The compounding math of this is brutal. A decision that takes 11 days instead of 2 doesn't just cost 9 days. It costs 9 days multiplied by every person waiting on that decision, every downstream action that's blocked, and every external relationship left in uncertainty. In a business making 50 significant decisions a month, that math adds up to months of lost momentum per year.",
+      "Where the slowness actually lives",
+      "Most slow decisions aren't slow because the decision itself is hard. They're slow because the right person doesn't have the authority to make them, so they escalate. Or because there's no agreed framework for what \"enough information\" looks like, so gathering continues indefinitely. Or because the culture rewards consensus over clarity, so meetings multiply.",
+      "The fix for each of these is different, but they all start in the same place: mapping where decisions actually live versus where they should live.",
+      "In our experience, the majority of decisions that land on a CEO's desk in a 50-plus person business shouldn't be there. Not because the CEO isn't capable of making them — but because the cost of their involvement is too high, and the team beneath them is capable of making them well with the right framework.",
+      "Building a faster operating model",
+      "The goal isn't to make decisions carelessly. It's to make them at the right level, with the right information, in a reasonable timeframe.",
+      "Three things that move the needle: a clear authority matrix that defines who can decide what without escalation; a decision log that creates visibility and accountability without bureaucracy; and a cultural norm that treats a well-reasoned fast decision as more valuable than a slow perfect one — because in most cases, the slow perfect one isn't actually more correct.",
+      "The right question isn't \"how do we avoid mistakes.\"",
+      "It's \"how do we make good decisions faster, and learn from the ones that don't land?\"",
+      "That shift — from risk avoidance to decision quality — is where the fastest-moving businesses live.",
+      "Site Safety",
+      "Top 10 Construction Site Safety Practices Every Worker Must Know",
+      "Apr 22, 2025",
+      "Date",
+      "5 min read",
+      "Construction Tech",
+      "How BIM is Revolutionizing Modern Construction Projects",
+      "Jan 30, 2026",
+      "Date",
+      "16 min read",
+      "Tips & Guides",
+      "How to Plan a Home Renovation Without Going Over Budget",
+      "Feb 2, 2026",
+      "Date",
+      "3 min read",
+      "Get Started",
+      "Get Started",
+      "Partner with us to turn strategic ambition into measurable business results.",
+      "Get Started",
+      "Get Started",
+      "Main pages",
+      "Home",
+      "About Us",
+      "Projects",
+      "Blogs",
+      "Contact",
+      "CONTACT",
+      "hello@construa.com",
+      "+44 (0) 20 7946 0318",
+      "12 Aldgate Square, London, EC3N 1AB",
+      "Terms",
+      "Private Policy",
+      "Designed & Developed By Vinayak Thakur",
+      "Create a free website with Framer, the website builder loved by startups, designers and agencies."
+    ],
+    "style": {
+      "bodyBackground": "rgb(237, 237, 237)",
+      "fonts": [
+        "sans-serif",
+        "\"Chivo Mono\", monospace",
+        "\"Overused Grotesk Medium\", \"Overused Grotesk Medium Placeholder\", sans-serif",
+        "Inter, \"Inter Placeholder\", sans-serif",
+        "\"IBM Plex Mono\", monospace"
+      ]
+    },
+    "title": "Concrete vs. Steel vs. Timber — Choosing the Right Building Material - My Framer Site",
+    "videos": []
+  },
+  {
+    "id": "blog-bim",
+    "path": "/blogs/what-founders-get-wrong-about-scaling",
+    "bodyText": "How BIM is Revolutionizing Modern Construction Projects Building Information Modeling (BIM) is no longer a futuristic concept — it's the industry standard for forward-thinking construction firms. BIM allows all project stakeholders to work from a single, intelligent 3D model that contains not just geometry, but data about every component: materials, cost, schedule, and lifecycle information. Jan 30, 2026 Construction Tech The addition instinct When a business starts to strain under its own growth, the instinct is almost always to add. Add headcount. Add process. Add tools, layers, check-ins, approvals. The logic feels sound — the business is bigger now, so it needs more infrastructure. But in most cases, the strain isn't caused by a lack of things. It's caused by an accumulation of the wrong things — decisions being made at the wrong level, roles that made sense at 10 people that quietly stopped making sense at 40, products that were exciting to build but expensive to support, customers that generate revenue but consume disproportionate service time. Scaling well isn't about addition. It's about strategic subtraction — and most founders find that deeply counterintuitive. The three things founders need to let go of The first is decision-making. Not all of it — but most of it. A founder who is still the primary decision-maker for operational issues at 50 employees isn't demonstrating leadership. They're creating a bottleneck. The transition from \"founder who decides\" to \"founder who sets direction and holds accountability\" is one of the most important — and most uncomfortable — shifts in a company's growth. The second is customers. Not all customers are equal. Some customers represent the business you're building. Others represent the business you used to be — early adopters, friends-of-founders, or opportunistic wins that don't fit your current model. Holding onto them because they generate revenue is understandable. But the cost — in service complexity, cultural confusion, and strategic distraction — is often higher than it appears. The third is identity. Many founders define themselves by how the business runs, not just by what it does. When the business needs to change — structurally, culturally, operationally — the founder's attachment to \"the way we do things here\" is often the largest obstacle. Scaling requires a founder who can lead change without mourning the version of the company they built before it. What good scaling actually looks like The businesses that scale cleanly share a few consistent traits. They are ruthlessly clear about what they are and are not. Their leadership team makes decisions without the founder in the room. And the founder spends the majority of their time on the three or four things only they can do — vision, key relationships, capital, and culture. Everything else is either delegated, systematized, or stopped. The uncomfortable truth If you're working harder as your business grows, something is wrong. Growth should give you leverage, not consume it. If it feels like you're adding complexity faster than you're adding capability, the answer isn't to push harder — it's to stop and subtract. The founders who scale well aren't the ones who grind through it. They're the ones who were willing to change how they worked before it became a crisis. You also might like SITE SAFETY Top 10 Construction Site Safety Practices Every Worker Must Know Apr 22, 2025 Date 5 min read BUILDING MATERIALS Concrete vs. Steel vs. Timber — Choosing the Right Building Material Jun 12, 2025 Date 14 min read TIPS & GUIDES How to Plan a Home Renovation Without Going Over Budget Feb 2, 2026 Date 3 min read",
+    "directChildren": [
+      {
+        "classes": [
+          "framer-ci65x9"
+        ],
+        "tag": "section",
+        "text": "How BIM is Revolutionizing Modern Construction ProjectsBuilding Information Modeling (BIM) is no longer a futuristic concept — it's the industry standard for forward-thinking construction firms. BIM allows all project stakeholders to work from a sing"
+      },
+      {
+        "classes": [
+          "framer-1pw3yxh"
+        ],
+        "tag": "section",
+        "text": "You also might likeSite SafetyTop 10 Construction Site Safety Practices Every Worker Must KnowApr 22, 2025Date5 min readBuilding MaterialsConcrete vs. Steel vs. Timber — Choosing the Right Building MaterialJun 12, 2025Date14 min readTips & Guides How"
+      }
+    ],
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "How BIM is Revolutionizing Modern Construction Projects"
+      },
+      {
+        "tag": "h2",
+        "text": "You also might like"
+      },
+      {
+        "tag": "h2",
+        "text": "Explore how Formed can bring your next development to life."
+      }
+    ],
+    "images": [
+      {
+        "alt": "Company logo in white",
+        "height": 19,
+        "src": "https://framerusercontent.com/images/7yGOh7DYr11HtXDswYhX77k.png?width=939&height=174",
+        "width": 105
+      },
+      {
+        "alt": "Blog Thumbnail",
+        "height": 740,
+        "src": "https://framerusercontent.com/images/y70cWfrXDwoK40xgfJJuH9bjiQ.webp?width=1200&height=673",
+        "width": 1320
+      },
+      {
+        "alt": "Blog Thumbnail",
+        "height": 292,
+        "src": "https://framerusercontent.com/images/dWAYDwgwFsSzZHEJUiCnNbZXGQ.webp?scale-down-to=2048&width=3300&height=2203",
+        "width": 437
+      },
+      {
+        "alt": "Blog Thumbnail",
+        "height": 328,
+        "src": "https://framerusercontent.com/images/NGORKVsfXW88cpNLbvukYmso578.webp?width=720&height=540",
+        "width": 437
+      },
+      {
+        "alt": "Blog Thumbnail",
+        "height": 292,
+        "src": "https://framerusercontent.com/images/7SzZGglBuygYglnuKjRGkSKyHXg.webp?scale-down-to=512&width=3610&height=2410",
+        "width": 437
+      },
+      {
+        "alt": "Banner",
+        "height": 1147,
+        "src": "https://framerusercontent.com/images/xil7I6l5QGBFKgYQWzIcUX9pH8.webp?width=1500&height=1195",
+        "width": 1440
+      },
+      {
+        "alt": "Company logo in white",
+        "height": 21,
+        "src": "https://framerusercontent.com/images/4DqGwUqDnx49TJFKP55aBWcrNA.png?scale-down-to=512&width=939&height=174",
+        "width": 118
+      }
+    ],
+    "listItems": [],
+    "pageSize": {
+      "height": 4487,
+      "width": 1425
+    },
+    "paragraphs": [
+      "About",
+      "Our Expertise",
+      "Projects",
+      "NewsRoom",
+      "Get Started",
+      "Get Started",
+      "Building Information Modeling (BIM) is no longer a futuristic concept — it's the industry standard for forward-thinking construction firms. BIM allows all project stakeholders to work from a single, intelligent 3D model that contains not just geometry, but data about every component: materials, cost, schedule, and lifecycle information.",
+      "Jan 30, 2026",
+      "Construction Tech",
+      "The addition instinct",
+      "When a business starts to strain under its own growth, the instinct is almost always to add. Add headcount. Add process. Add tools, layers, check-ins, approvals. The logic feels sound — the business is bigger now, so it needs more infrastructure.",
+      "But in most cases, the strain isn't caused by a lack of things. It's caused by an accumulation of the wrong things — decisions being made at the wrong level, roles that made sense at 10 people that quietly stopped making sense at 40, products that were exciting to build but expensive to support, customers that generate revenue but consume disproportionate service time.",
+      "Scaling well isn't about addition. It's about strategic subtraction — and most founders find that deeply counterintuitive.",
+      "The three things founders need to let go of",
+      "The first is decision-making. Not all of it — but most of it. A founder who is still the primary decision-maker for operational issues at 50 employees isn't demonstrating leadership. They're creating a bottleneck. The transition from \"founder who decides\" to \"founder who sets direction and holds accountability\" is one of the most important — and most uncomfortable — shifts in a company's growth.",
+      "The second is customers. Not all customers are equal. Some customers represent the business you're building. Others represent the business you used to be — early adopters, friends-of-founders, or opportunistic wins that don't fit your current model. Holding onto them because they generate revenue is understandable. But the cost — in service complexity, cultural confusion, and strategic distraction — is often higher than it appears.",
+      "The third is identity. Many founders define themselves by how the business runs, not just by what it does. When the business needs to change — structurally, culturally, operationally — the founder's attachment to \"the way we do things here\" is often the largest obstacle. Scaling requires a founder who can lead change without mourning the version of the company they built before it.",
+      "What good scaling actually looks like",
+      "The businesses that scale cleanly share a few consistent traits. They are ruthlessly clear about what they are and are not. Their leadership team makes decisions without the founder in the room. And the founder spends the majority of their time on the three or four things only they can do — vision, key relationships, capital, and culture.",
+      "Everything else is either delegated, systematized, or stopped.",
+      "The uncomfortable truth",
+      "If you're working harder as your business grows, something is wrong. Growth should give you leverage, not consume it. If it feels like you're adding complexity faster than you're adding capability, the answer isn't to push harder — it's to stop and subtract.",
+      "The founders who scale well aren't the ones who grind through it. They're the ones who were willing to change how they worked before it became a crisis.",
+      "Site Safety",
+      "Top 10 Construction Site Safety Practices Every Worker Must Know",
+      "Apr 22, 2025",
+      "Date",
+      "5 min read",
+      "Building Materials",
+      "Concrete vs. Steel vs. Timber — Choosing the Right Building Material",
+      "Jun 12, 2025",
+      "Date",
+      "14 min read",
+      "Tips & Guides",
+      "How to Plan a Home Renovation Without Going Over Budget",
+      "Feb 2, 2026",
+      "Date",
+      "3 min read",
+      "Get Started",
+      "Get Started",
+      "Partner with us to turn strategic ambition into measurable business results.",
+      "Get Started",
+      "Get Started",
+      "Main pages",
+      "Home",
+      "About Us",
+      "Projects",
+      "Blogs",
+      "Contact",
+      "CONTACT",
+      "hello@construa.com",
+      "+44 (0) 20 7946 0318",
+      "12 Aldgate Square, London, EC3N 1AB",
+      "Terms",
+      "Private Policy",
+      "Designed & Developed By Vinayak Thakur",
+      "Create a free website with Framer, the website builder loved by startups, designers and agencies."
+    ],
+    "style": {
+      "bodyBackground": "rgb(237, 237, 237)",
+      "fonts": [
+        "sans-serif",
+        "\"Chivo Mono\", monospace",
+        "\"Overused Grotesk Medium\", \"Overused Grotesk Medium Placeholder\", sans-serif",
+        "Inter, \"Inter Placeholder\", sans-serif",
+        "\"IBM Plex Mono\", monospace"
+      ]
+    },
+    "title": "How BIM is Revolutionizing Modern Construction Projects - My Framer Site",
+    "videos": []
+  },
+  {
+    "id": "blog-renovation",
+    "path": "/blogs/is-your-business-ready-for-digital-transformation",
+    "bodyText": "How to Plan a Home Renovation Without Going Over Budget Home renovations are exciting but notoriously prone to budget overruns. Studies show that over 80% of renovation projects exceed their original budget. With the right planning strategy, however, you can keep costs under control and avoid the stress of unexpected expenses derailing your project. Feb 2, 2026 Tips & Guides Everyone says they're ready Digital transformation has become one of those phrases that means everything and nothing. Every business leader says they want it. Vendors promise it. Boards mandate it. And yet the majority of large-scale digital transformation programmes either fail to deliver their stated outcomes, go significantly over budget, or are quietly wound down within two years of launch. The problem, almost universally, is not the technology. It's the organization applying it. What readiness actually requires Before any meaningful digital transformation can succeed, three things need to be true — and they have nothing to do with your current tech stack. First, your core processes need to be understood and documented. Technology automates and scales what already exists. If your processes are unclear, inconsistent, or undocumented, digitizing them doesn't fix them — it makes them faster and more expensive. We've seen companies spend seven figures on ERP implementations that automated a broken process at industrial scale. The result is always worse than the manual version. Second, your data needs to be trustworthy. The promise of digital transformation is insight-driven decision-making — dashboards that tell you what's working, models that predict what's coming, automation that responds in real time. None of that works if the underlying data is incomplete, inconsistently entered, or living in five different systems that don't talk to each other. Before the transformation, there's almost always a data hygiene project that nobody budgeted for. Third, your leadership team needs to be aligned on what success actually looks like — not in general terms, but specifically. \"Better visibility\" is not a success metric. \"Reducing order processing time from 4 days to 6 hours\" is. Without that specificity, transformation programmes expand indefinitely, because there's no agreed definition of done. The diagnostic questions worth asking Can you describe your three most critical operational processes in enough detail that a new employee could run them on day one? If not, you're not ready to digitize them. Can you pull a single, trusted report on your key business metrics without someone having to manually compile it first? If not, your data foundation needs work before your technology stack does. Do your department heads agree on the top three outcomes this transformation should deliver — and can they each name them without prompting? If not, you don't have alignment. You have enthusiasm, which is different. What to do if you're not ready The honest answer is: fix the foundations first. It's less exciting than buying new software. It won't generate a press release. But it's the work that determines whether the transformation actually transforms anything. In our experience, three to six months of process clarity, data hygiene, and leadership alignment work dramatically increases the probability of a successful digital implementation — and often significantly reduces the cost of the implementation itself, because you're not building on sand. The technology is the easy part. It always is. You also might like SITE SAFETY Top 10 Construction Site Safety Practices Every Worker Must Know Apr 22, 2025 Date 5 min read BUILDING MATERIALS Concrete vs. Steel vs. Timber — Choosing the Right Building Material Jun 12, 2025 Date 14 min read CONSTRUCTION TECH How BIM is Revolutionizing Modern Construction Projects Jan 30, 2026 Date 16 min read",
+    "directChildren": [
+      {
+        "classes": [
+          "framer-ci65x9"
+        ],
+        "tag": "section",
+        "text": "How to Plan a Home Renovation Without Going Over BudgetHome renovations are exciting but notoriously prone to budget overruns. Studies show that over 80% of renovation projects exceed their original budget. With the right planning strategy, however, "
+      },
+      {
+        "classes": [
+          "framer-1pw3yxh"
+        ],
+        "tag": "section",
+        "text": "You also might likeSite SafetyTop 10 Construction Site Safety Practices Every Worker Must KnowApr 22, 2025Date5 min readBuilding MaterialsConcrete vs. Steel vs. Timber — Choosing the Right Building MaterialJun 12, 2025Date14 min readConstruction Tech"
+      }
+    ],
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "How to Plan a Home Renovation Without Going Over Budget"
+      },
+      {
+        "tag": "h2",
+        "text": "You also might like"
+      },
+      {
+        "tag": "h2",
+        "text": "Explore how Formed can bring your next development to life."
+      }
+    ],
+    "images": [
+      {
+        "alt": "Company logo in white",
+        "height": 19,
+        "src": "https://framerusercontent.com/images/7yGOh7DYr11HtXDswYhX77k.png?width=939&height=174",
+        "width": 105
+      },
+      {
+        "alt": "Blog Thumbnail",
+        "height": 0,
+        "src": "https://framerusercontent.com/images/7SzZGglBuygYglnuKjRGkSKyHXg.webp?width=3610&height=2410",
+        "width": 0
+      },
+      {
+        "alt": "Blog Thumbnail",
+        "height": 292,
+        "src": "https://framerusercontent.com/images/dWAYDwgwFsSzZHEJUiCnNbZXGQ.webp?scale-down-to=2048&width=3300&height=2203",
+        "width": 437
+      },
+      {
+        "alt": "Blog Thumbnail",
+        "height": 328,
+        "src": "https://framerusercontent.com/images/NGORKVsfXW88cpNLbvukYmso578.webp?width=720&height=540",
+        "width": 437
+      },
+      {
+        "alt": "Blog Thumbnail",
+        "height": 245,
+        "src": "https://framerusercontent.com/images/y70cWfrXDwoK40xgfJJuH9bjiQ.webp?width=1200&height=673",
+        "width": 437
+      },
+      {
+        "alt": "Banner",
+        "height": 1147,
+        "src": "https://framerusercontent.com/images/xil7I6l5QGBFKgYQWzIcUX9pH8.webp?width=1500&height=1195",
+        "width": 1440
+      },
+      {
+        "alt": "Company logo in white",
+        "height": 21,
+        "src": "https://framerusercontent.com/images/4DqGwUqDnx49TJFKP55aBWcrNA.png?scale-down-to=512&width=939&height=174",
+        "width": 118
+      }
+    ],
+    "listItems": [],
+    "pageSize": {
+      "height": 4655,
+      "width": 1425
+    },
+    "paragraphs": [
+      "About",
+      "Our Expertise",
+      "Projects",
+      "NewsRoom",
+      "Get Started",
+      "Get Started",
+      "Home renovations are exciting but notoriously prone to budget overruns. Studies show that over 80% of renovation projects exceed their original budget. With the right planning strategy, however, you can keep costs under control and avoid the stress of unexpected expenses derailing your project.",
+      "Feb 2, 2026",
+      "Tips & Guides",
+      "Everyone says they're ready",
+      "Digital transformation has become one of those phrases that means everything and nothing. Every business leader says they want it. Vendors promise it. Boards mandate it. And yet the majority of large-scale digital transformation programmes either fail to deliver their stated outcomes, go significantly over budget, or are quietly wound down within two years of launch.",
+      "The problem, almost universally, is not the technology. It's the organization applying it.",
+      "What readiness actually requires",
+      "Before any meaningful digital transformation can succeed, three things need to be true — and they have nothing to do with your current tech stack.",
+      "First, your core processes need to be understood and documented. Technology automates and scales what already exists. If your processes are unclear, inconsistent, or undocumented, digitizing them doesn't fix them — it makes them faster and more expensive. We've seen companies spend seven figures on ERP implementations that automated a broken process at industrial scale. The result is always worse than the manual version.",
+      "Second, your data needs to be trustworthy. The promise of digital transformation is insight-driven decision-making — dashboards that tell you what's working, models that predict what's coming, automation that responds in real time. None of that works if the underlying data is incomplete, inconsistently entered, or living in five different systems that don't talk to each other. Before the transformation, there's almost always a data hygiene project that nobody budgeted for.",
+      "Third, your leadership team needs to be aligned on what success actually looks like — not in general terms, but specifically. \"Better visibility\" is not a success metric. \"Reducing order processing time from 4 days to 6 hours\" is. Without that specificity, transformation programmes expand indefinitely, because there's no agreed definition of done.",
+      "The diagnostic questions worth asking",
+      "Can you describe your three most critical operational processes in enough detail that a new employee could run them on day one? If not, you're not ready to digitize them.",
+      "Can you pull a single, trusted report on your key business metrics without someone having to manually compile it first? If not, your data foundation needs work before your technology stack does.",
+      "Do your department heads agree on the top three outcomes this transformation should deliver — and can they each name them without prompting? If not, you don't have alignment. You have enthusiasm, which is different.",
+      "What to do if you're not ready",
+      "The honest answer is: fix the foundations first. It's less exciting than buying new software. It won't generate a press release. But it's the work that determines whether the transformation actually transforms anything.",
+      "In our experience, three to six months of process clarity, data hygiene, and leadership alignment work dramatically increases the probability of a successful digital implementation — and often significantly reduces the cost of the implementation itself, because you're not building on sand.",
+      "The technology is the easy part. It always is.",
+      "Site Safety",
+      "Top 10 Construction Site Safety Practices Every Worker Must Know",
+      "Apr 22, 2025",
+      "Date",
+      "5 min read",
+      "Building Materials",
+      "Concrete vs. Steel vs. Timber — Choosing the Right Building Material",
+      "Jun 12, 2025",
+      "Date",
+      "14 min read",
+      "Construction Tech",
+      "How BIM is Revolutionizing Modern Construction Projects",
+      "Jan 30, 2026",
+      "Date",
+      "16 min read",
+      "Get Started",
+      "Get Started",
+      "Partner with us to turn strategic ambition into measurable business results.",
+      "Get Started",
+      "Get Started",
+      "Main pages",
+      "Home",
+      "About Us",
+      "Projects",
+      "Blogs",
+      "Contact",
+      "CONTACT",
+      "hello@construa.com",
+      "+44 (0) 20 7946 0318",
+      "12 Aldgate Square, London, EC3N 1AB",
+      "Terms",
+      "Private Policy",
+      "Designed & Developed By Vinayak Thakur",
+      "Create a free website with Framer, the website builder loved by startups, designers and agencies."
+    ],
+    "style": {
+      "bodyBackground": "rgb(237, 237, 237)",
+      "fonts": [
+        "sans-serif",
+        "\"Chivo Mono\", monospace",
+        "\"Overused Grotesk Medium\", \"Overused Grotesk Medium Placeholder\", sans-serif",
+        "Inter, \"Inter Placeholder\", sans-serif",
+        "\"IBM Plex Mono\", monospace"
+      ]
+    },
+    "title": "How to Plan a Home Renovation Without Going Over Budget - My Framer Site",
+    "videos": []
+  },
+  {
+    "id": "contact",
+    "path": "/contact",
+    "bodyText": "ABOUT OUR EXPERTISE PROJECTS NEWSROOM GET STARTED GET STARTED GET IN TOUCH Ready to build something? Whether it’s a residential project, commercial space, or renovation, we’re here to bring your vision to life—with quality, clarity, and on-time delivery. Let's talk about your goals Fill out the form below and our nearest regional office will get back to you within 24 hours. NAME EMAIL ADDRESS YOU ARE INTERESTED IN Select a service... Property Development Design & Planning Construction Management Infrastructure & Logistics MESSAGE Yes, I'd like to receive product updates and insights from Construa. Unsubscribe anytime. SEND ENQUIRY North America New York 720 Fifth Avenue, Suite 3100, Manhattan newyork@residence.com +1 (212) 555-8700 Los Angeles 9255 Sunset Boulevard, Beverly Hills losangeles@residence.com +1 (310) 555-4290 Miami 4701 North Meridian Avenue, Miami Beach miami@residence.com +1 (305) 555-6823 Toronto 108 Yorkville Avenue, Suite 500 toronto@residence.com +1 (416) 555-9172 Vancouver 1011 West Cordova Street, Coal Harbour vancouver@residence.com +1 (604) 555-3845 FAQ You have questions. We have answers. What types of projects do you handle? We work on residential, commercial, and renovation projects—ranging from custom homes to large-scale developments. How is the project cost estimated? How long does a typical project take? How do you ensure quality during construction? How do I get started with my project? Explore how Formed can bring your next development to life. GET STARTED GET STARTED Partner with us to turn strategic ambition into measurable business results. GET STARTED GET STARTED MAIN PAGES Home About Us Projects Blogs Contact CONTACT hello@construa.com +44 (0) 20 7946 0318 12 Aldgate Square, London, EC3N 1AB Terms Private Policy Designed & Developed By Vinayak Thakur Create a free website with Framer, the website builder loved by startups, designers and agencies.",
+    "directChildren": [
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "script",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "div",
+        "text": ":root body { background: var(--token-3289daf8-1827-43a6-a6b3-173665bbeb33, rgb(237, 237, 237)); }AboutOur ExpertiseProjectsNewsRoomGet StartedGet Startedhtml body { background: var(--token-3289daf8-1827-43a6-a6b3-173665bbeb33, rgb(237, 237, 237)); }G"
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "script",
+        "text": "(()=>{function u(){function n(t,e,i){let r=document.createElement(\"a\");r.href=t,r.target=i,r.rel=e,document.body.appendChild(r),r.click(),r.remove()}function o(t){if(this.dataset.hydrated){this.removeEventListener(\"click\",o);return}t.preventDefault()"
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "script",
+        "text": "!function(){var w=\"framer_variant\";function u(a,r){let e=r.indexOf(\"#\"),t=e===-1?r:r.substring(0,e),o=e===-1?\"\":r.substring(e),n=t.indexOf(\"?\"),h=n===-1?t:t.substring(0,n),d=n===-1?\"\":t.substring(n),s=new URLSearchParams(d),m=new URLSearchParams(a);f"
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "div",
+        "text": "Create a free website with Framer, the website builder loved by startups, designers and agencies."
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "script",
+        "text": "var animator=(()=>{var L=(e,r,t)=>t>r?r:t<e?e:t;var U=()=>{};function _(e){let r;return()=>(r===void 0&&(r=e()),r)}var Q=e=>e;var D=e=>e*1e3,O=e=>e/1e3;var J=e=>Array.isArray(e)&&typeof e[0]==\"number\";var ee={value:null,addProjectionMetrics:null};var"
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "script",
+        "text": "{\"1w58q27\":{\"default\":{\"initial\":{\"opacity\":0.001,\"rotate\":0,\"rotateX\":0,\"rotateY\":0,\"scale\":1,\"skewX\":0,\"skewY\":0,\"x\":0,\"y\":0},\"animate\":{\"opacity\":1,\"rotate\":0,\"rotateX\":0,\"rotateY\":0,\"scale\":1,\"skewX\":0,\"skewY\":0,\"transition\":{\"damping\":40,\"delay\""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "script",
+        "text": "[{\"hash\":\"mst29q\",\"mediaQuery\":\"(min-width: 1200px)\"},{\"hash\":\"daver7\",\"mediaQuery\":\"(min-width: 810px) and (max-width: 1199.98px)\"},{\"hash\":\"q6k0xi\",\"mediaQuery\":\"(max-width: 809.98px)\"},{\"hash\":\"1vjgfq1\",\"mediaQuery\":\"(max-width: 809.98px)\"},{\"hash"
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "script",
+        "text": "(()=>{function c(i,o,s){if(window.__framer_disable_appear_effects_optimization__||typeof animator>\"u\")return;let e={detail:{bg:document.hidden}};requestAnimationFrame(()=>{let a=\"framer-appear-start\";performance.mark(a,e),animator.animateAppearEffect"
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "script",
+        "text": "typeof document<\"u\"&&(window.process={...window.process,env:{...window.process?.env,NODE_ENV:\"production\"}});"
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "link",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "script",
+        "text": ""
+      },
+      {
+        "classes": [
+          ""
+        ],
+        "tag": "div",
+        "text": ""
+      },
+      {
+        "classes": [
+          "status_hidden"
+        ],
+        "tag": "iframe",
+        "text": ""
+      }
+    ],
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Ready to build something?"
+      },
+      {
+        "tag": "h2",
+        "text": "North America"
+      },
+      {
+        "tag": "h2",
+        "text": "You have questions. We have answers."
+      },
+      {
+        "tag": "h2",
+        "text": "Explore how Formed can bring your next development to life."
+      }
+    ],
+    "images": [
+      {
+        "alt": "Company logo in white",
+        "height": 19,
+        "src": "https://framerusercontent.com/images/7yGOh7DYr11HtXDswYhX77k.png?width=939&height=174",
+        "width": 105
+      },
+      {
+        "alt": "Banner",
+        "height": 1147,
+        "src": "https://framerusercontent.com/images/xil7I6l5QGBFKgYQWzIcUX9pH8.webp?width=1500&height=1195",
+        "width": 1440
+      },
+      {
+        "alt": "Company logo in white",
+        "height": 21,
+        "src": "https://framerusercontent.com/images/4DqGwUqDnx49TJFKP55aBWcrNA.png?scale-down-to=512&width=939&height=174",
+        "width": 118
+      }
+    ],
+    "listItems": [],
+    "pageSize": {
+      "height": 4010,
+      "width": 1425
+    },
+    "paragraphs": [
+      "About",
+      "Our Expertise",
+      "Projects",
+      "NewsRoom",
+      "Get Started",
+      "Get Started",
+      "Get In Touch",
+      "Whether it’s a residential project, commercial space, or renovation, we’re here to bring your vision to life—with quality, clarity, and on-time delivery.",
+      "Let's talk about your goals",
+      "Fill out the form below and our nearest regional office will get back to you within 24 hours.",
+      "Name",
+      "Email",
+      "Address",
+      "You are interested in",
+      "message",
+      "Yes, I'd like to receive product updates and insights from Construa. Unsubscribe anytime.",
+      "Send Enquiry",
+      "New York",
+      "720 Fifth Avenue, Suite 3100, Manhattan",
+      "newyork@residence.com",
+      "+1 (212) 555-8700",
+      "Los Angeles",
+      "9255 Sunset Boulevard, Beverly Hills",
+      "losangeles@residence.com",
+      "+1 (310) 555-4290",
+      "Miami",
+      "4701 North Meridian Avenue, Miami Beach",
+      "miami@residence.com",
+      "+1 (305) 555-6823",
+      "Toronto",
+      "108 Yorkville Avenue, Suite 500",
+      "toronto@residence.com",
+      "+1 (416) 555-9172",
+      "Vancouver",
+      "1011 West Cordova Street, Coal Harbour",
+      "vancouver@residence.com",
+      "+1 (604) 555-3845",
+      "FAQ",
+      "What types of projects do you handle?",
+      "We work on residential, commercial, and renovation projects—ranging from custom homes to large-scale developments.",
+      "How is the project cost estimated?",
+      "How long does a typical project take?",
+      "How do you ensure quality during construction?",
+      "How do I get started with my project?",
+      "Get Started",
+      "Get Started",
+      "Partner with us to turn strategic ambition into measurable business results.",
+      "Get Started",
+      "Get Started",
+      "Main pages",
+      "Home",
+      "About Us",
+      "Projects",
+      "Blogs",
+      "Contact",
+      "CONTACT",
+      "hello@construa.com",
+      "+44 (0) 20 7946 0318",
+      "12 Aldgate Square, London, EC3N 1AB",
+      "Terms",
+      "Private Policy",
+      "Designed & Developed By Vinayak Thakur",
+      "Create a free website with Framer, the website builder loved by startups, designers and agencies."
+    ],
+    "style": {
+      "bodyBackground": "rgb(237, 237, 237)",
+      "fonts": [
+        "sans-serif",
+        "\"Chivo Mono\", monospace",
+        "\"IBM Plex Mono\", monospace",
+        "\"Overused Grotesk Medium\", \"Overused Grotesk Medium Placeholder\", sans-serif",
+        "Inter, \"Inter Placeholder\", sans-serif"
+      ]
+    },
+    "title": "Construa — Construction & Building Company Framer Template",
+    "videos": []
+  },
+  {
+    "id": "terms",
+    "path": "/legal-policy/legal-policy",
+    "bodyText": "LEGAL POLICY Terms & Conditions Last updated Aug 15, 2025 1. Acceptance of Terms By accessing or using the Consultare website and our consulting services, you agree to be bound by these Terms & Conditions. If you do not agree, please do not use our services. 2. Services Consultare provides business consulting services including Strategic Advisory, Operational Consulting, and Change & Growth Acceleration. All service scopes, deliverables, and timelines will be defined in a separate engagement agreement or proposal signed by both parties. 3. Consultations & Scheduling When you schedule a call or consultation through our website, you agree to provide accurate contact information. We reserve the right to cancel or reschedule sessions with reasonable notice. No-shows may forfeit the reserved time slot. 4. Intellectual Property All content on this website — including text, graphics, reports, frameworks, and methodologies — is the property of Consultare and protected by applicable copyright and intellectual property laws. You may not reproduce, distribute, or use our content without written permission. 5. Confidentiality We treat all client information with strict confidentiality. Any proprietary business information you share during engagements will not be disclosed to third parties without your consent, except as required by law. 6. Limitation of Liability Consultare provides advisory services based on available information and professional judgment. While we strive for the best outcomes, we cannot guarantee specific financial results. We are not liable for any indirect, incidental, or consequential damages arising from the use of our services or website. 7. Third-Party Links Our website may contain links to third-party sites (e.g., LinkedIn, Instagram). We are not responsible for the content or practices of those external sites. 8. Changes to Terms We reserve the right to update these Terms at any time. Continued use of our website after changes constitutes your acceptance of the revised Terms. 9. Governing Law These Terms shall be governed by the laws of [Your State/Country], without regard to its conflict of law provisions. 10. Contact For questions about these Terms, please contact us at: [your@email.com]",
+    "directChildren": [
+      {
+        "classes": [
+          "framer-eta4pl"
+        ],
+        "tag": "div",
+        "text": "Legal PolicyTerms & Conditions"
+      },
+      {
+        "classes": [
+          "framer-hxmgud"
+        ],
+        "tag": "div",
+        "text": "Last updatedAug 15, 20251. Acceptance of Terms By accessing or using the Consultare website and our consulting services, you agree to be bound by these Terms & Conditions. If you do not agree, please do not use our services.2. Services Consultare pro"
+      }
+    ],
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Terms & Conditions"
+      },
+      {
+        "tag": "h2",
+        "text": "Explore how Formed can bring your next development to life."
+      }
+    ],
+    "images": [
+      {
+        "alt": "Company logo in white",
+        "height": 19,
+        "src": "https://framerusercontent.com/images/7yGOh7DYr11HtXDswYhX77k.png?width=939&height=174",
+        "width": 105
+      },
+      {
+        "alt": "Banner",
+        "height": 1147,
+        "src": "https://framerusercontent.com/images/xil7I6l5QGBFKgYQWzIcUX9pH8.webp?width=1500&height=1195",
+        "width": 1440
+      },
+      {
+        "alt": "Company logo in white",
+        "height": 21,
+        "src": "https://framerusercontent.com/images/4DqGwUqDnx49TJFKP55aBWcrNA.png?scale-down-to=512&width=939&height=174",
+        "width": 118
+      }
+    ],
+    "listItems": [],
+    "pageSize": {
+      "height": 2801,
+      "width": 1425
+    },
+    "paragraphs": [
+      "About",
+      "Our Expertise",
+      "Projects",
+      "NewsRoom",
+      "Get Started",
+      "Get Started",
+      "Legal Policy",
+      "Last updated",
+      "Aug 15, 2025",
+      "1. Acceptance of Terms By accessing or using the Consultare website and our consulting services, you agree to be bound by these Terms & Conditions. If you do not agree, please do not use our services.",
+      "2. Services Consultare provides business consulting services including Strategic Advisory, Operational Consulting, and Change & Growth Acceleration. All service scopes, deliverables, and timelines will be defined in a separate engagement agreement or proposal signed by both parties.",
+      "3. Consultations & Scheduling When you schedule a call or consultation through our website, you agree to provide accurate contact information. We reserve the right to cancel or reschedule sessions with reasonable notice. No-shows may forfeit the reserved time slot.",
+      "4. Intellectual Property All content on this website — including text, graphics, reports, frameworks, and methodologies — is the property of Consultare and protected by applicable copyright and intellectual property laws. You may not reproduce, distribute, or use our content without written permission.",
+      "5. Confidentiality We treat all client information with strict confidentiality. Any proprietary business information you share during engagements will not be disclosed to third parties without your consent, except as required by law.",
+      "6. Limitation of Liability Consultare provides advisory services based on available information and professional judgment. While we strive for the best outcomes, we cannot guarantee specific financial results. We are not liable for any indirect, incidental, or consequential damages arising from the use of our services or website.",
+      "7. Third-Party Links Our website may contain links to third-party sites (e.g., LinkedIn, Instagram). We are not responsible for the content or practices of those external sites.",
+      "8. Changes to Terms We reserve the right to update these Terms at any time. Continued use of our website after changes constitutes your acceptance of the revised Terms.",
+      "9. Governing Law These Terms shall be governed by the laws of [Your State/Country], without regard to its conflict of law provisions.",
+      "10. Contact For questions about these Terms, please contact us at: [your@email.com]",
+      "Get Started",
+      "Get Started",
+      "Partner with us to turn strategic ambition into measurable business results.",
+      "Get Started",
+      "Get Started",
+      "Main pages",
+      "Home",
+      "About Us",
+      "Projects",
+      "Blogs",
+      "Contact",
+      "CONTACT",
+      "hello@construa.com",
+      "+44 (0) 20 7946 0318",
+      "12 Aldgate Square, London, EC3N 1AB",
+      "Terms",
+      "Private Policy",
+      "Designed & Developed By Vinayak Thakur",
+      "Create a free website with Framer, the website builder loved by startups, designers and agencies."
+    ],
+    "style": {
+      "bodyBackground": "rgb(237, 237, 237)",
+      "fonts": [
+        "sans-serif",
+        "\"Chivo Mono\", monospace",
+        "\"IBM Plex Mono\", monospace",
+        "\"Overused Grotesk Medium\", \"Overused Grotesk Medium Placeholder\", sans-serif",
+        "Inter, \"Inter Placeholder\", sans-serif"
+      ]
+    },
+    "title": "Terms & Conditions - My Framer Site",
+    "videos": []
+  },
+  {
+    "id": "privacy",
+    "path": "/legal-policy/privacy-policy",
+    "bodyText": "LEGAL POLICY Privacy Policy Last updated Feb 18, 2026 1. Introduction Consultare (\"we,\" \"us,\" or \"our\") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your personal information when you visit our website or engage with our services. 2. Information We Collect We may collect the following types of information: Contact Information: Name, email address, phone number — when you fill out a contact form or schedule a call. Usage Data: IP address, browser type, pages visited, and time spent on our site (collected via analytics tools). Communications: Messages or inquiries you send us directly. 3. How We Use Your Information We use your information to: Respond to inquiries and schedule consultations Deliver and improve our consulting services Send relevant updates, newsletters, or follow-ups (with your consent) Analyze website traffic and improve user experience 4. Data Sharing We do not sell your personal information. We may share data with trusted third-party service providers (e.g., scheduling tools, email platforms) solely to operate our business. All third parties are required to handle your data securely. 5. Cookies Our website may use cookies to enhance your browsing experience and track analytics. You can disable cookies through your browser settings, though some features may not function properly. 6. Data Retention We retain your personal data only as long as necessary to fulfill the purposes outlined in this policy or as required by law. 7. Your Rights Depending on your location, you may have the right to: Access, correct, or delete your personal data Withdraw consent at any time Lodge a complaint with a data protection authority To exercise these rights, email us at: [your@email.com] 8. Data Security We implement industry-standard security measures to protect your information. However, no method of transmission over the internet is 100% secure. 9. Children's Privacy Our services are not directed to individuals under 18. We do not knowingly collect data from minors. 10. Updates to This Policy We may update this Privacy Policy periodically. We'll post the revised version on this page with an updated effective date. 11. Contact Us If you have any questions about this Privacy Policy, please reach out: 📧 [your@email.com] 📍 [Your Business Address]",
+    "directChildren": [
+      {
+        "classes": [
+          "framer-eta4pl"
+        ],
+        "tag": "div",
+        "text": "Legal PolicyPrivacy Policy"
+      },
+      {
+        "classes": [
+          "framer-hxmgud"
+        ],
+        "tag": "div",
+        "text": "Last updatedFeb 18, 20261. Introduction Consultare (\"we,\" \"us,\" or \"our\") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your personal information when you visit our website or engage with our"
+      }
+    ],
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Privacy Policy"
+      },
+      {
+        "tag": "h2",
+        "text": "Explore how Formed can bring your next development to life."
+      }
+    ],
+    "images": [
+      {
+        "alt": "Company logo in white",
+        "height": 19,
+        "src": "https://framerusercontent.com/images/7yGOh7DYr11HtXDswYhX77k.png?width=939&height=174",
+        "width": 105
+      },
+      {
+        "alt": "Banner",
+        "height": 1147,
+        "src": "https://framerusercontent.com/images/xil7I6l5QGBFKgYQWzIcUX9pH8.webp?width=1500&height=1195",
+        "width": 1440
+      },
+      {
+        "alt": "Company logo in white",
+        "height": 21,
+        "src": "https://framerusercontent.com/images/4DqGwUqDnx49TJFKP55aBWcrNA.png?scale-down-to=512&width=939&height=174",
+        "width": 118
+      }
+    ],
+    "listItems": [
+      "Contact Information: Name, email address, phone number — when you fill out a contact form or schedule a call.",
+      "Usage Data: IP address, browser type, pages visited, and time spent on our site (collected via analytics tools).",
+      "Communications: Messages or inquiries you send us directly.",
+      "Respond to inquiries and schedule consultations",
+      "Deliver and improve our consulting services",
+      "Send relevant updates, newsletters, or follow-ups (with your consent)",
+      "Analyze website traffic and improve user experience",
+      "Access, correct, or delete your personal data",
+      "Withdraw consent at any time",
+      "Lodge a complaint with a data protection authority"
+    ],
+    "pageSize": {
+      "height": 2903,
+      "width": 1425
+    },
+    "paragraphs": [
+      "About",
+      "Our Expertise",
+      "Projects",
+      "NewsRoom",
+      "Get Started",
+      "Get Started",
+      "Legal Policy",
+      "Last updated",
+      "Feb 18, 2026",
+      "1. Introduction Consultare (\"we,\" \"us,\" or \"our\") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your personal information when you visit our website or engage with our services.",
+      "2. Information We Collect We may collect the following types of information:",
+      "Contact Information: Name, email address, phone number — when you fill out a contact form or schedule a call.",
+      "Usage Data: IP address, browser type, pages visited, and time spent on our site (collected via analytics tools).",
+      "Communications: Messages or inquiries you send us directly.",
+      "3. How We Use Your Information We use your information to:",
+      "Respond to inquiries and schedule consultations",
+      "Deliver and improve our consulting services",
+      "Send relevant updates, newsletters, or follow-ups (with your consent)",
+      "Analyze website traffic and improve user experience",
+      "4. Data Sharing We do not sell your personal information. We may share data with trusted third-party service providers (e.g., scheduling tools, email platforms) solely to operate our business. All third parties are required to handle your data securely.",
+      "5. Cookies Our website may use cookies to enhance your browsing experience and track analytics. You can disable cookies through your browser settings, though some features may not function properly.",
+      "6. Data Retention We retain your personal data only as long as necessary to fulfill the purposes outlined in this policy or as required by law.",
+      "7. Your Rights Depending on your location, you may have the right to:",
+      "Access, correct, or delete your personal data",
+      "Withdraw consent at any time",
+      "Lodge a complaint with a data protection authority",
+      "To exercise these rights, email us at: [your@email.com]",
+      "8. Data Security We implement industry-standard security measures to protect your information. However, no method of transmission over the internet is 100% secure.",
+      "9. Children's Privacy Our services are not directed to individuals under 18. We do not knowingly collect data from minors.",
+      "10. Updates to This Policy We may update this Privacy Policy periodically. We'll post the revised version on this page with an updated effective date.",
+      "11. Contact Us If you have any questions about this Privacy Policy, please reach out: 📧 [your@email.com] 📍 [Your Business Address]",
+      "Get Started",
+      "Get Started",
+      "Partner with us to turn strategic ambition into measurable business results.",
+      "Get Started",
+      "Get Started",
+      "Main pages",
+      "Home",
+      "About Us",
+      "Projects",
+      "Blogs",
+      "Contact",
+      "CONTACT",
+      "hello@construa.com",
+      "+44 (0) 20 7946 0318",
+      "12 Aldgate Square, London, EC3N 1AB",
+      "Terms",
+      "Private Policy",
+      "Designed & Developed By Vinayak Thakur",
+      "Create a free website with Framer, the website builder loved by startups, designers and agencies."
+    ],
+    "style": {
+      "bodyBackground": "rgb(237, 237, 237)",
+      "fonts": [
+        "sans-serif",
+        "\"Chivo Mono\", monospace",
+        "\"IBM Plex Mono\", monospace",
+        "\"Overused Grotesk Medium\", \"Overused Grotesk Medium Placeholder\", sans-serif",
+        "Inter, \"Inter Placeholder\", sans-serif"
+      ]
+    },
+    "title": "Privacy Policy - My Framer Site",
+    "videos": []
+  }
+]

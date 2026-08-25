@@ -1,0 +1,424 @@
+[
+  {
+    "id": "about",
+    "path": "/about",
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Generations of building, one standard of excellence"
+      },
+      {
+        "tag": "h2",
+        "text": "Mission & Vision."
+      },
+      {
+        "tag": "h3",
+        "text": "Our Mission"
+      },
+      {
+        "tag": "h3",
+        "text": "Our Vision"
+      },
+      {
+        "tag": "h2",
+        "text": "A Note from Our Director"
+      },
+      {
+        "tag": "h2",
+        "text": "Our values What drives our mission"
+      },
+      {
+        "tag": "h2",
+        "text": "The people behind every project"
+      },
+      {
+        "tag": "h2",
+        "text": "Ready to build something that lasts?"
+      },
+      {
+        "tag": "h3",
+        "text": "Let's talk about your goals"
+      },
+      {
+        "tag": "h2",
+        "text": "Explore how Formed can bring your next development to life."
+      },
+      {
+        "tag": "h3",
+        "text": "Partner with us to turn strategic ambition into measurable business results."
+      }
+    ],
+    "viewport": {
+      "clientWidth": 375,
+      "height": 11036,
+      "innerHeight": 844,
+      "innerWidth": 390,
+      "scrollWidth": 375
+    }
+  },
+  {
+    "id": "projects",
+    "path": "/projects",
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Built with precision. Delivered with confidence."
+      },
+      {
+        "tag": "h2",
+        "text": "Explore how Formed can bring your next development to life."
+      },
+      {
+        "tag": "h3",
+        "text": "Partner with us to turn strategic ambition into measurable business results."
+      }
+    ],
+    "viewport": {
+      "clientWidth": 375,
+      "height": 3129,
+      "innerHeight": 844,
+      "innerWidth": 390,
+      "scrollWidth": 375
+    }
+  },
+  {
+    "id": "project-grand-horizon",
+    "path": "/projects/loss-making-division-turnaround",
+    "headings": [
+      {
+        "tag": "h2",
+        "text": "Grand Horizon Hotel & Suites"
+      },
+      {
+        "tag": "h2",
+        "text": "You also might like"
+      },
+      {
+        "tag": "h2",
+        "text": "Explore how Construa can bring your next development to life."
+      },
+      {
+        "tag": "h3",
+        "text": "Partner with us to turn strategic ambition into measurable business results."
+      }
+    ],
+    "viewport": {
+      "clientWidth": 375,
+      "height": 7076,
+      "innerHeight": 844,
+      "innerWidth": 390,
+      "scrollWidth": 375
+    }
+  },
+  {
+    "id": "project-tech-park",
+    "path": "/projects/manufacturing-efficiency-turnaround",
+    "headings": [
+      {
+        "tag": "h2",
+        "text": "Vertex Tech Park"
+      },
+      {
+        "tag": "h2",
+        "text": "You also might like"
+      },
+      {
+        "tag": "h2",
+        "text": "Explore how Construa can bring your next development to life."
+      },
+      {
+        "tag": "h3",
+        "text": "Partner with us to turn strategic ambition into measurable business results."
+      }
+    ],
+    "viewport": {
+      "clientWidth": 375,
+      "height": 6740,
+      "innerHeight": 844,
+      "innerWidth": 390,
+      "scrollWidth": 375
+    }
+  },
+  {
+    "id": "project-urban-nest",
+    "path": "/projects/saas-founder-doubled-revenue",
+    "headings": [
+      {
+        "tag": "h2",
+        "text": "Urban Nest Student Living"
+      },
+      {
+        "tag": "h2",
+        "text": "You also might like"
+      },
+      {
+        "tag": "h2",
+        "text": "Explore how Construa can bring your next development to life."
+      },
+      {
+        "tag": "h3",
+        "text": "Partner with us to turn strategic ambition into measurable business results."
+      }
+    ],
+    "viewport": {
+      "clientWidth": 375,
+      "height": 7643,
+      "innerHeight": 844,
+      "innerWidth": 390,
+      "scrollWidth": 375
+    }
+  },
+  {
+    "id": "project-city-admin",
+    "path": "/projects/retail-expansion-decision-speed",
+    "headings": [
+      {
+        "tag": "h2",
+        "text": "City Administrative Complex"
+      },
+      {
+        "tag": "h2",
+        "text": "You also might like"
+      },
+      {
+        "tag": "h2",
+        "text": "Explore how Construa can bring your next development to life."
+      },
+      {
+        "tag": "h3",
+        "text": "Partner with us to turn strategic ambition into measurable business results."
+      }
+    ],
+    "viewport": {
+      "clientWidth": 375,
+      "height": 7194,
+      "innerHeight": 844,
+      "innerWidth": 390,
+      "scrollWidth": 375
+    }
+  },
+  {
+    "id": "blogs",
+    "path": "/blogs",
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Built on Knowledge. Backed by Experience."
+      },
+      {
+        "tag": "h2",
+        "text": "Explore how Formed can bring your next development to life."
+      },
+      {
+        "tag": "h3",
+        "text": "Partner with us to turn strategic ambition into measurable business results."
+      }
+    ],
+    "viewport": {
+      "clientWidth": 375,
+      "height": 3248,
+      "innerHeight": 844,
+      "innerWidth": 390,
+      "scrollWidth": 375
+    }
+  },
+  {
+    "id": "blog-safety",
+    "path": "/blogs/why-strategies-fail-before-execution",
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Top 10 Construction Site Safety Practices Every Worker Must Know"
+      },
+      {
+        "tag": "h2",
+        "text": "You also might like"
+      },
+      {
+        "tag": "h2",
+        "text": "Explore how Formed can bring your next development to life."
+      },
+      {
+        "tag": "h3",
+        "text": "Partner with us to turn strategic ambition into measurable business results."
+      }
+    ],
+    "viewport": {
+      "clientWidth": 375,
+      "height": 5019,
+      "innerHeight": 844,
+      "innerWidth": 390,
+      "scrollWidth": 375
+    }
+  },
+  {
+    "id": "blog-materials",
+    "path": "/blogs/hidden-cost-of-slow-decisions",
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Concrete vs. Steel vs. Timber — Choosing the Right Building Material"
+      },
+      {
+        "tag": "h2",
+        "text": "You also might like"
+      },
+      {
+        "tag": "h2",
+        "text": "Explore how Formed can bring your next development to life."
+      },
+      {
+        "tag": "h3",
+        "text": "Partner with us to turn strategic ambition into measurable business results."
+      }
+    ],
+    "viewport": {
+      "clientWidth": 375,
+      "height": 4999,
+      "innerHeight": 844,
+      "innerWidth": 390,
+      "scrollWidth": 375
+    }
+  },
+  {
+    "id": "blog-bim",
+    "path": "/blogs/what-founders-get-wrong-about-scaling",
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "How BIM is Revolutionizing Modern Construction Projects"
+      },
+      {
+        "tag": "h2",
+        "text": "You also might like"
+      },
+      {
+        "tag": "h2",
+        "text": "Explore how Formed can bring your next development to life."
+      },
+      {
+        "tag": "h3",
+        "text": "Partner with us to turn strategic ambition into measurable business results."
+      }
+    ],
+    "viewport": {
+      "clientWidth": 375,
+      "height": 5175,
+      "innerHeight": 844,
+      "innerWidth": 390,
+      "scrollWidth": 375
+    }
+  },
+  {
+    "id": "blog-renovation",
+    "path": "/blogs/is-your-business-ready-for-digital-transformation",
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "How to Plan a Home Renovation Without Going Over Budget"
+      },
+      {
+        "tag": "h2",
+        "text": "You also might like"
+      },
+      {
+        "tag": "h2",
+        "text": "Explore how Formed can bring your next development to life."
+      },
+      {
+        "tag": "h3",
+        "text": "Partner with us to turn strategic ambition into measurable business results."
+      }
+    ],
+    "viewport": {
+      "clientWidth": 375,
+      "height": 5280,
+      "innerHeight": 844,
+      "innerWidth": 390,
+      "scrollWidth": 375
+    }
+  },
+  {
+    "id": "contact",
+    "path": "/contact",
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Ready to build something?"
+      },
+      {
+        "tag": "h2",
+        "text": "North America"
+      },
+      {
+        "tag": "h2",
+        "text": "You have questions. We have answers."
+      },
+      {
+        "tag": "h2",
+        "text": "Explore how Formed can bring your next development to life."
+      },
+      {
+        "tag": "h3",
+        "text": "Partner with us to turn strategic ambition into measurable business results."
+      }
+    ],
+    "viewport": {
+      "clientWidth": 375,
+      "height": 4921,
+      "innerHeight": 844,
+      "innerWidth": 390,
+      "scrollWidth": 375
+    }
+  },
+  {
+    "id": "terms",
+    "path": "/legal-policy/legal-policy",
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Terms & Conditions"
+      },
+      {
+        "tag": "h2",
+        "text": "Explore how Formed can bring your next development to life."
+      },
+      {
+        "tag": "h3",
+        "text": "Partner with us to turn strategic ambition into measurable business results."
+      }
+    ],
+    "viewport": {
+      "clientWidth": 375,
+      "height": 3317,
+      "innerHeight": 844,
+      "innerWidth": 390,
+      "scrollWidth": 375
+    }
+  },
+  {
+    "id": "privacy",
+    "path": "/legal-policy/privacy-policy",
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Privacy Policy"
+      },
+      {
+        "tag": "h2",
+        "text": "Explore how Formed can bring your next development to life."
+      },
+      {
+        "tag": "h3",
+        "text": "Partner with us to turn strategic ambition into measurable business results."
+      }
+    ],
+    "viewport": {
+      "clientWidth": 375,
+      "height": 3455,
+      "innerHeight": 844,
+      "innerWidth": 390,
+      "scrollWidth": 375
+    }
+  }
+]
