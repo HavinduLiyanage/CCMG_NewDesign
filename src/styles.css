@@ -73,6 +73,8 @@ html {
   position: relative;
   background: var(--concrete);
   scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 body {
@@ -266,7 +268,7 @@ textarea:focus-visible {
 
 @media (max-width: 809.98px) {
   :root {
-    --edge: 20px;
+    --edge: max(20px, env(safe-area-inset-left));
     --section-pad: 64px;
   }
 

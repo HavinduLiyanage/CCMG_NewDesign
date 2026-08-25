@@ -166,7 +166,7 @@
 
 @media (max-width: 809.98px) {
   .contact {
-    min-height: 1340px;
+    min-height: 0;
     padding: 64px 0;
   }
 
@@ -184,7 +184,7 @@
   }
 
   .contact__form {
-    min-height: 790px;
+    min-height: 0;
     padding: 20px;
   }
 
@@ -195,6 +195,18 @@
 
   .contact__wide {
     grid-column: auto;
+  }
+
+  .contact input,
+  .contact select,
+  .contact textarea {
+    font-size: 16px;
+  }
+
+  .contact input,
+  .contact select,
+  .contact__submit {
+    min-height: 46px;
   }
 }
 

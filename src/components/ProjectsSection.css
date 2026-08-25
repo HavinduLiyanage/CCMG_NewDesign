@@ -258,6 +258,7 @@
     overflow-y: hidden;
     overscroll-behavior-inline: contain;
     scroll-snap-type: inline proximity;
+    scroll-padding-inline: 20px;
     scrollbar-width: none;
     touch-action: pan-x;
     -webkit-overflow-scrolling: touch;
@@ -280,8 +281,8 @@
   }
 
   .projects-section__card {
-    flex-basis: 360px;
-    width: 360px;
+    flex-basis: min(360px, calc(100vw - 56px));
+    width: min(360px, calc(100vw - 56px));
     height: 314px;
     scroll-snap-align: start;
   }

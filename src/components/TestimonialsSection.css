@@ -121,16 +121,28 @@
 
   .testimonials__viewport {
     margin-top: 40px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    overscroll-behavior-inline: contain;
+    scroll-snap-type: inline proximity;
+    scroll-padding-inline: 20px;
+    scrollbar-width: none;
+    touch-action: pan-x;
+    -webkit-overflow-scrolling: touch;
   }
+
+  .testimonials__viewport::-webkit-scrollbar { display: none; }
 
   .testimonials__rail {
     padding-inline: 20px;
+    animation: none;
   }
 
   .testimonials__card {
-    width: 330px;
+    width: min(330px, calc(100vw - 56px));
     height: 420px;
     padding: 24px 20px;
+    scroll-snap-align: start;
   }
 
   .testimonials__card > p {
