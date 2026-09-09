@@ -1,89 +1,13 @@
 import { motion, useReducedMotion } from "motion/react";
+import type { CmsService } from "../data/cmsContent";
 import "./ServicesSection.css";
-
-type Service = {
-  title: string;
-  description: string;
-  tags: readonly string[];
-  image: string;
-};
-
-const SERVICES = [
-  {
-    title: "Strategic Local Partnerships & Representation",
-    description:
-      "Local expert resourcing, facilitation, and single-point coordination for international consultants and EPC contractors from bidding through execution.",
-    tags: [
-      "Bid & execution support",
-      "Local expert resourcing",
-      "Authority liaison",
-      "Mobilisation planning",
-    ],
-    image: "/assets/YCHJGgkRB7sMQLRvuj4cAnDgI.png",
-  },
-  {
-    title: "PPP & Transaction Advisory",
-    description:
-      "End-to-end management of complex public-private partnerships, ensuring financial viability and regulatory compliance from inception to financial close.",
-    tags: [
-      "Feasibility & due diligence",
-      "Procurement strategy",
-      "Contract negotiation",
-      "Risk allocation",
-    ],
-    image: "/assets/bALzNKWF74Li4qPs3Fnux5hNyQ.jpg",
-  },
-  {
-    title: "Strategic Advisory",
-    description:
-      "Data-driven corporate strategy for high-growth markets, helping organizations enter, restructure, transform, and improve performance.",
-    tags: ["Market entry", "Operational restructuring", "Change management", "M&A integration"],
-    image: "/assets/JY6gnnC5szRzDaloNrjsKReabo.webp",
-  },
-  {
-    title: "Stakeholder Engagement",
-    description:
-      "Navigating complex political and social landscapes to align interests, mitigate risk, and secure the social licence to operate.",
-    tags: [
-      "Community engagement",
-      "Government relations",
-      "Crisis communications",
-      "Policy advocacy",
-    ],
-    image: "/assets/eoKG5OCrfjIcZFq8Ajo0MwUVJ6c.jpeg",
-  },
-  {
-    title: "ESG & Sustainability",
-    description:
-      "Moving beyond compliance to integrate sustainability into core business logic, creating long-term environmental, social, and commercial value.",
-    tags: [
-      "Carbon footprinting",
-      "Social impact assessment",
-      "Governance reviews",
-      "Supply chain audit",
-    ],
-    image: "/assets/ccmg/us-embassy-gallery-1.jpg",
-  },
-  {
-    title: "Government, Regulatory & Engineering Support",
-    description:
-      "Approvals pathways, compliance tracking, institutional coordination, design interface, construction-supervision support, and ESHS alignment.",
-    tags: [
-      "Permits & approvals",
-      "Utility coordination",
-      "Construction supervision",
-      "ESHS management",
-    ],
-    image: "/assets/ccmg/corporate-advisory.png",
-  },
-] satisfies readonly Service[];
 
 function ServiceCard({
   service,
   index,
   reduceMotion,
 }: {
-  service: Service;
+  service: CmsService;
   index: number;
   reduceMotion: boolean;
 }) {
@@ -129,7 +53,7 @@ function ServiceCard({
   );
 }
 
-export function ServicesSection() {
+export function ServicesSection({ services }: { services: CmsService[] }) {
   const shouldReduceMotion = useReducedMotion();
 
   return (
@@ -147,7 +71,7 @@ export function ServicesSection() {
         </header>
 
         <div className="services-section__stack" role="list">
-          {SERVICES.map((service, index) => (
+          {services.map((service, index) => (
             <ServiceCard
               key={service.title}
               service={service}

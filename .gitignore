@@ -1,4 +1,6 @@
 node_modules/
+.npm-cache/
+.next/
 dist/
 .vite/
 *.tsbuildinfo
@@ -8,3 +10,5 @@ dist/
 work/
 tmp/
 outputs/
+cms/media/
+tmp-*.png

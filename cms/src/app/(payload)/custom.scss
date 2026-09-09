@@ -1,0 +1,648 @@
+@font-face {
+  font-family: "Overused Grotesk";
+  src: url("/fonts/DjMEst73Ra4nflzGVQyp6WuD1bU.woff2") format("woff2");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2") format("woff2");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/UjlFhCnUjxhNfep4oYBPqnEssyo.woff2") format("woff2");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 500 800;
+}
+
+@font-face {
+  font-family: "Chivo Mono";
+  src: url("/fonts/mFThWbgRxKvF_Z5eQMO9qRMrJJrnKNtC3D7hr6fQKphL03l4.woff2") format("woff2");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Chivo Mono";
+  src: url("/fonts/mFThWbgRxKvF_Z5eQMO9qRMrJJrnKNtC3D4GqKfQKphL03l4.woff2") format("woff2");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 700;
+}
+
+:root {
+  --ccmg-blue: #0d9de7;
+  --ccmg-blue-deep: #0877b1;
+  --ccmg-ink: #161512;
+  --ccmg-paper: #f5f5f5;
+  --ccmg-concrete: #ededed;
+  --ccmg-white: #ffffff;
+  --font-body: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-mono: "Chivo Mono", monospace;
+  --font-serif: "Overused Grotesk", sans-serif;
+  --theme-bg: var(--ccmg-paper);
+  --theme-input-bg: var(--ccmg-white);
+  --theme-text: var(--ccmg-ink);
+  --theme-border-color: #d9d9d5;
+  --theme-elevation-0: #ffffff;
+  --theme-elevation-50: #f5f5f5;
+  --theme-elevation-100: #ededed;
+  --theme-elevation-150: #deded9;
+  --theme-elevation-200: #c7c7c0;
+  --theme-elevation-300: #999994;
+  --theme-elevation-400: #696964;
+  --theme-elevation-500: #4d4d48;
+  --theme-elevation-600: #373734;
+  --theme-elevation-700: #262624;
+  --theme-elevation-800: #1c1c1a;
+  --theme-elevation-900: #161512;
+  --theme-elevation-1000: #000000;
+  --theme-success-500: var(--ccmg-blue-deep);
+  --theme-success-600: #056796;
+  --style-radius-s: 2px;
+  --style-radius-m: 5px;
+  --style-radius-l: 8px;
+  --nav-width: 292px;
+}
+
+html[data-theme="dark"] {
+  --theme-bg: #161512;
+  --theme-input-bg: #20201d;
+  --theme-text: #f5f5f2;
+  --theme-border-color: #484843;
+  --theme-elevation-0: #161512;
+  --theme-elevation-50: #1d1d1a;
+  --theme-elevation-100: #242420;
+  --theme-elevation-150: #31312d;
+  --theme-elevation-200: #484843;
+  --theme-elevation-300: #666660;
+  --theme-elevation-400: #92928a;
+  --theme-elevation-500: #afafa8;
+  --theme-elevation-600: #ccccC4;
+  --theme-elevation-700: #dcdcd4;
+  --theme-elevation-800: #eeeeE8;
+  --theme-elevation-900: #f5f5f2;
+  --theme-elevation-1000: #ffffff;
+}
+
+html,
+body {
+  background: var(--ccmg-paper);
+}
+
+body {
+  letter-spacing: -0.012em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Overused Grotesk", var(--font-body);
+  font-weight: 500;
+  letter-spacing: -0.055em;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: var(--font-body);
+}
+
+/* Navigation — a compact dark editorial rail, mirroring the public site's contrast. */
+.nav {
+  background: var(--ccmg-ink);
+  border-right: 1px solid rgb(255 255 255 / 12%);
+  color: rgb(255 255 255 / 78%);
+}
+
+.nav::before {
+  background-image: linear-gradient(rgb(255 255 255 / 3%) 1px, transparent 1px), linear-gradient(90deg, rgb(255 255 255 / 3%) 1px, transparent 1px);
+  background-size: 20px 20px;
+  content: "";
+  inset: 0;
+  opacity: 0.45;
+  pointer-events: none;
+  position: absolute;
+}
+
+.nav > * {
+  position: relative;
+}
+
+.nav a,
+.nav button {
+  color: inherit;
+}
+
+.nav a:hover,
+.nav a:focus-visible,
+.nav button:hover,
+.nav button:focus-visible {
+  color: var(--ccmg-white);
+}
+
+.nav .nav-group__toggle {
+  color: rgb(255 255 255 / 44%);
+  font-family: var(--font-mono);
+  font-size: 0.64rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.nav .nav-group__toggle:hover,
+.nav .nav-group__toggle:focus-visible {
+  color: var(--ccmg-white);
+}
+
+.nav .nav-group__toggle svg .stroke {
+  stroke: var(--ccmg-blue);
+}
+
+.ccmg-admin-logo {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 0.48rem;
+  max-width: 160px;
+}
+
+.ccmg-admin-logo img {
+  height: auto;
+  max-width: 132px;
+  width: 132px;
+}
+
+.ccmg-admin-logo span {
+  color: rgb(255 255 255 / 46%);
+  font-family: var(--font-mono);
+  font-size: 0.54rem;
+  font-weight: 700;
+  letter-spacing: 0.13em;
+  line-height: 1;
+}
+
+.ccmg-admin-icon {
+  color: var(--ccmg-blue);
+  height: 29px;
+  width: 29px;
+}
+
+.ccmg-navigation-footer {
+  margin-top: auto;
+  padding-top: 1.25rem;
+}
+
+.ccmg-navigation-footer__line {
+  background: rgb(255 255 255 / 16%);
+  height: 1px;
+  margin-bottom: 0.95rem;
+  width: 100%;
+}
+
+.ccmg-navigation-footer p {
+  align-items: baseline;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.ccmg-navigation-footer span {
+  color: var(--ccmg-white);
+  font-family: "Overused Grotesk", sans-serif;
+  font-size: 1.08rem;
+  letter-spacing: -0.06em;
+}
+
+.ccmg-navigation-footer small,
+.ccmg-navigation-footer em {
+  color: rgb(255 255 255 / 38%);
+  font-family: var(--font-mono);
+  font-size: 0.52rem;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+.ccmg-navigation-footer em {
+  color: rgb(255 255 255 / 48%);
+  display: block;
+  margin-top: 0.55rem;
+}
+
+/* Header, lists, fields, and controls. */
+.app-header {
+  background: var(--ccmg-paper);
+  border-bottom: 1px solid #dfdfda;
+}
+
+.app-header__content {
+  padding-inline: clamp(1.25rem, 2.8vw, 3rem);
+}
+
+.app-header .step-nav__home,
+.app-header .step-nav__home a {
+  color: var(--ccmg-blue-deep);
+}
+
+.btn,
+.btn--style-primary,
+.btn--style-secondary,
+.btn--style-pill {
+  border-radius: 3px;
+  font-family: var(--font-mono);
+  font-size: 0.67rem;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+.btn--style-primary {
+  background: var(--ccmg-ink);
+  border-color: var(--ccmg-ink);
+  color: var(--ccmg-white);
+}
+
+.btn--style-primary:hover,
+.btn--style-primary:focus-visible {
+  background: var(--ccmg-blue-deep);
+  border-color: var(--ccmg-blue-deep);
+}
+
+.btn--style-secondary {
+  background: var(--ccmg-white);
+  border-color: var(--ccmg-ink);
+  color: var(--ccmg-ink);
+}
+
+.btn--style-secondary:hover,
+.btn--style-secondary:focus-visible {
+  border-color: var(--ccmg-blue-deep);
+  color: var(--ccmg-blue-deep);
+}
+
+.field-type input,
+.field-type textarea,
+.rs__control,
+.react-select__control {
+  border-radius: 3px !important;
+  box-shadow: none !important;
+}
+
+.field-type input:focus,
+.field-type textarea:focus,
+.rs__control--is-focused,
+.react-select__control--is-focused {
+  border-color: var(--ccmg-blue) !important;
+  box-shadow: 0 0 0 2px rgb(13 157 231 / 15%) !important;
+}
+
+.field-label,
+.field-type .label,
+.collection-list .table thead th,
+.list-controls__label {
+  font-family: var(--font-mono);
+  font-size: 0.63rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.collection-list,
+.collection-edit,
+.global-edit,
+.dashboard {
+  background: var(--ccmg-paper);
+}
+
+.collection-edit__main,
+.collection-list__wrap,
+.global-edit__main {
+  max-width: 1440px;
+}
+
+.table,
+.table table,
+.simple-table,
+.simple-table__table {
+  background: var(--ccmg-white);
+}
+
+.table thead,
+.simple-table__thead {
+  background: #ecece7;
+}
+
+.table tr,
+.simple-table__tr {
+  border-color: #e1e1dc;
+}
+
+.table tbody tr:hover,
+.simple-table__tbody tr:hover {
+  background: #f5fbfe;
+}
+
+.card {
+  border-radius: 5px;
+  box-shadow: none;
+}
+
+/* Branded dashboard — direct, editorial and deliberately calm. */
+.ccmg-dashboard-introduction {
+  background: var(--ccmg-ink);
+  color: var(--ccmg-white);
+  display: grid;
+  gap: clamp(1.5rem, 3vw, 3.5rem);
+  grid-template-columns: minmax(0, 1.5fr) minmax(126px, 0.34fr) minmax(280px, 0.72fr);
+  margin-bottom: clamp(1.5rem, 3vw, 3rem);
+  overflow: hidden;
+  padding: clamp(1.65rem, 3.5vw, 3.25rem);
+  position: relative;
+}
+
+.ccmg-dashboard-introduction::before {
+  background-image: linear-gradient(rgb(255 255 255 / 7%) 1px, transparent 1px), linear-gradient(90deg, rgb(255 255 255 / 7%) 1px, transparent 1px);
+  background-size: 24px 24px;
+  content: "";
+  inset: 0;
+  mask-image: linear-gradient(90deg, #000 0%, rgb(0 0 0 / 50%) 48%, transparent 100%);
+  pointer-events: none;
+  position: absolute;
+}
+
+.ccmg-dashboard-introduction > * {
+  position: relative;
+}
+
+.ccmg-eyebrow {
+  align-items: center;
+  color: rgb(255 255 255 / 60%);
+  display: flex;
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  font-weight: 700;
+  gap: 0.5rem;
+  letter-spacing: 0.1em;
+  margin: 0 0 1.1rem;
+}
+
+.ccmg-eyebrow span {
+  background: var(--ccmg-blue);
+  border-radius: 50%;
+  height: 0.36rem;
+  width: 0.36rem;
+}
+
+.ccmg-dashboard-introduction h1 {
+  font-size: clamp(2.35rem, 4vw, 4.4rem);
+  line-height: 0.93;
+  margin: 0;
+  max-width: 11ch;
+}
+
+.ccmg-dashboard-introduction__lede {
+  color: rgb(255 255 255 / 68%);
+  font-size: clamp(0.9rem, 1.2vw, 1.03rem);
+  line-height: 1.55;
+  margin: 1.3rem 0 0;
+  max-width: 53ch;
+}
+
+.ccmg-dashboard-introduction__signal {
+  align-items: center;
+  border-inline: 1px solid rgb(255 255 255 / 14%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100%;
+  text-align: center;
+}
+
+.ccmg-dashboard-introduction__signal span {
+  color: rgb(255 255 255 / 44%);
+  font-family: var(--font-mono);
+  font-size: 0.55rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+}
+
+.ccmg-dashboard-introduction__signal strong {
+  color: var(--ccmg-blue);
+  font-family: "Overused Grotesk", sans-serif;
+  font-size: clamp(3rem, 5vw, 5.8rem);
+  font-weight: 500;
+  letter-spacing: -0.08em;
+  line-height: 0.85;
+  margin: 0.7rem 0;
+}
+
+.ccmg-dashboard-introduction__shortcuts {
+  align-self: center;
+  border-top: 1px solid rgb(255 255 255 / 14%);
+}
+
+.ccmg-dashboard-introduction__shortcuts a {
+  align-items: center;
+  border-bottom: 1px solid rgb(255 255 255 / 14%);
+  color: var(--ccmg-white);
+  display: grid;
+  gap: 0.9rem;
+  grid-template-columns: 1.8rem 1fr 1rem;
+  padding: 0.83rem 0;
+  text-decoration: none;
+  transition: color 160ms ease, padding-left 160ms ease;
+}
+
+.ccmg-dashboard-introduction__shortcuts a:hover,
+.ccmg-dashboard-introduction__shortcuts a:focus-visible {
+  color: var(--ccmg-blue);
+  padding-left: 0.4rem;
+}
+
+.ccmg-dashboard-introduction__shortcut-index,
+.ccmg-dashboard-introduction__shortcuts small {
+  color: rgb(255 255 255 / 46%);
+  font-family: var(--font-mono);
+  font-size: 0.57rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.ccmg-dashboard-introduction__shortcuts strong {
+  display: block;
+  font-family: "Overused Grotesk", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+  letter-spacing: -0.04em;
+}
+
+.ccmg-dashboard-introduction__shortcuts small {
+  display: block;
+  line-height: 1.4;
+  margin-top: 0.1rem;
+}
+
+.ccmg-dashboard-introduction__shortcuts b {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+/* Login gets the same quiet, high-contrast welcome, while keeping Payload's security flow intact. */
+.login {
+  /* Keep sign-in calm and legible even if the editor has chosen Payload's dark mode. */
+  background: var(--ccmg-paper);
+  color: var(--ccmg-ink);
+  --theme-bg: var(--ccmg-paper);
+  --theme-input-bg: var(--ccmg-white);
+  --theme-text: var(--ccmg-ink);
+  --theme-border-color: #d9d9d5;
+  --theme-elevation-0: #ffffff;
+  --theme-elevation-50: #f5f5f5;
+  --theme-elevation-100: #ededed;
+  --theme-elevation-150: #deded9;
+  --theme-elevation-200: #c7c7c0;
+  --theme-elevation-300: #999994;
+  --theme-elevation-400: #696964;
+  --theme-elevation-500: #4d4d48;
+  --theme-elevation-600: #373734;
+  --theme-elevation-700: #262624;
+  --theme-elevation-800: #1c1c1a;
+  --theme-elevation-900: #161512;
+  --theme-elevation-1000: #000000;
+}
+
+.login::before {
+  display: none;
+}
+
+.login .ccmg-admin-logo {
+  margin-bottom: 1.8rem;
+}
+
+.login .ccmg-admin-logo span {
+  color: rgb(22 21 18 / 52%);
+}
+
+.login .field-label,
+.login .field-type .label,
+.login .login__form > a {
+  color: var(--ccmg-ink);
+}
+
+.login .field-type input {
+  background: var(--ccmg-white);
+  border-color: #d1d1cb;
+  color: var(--ccmg-ink);
+}
+
+.login .field-type input::placeholder {
+  color: #777772;
+}
+
+.ccmg-login-introduction {
+  background: var(--ccmg-ink);
+  color: var(--ccmg-white);
+  margin: -1.5rem -1.5rem 1.65rem;
+  padding: 1.5rem;
+  position: relative;
+}
+
+.ccmg-login-introduction::after {
+  border: 1px solid rgb(13 157 231 / 55%);
+  border-radius: 50%;
+  content: "";
+  height: 94px;
+  position: absolute;
+  right: -32px;
+  top: -32px;
+  width: 94px;
+}
+
+.ccmg-login-introduction h1 {
+  font-size: clamp(2.1rem, 3vw, 3.1rem);
+  line-height: 0.93;
+  margin: 0;
+  max-width: 10ch;
+}
+
+.ccmg-login-introduction > p:last-child {
+  color: rgb(255 255 255 / 66%);
+  font-size: 0.86rem;
+  line-height: 1.5;
+  margin: 1.1rem 0 0;
+  max-width: 36ch;
+}
+
+.ccmg-login-introduction .ccmg-eyebrow {
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 1100px) {
+  .ccmg-dashboard-introduction {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .ccmg-dashboard-introduction__signal {
+    align-items: flex-start;
+    border-inline: 0;
+    border-top: 1px solid rgb(255 255 255 / 14%);
+    flex-direction: row;
+    gap: 1rem;
+    grid-column: 1 / -1;
+    justify-content: flex-start;
+    padding-top: 1rem;
+  }
+
+  .ccmg-dashboard-introduction__signal strong {
+    font-size: 2.4rem;
+    margin: 0;
+  }
+
+  .ccmg-dashboard-introduction__signal span {
+    align-self: center;
+  }
+}
+
+@media (max-width: 760px) {
+  :root {
+    --nav-width: 100vw;
+  }
+
+  .app-header__content {
+    padding-inline: 1rem;
+  }
+
+  .ccmg-dashboard-introduction {
+    grid-template-columns: 1fr;
+    margin-inline: -0.25rem;
+  }
+
+  .ccmg-dashboard-introduction__signal {
+    grid-column: auto;
+  }
+
+  .ccmg-dashboard-introduction__shortcuts {
+    width: 100%;
+  }
+
+  .login::before {
+    display: none;
+  }
+
+  .ccmg-login-introduction {
+    margin-inline: -1rem;
+  }
+}

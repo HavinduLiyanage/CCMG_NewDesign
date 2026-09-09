@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import type { CSSProperties } from "react";
+import type { CmsHero } from "../data/cmsContent";
 import { ArrowIcon } from "./icons";
 import "./HeroHeader.css";
 
@@ -10,12 +11,7 @@ const navigation = [
   { label: "Insights", href: "/blogs" },
 ] as const;
 
-const titleLines = [
-  "Navigating complexity.",
-  "Delivering impact.",
-] as const;
-
-export function HeroHeader() {
+export function HeroHeader({ hero }: { hero: CmsHero }) {
   const heroRef = useRef<HTMLElement>(null);
   const videoRef = useRef<HTMLVideoElement>(null);
   const [menuOpen, setMenuOpen] = useState(false);
@@ -106,6 +102,7 @@ export function HeroHeader() {
   }, [menuOpen]);
 
   let wordIndex = 0;
+  const titleLines = hero.title.split(/\n+/).filter(Boolean);
 
   return (
     <header ref={heroRef} className="heroHeader" id="top" aria-labelledby="hero-heading">
@@ -203,16 +200,16 @@ export function HeroHeader() {
         </h1>
 
         <p className="heroHeader__copy">
-          We bridge public ambition and private capital, structuring and delivering critical infrastructure mandates across Sri Lanka and the region.
+          {hero.summary}
         </p>
 
         <div className="heroHeader__actions">
-          <a className="heroHeader__action heroHeader__action--primary" href="/contact">
-            <span>Our Expertise</span>
+          <a className="heroHeader__action heroHeader__action--primary" href={hero.primaryCtaHref}>
+            <span>{hero.primaryCtaLabel}</span>
             <ArrowIcon className="heroHeader__arrow" />
           </a>
-          <a className="heroHeader__action heroHeader__action--secondary" href="/#services">
-            Explore Services
+          <a className="heroHeader__action heroHeader__action--secondary" href={hero.secondaryCtaHref}>
+            {hero.secondaryCtaLabel}
           </a>
         </div>
       </div>

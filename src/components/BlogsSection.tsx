@@ -1,28 +1,9 @@
 import { motion, useReducedMotion } from "motion/react";
-import type { BlogPost } from "../types/content";
+import type { Article } from "../data/routeData";
 import { ArrowIcon } from "./icons";
 import "./BlogsSection.css";
 
-const posts = [
-  {
-    category: "Carbon Advisory",
-    title: "Carbon accounting that stands up to scrutiny",
-    excerpt:
-      "Auditable ESG strategy and GHG accounting for complex development projects, bridging ambition and verifiable action.",
-    image: "/assets/ccmg/insight-carbon-accounting.png",
-    href: "/blogs/carbon-credits-in-sri-lanka",
-  },
-  {
-    category: "ESG Reporting",
-    title: "Making Scope 1, 2, and 3 reporting actionable",
-    excerpt:
-      "Good ESG reporting turns emissions and impact data into a basis for decisions, disclosure, and continuous improvement.",
-    image: "/assets/ccmg/insight-esg-reporting.png",
-    href: "/blogs/scope-1-2-3-esg-reporting",
-  },
-] satisfies BlogPost[];
-
-function BlogCard({ post, index, reduceMotion }: { post: BlogPost; index: number; reduceMotion: boolean }) {
+function BlogCard({ post, index, reduceMotion }: { post: Article; index: number; reduceMotion: boolean }) {
   return (
     <motion.article
       className="blogs-section__article"
@@ -35,7 +16,7 @@ function BlogCard({ post, index, reduceMotion }: { post: BlogPost; index: number
         ease: [0.2, 0.8, 0.2, 1],
       }}
     >
-      <a className="blogs-section__card" href={post.href} aria-label={`Read: ${post.title}`}>
+      <a className="blogs-section__card" href={`/blogs/${post.slug}`} aria-label={`Read: ${post.title}`}>
         <span className="blogs-section__media">
           <img className="blogs-section__image" src={post.image} alt="" loading="lazy" decoding="async" />
           <span className="blogs-section__category">{post.category}</span>
@@ -55,7 +36,7 @@ function BlogCard({ post, index, reduceMotion }: { post: BlogPost; index: number
   );
 }
 
-export function BlogsSection() {
+export function BlogsSection({ articles }: { articles: Article[] }) {
   const reduceMotion = Boolean(useReducedMotion());
 
   return (
@@ -78,7 +59,7 @@ export function BlogsSection() {
         </motion.header>
 
         <div className="blogs-section__grid">
-          {posts.map((post, index) => (
+          {articles.map((post, index) => (
             <BlogCard key={post.title} post={post} index={index} reduceMotion={reduceMotion} />
           ))}
         </div>

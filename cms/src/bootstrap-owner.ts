@@ -1,3 +1,4 @@
+import "./env";
 import config from "@payload-config";
 import { getPayload } from "payload";
 

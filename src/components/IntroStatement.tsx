@@ -22,8 +22,10 @@ type RevealWordProps = {
 
 function RevealWord({ index, progress, reduceMotion, word }: RevealWordProps) {
   const lastIndex = INTRO_WORDS.length - 1;
-  const revealStart = (index / lastIndex) * 0.78;
-  const revealEnd = Math.min(revealStart + 0.1, 0.9);
+  // Complete the read before the paragraph has fully crossed the viewport,
+  // so the final line lands at full contrast instead of trailing in grey.
+  const revealStart = (index / lastIndex) * 0.58;
+  const revealEnd = Math.min(revealStart + 0.15, 0.74);
   const opacity = useTransform(progress, [revealStart, revealEnd], [0.2, 1]);
 
   return (

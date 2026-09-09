@@ -58,6 +58,15 @@
   line-height: 52px;
 }
 
+.closing-cta__summary {
+  width: min(560px, 100%);
+  margin: -30px 0 -20px;
+  color: rgb(255 255 255 / 78%);
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  line-height: 1.55;
+}
+
 .closing-cta__button {
   gap: 10px;
   background: var(--white);
@@ -85,5 +94,10 @@
 
   .closing-cta__content {
     gap: 36px;
+  }
+
+  .closing-cta__summary {
+    margin: -22px 0 -14px;
+    font-size: 14px;
   }
 }

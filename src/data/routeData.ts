@@ -53,13 +53,6 @@ export const projects: Project[] = [
     quote: "Global reach, local insight.", quoteBy: "Colombo Consultants & Management Group",
   },
   {
-    slug: "jet-a1-aviation-fuel-pipeline", title: "Jet A-1 Aviation Fuel Pipeline", category: "Energy & Utilities", location: "Muthurajawela to Bandaranaike International Airport, Sri Lanka",
-    image: `${ccmg}/corporate-advisory.png`, portrait: `${ccmg}/corporate-advisory.png`, gallery: [`${ccmg}/corporate-advisory.png`],
-    details: [{ label: "Status", value: "Bidding stage" }, { label: "Length", value: "Approximately 23 km" }, { label: "Client", value: "China State Construction Engineering Corporation" }, { label: "Role", value: "Exclusive local pre-bid advisor" }],
-    story: ["CCMG provided exclusive local pre-bid advisory for a high-sensitivity Jet A-1 pipeline corridor traversing dense urban areas, highways, wetlands, and the airport perimeter.", "The team mapped permit and ESHS risks, assembled local expertise, and coordinated clarifications to support a compliant and competitive submission."],
-    quote: "Practical local insight helps international teams identify risk early and bid with confidence.", quoteBy: "Colombo Consultants & Management Group",
-  },
-  {
     slug: "water-supply-sanitation-legal-reform", title: "Water Supply & Sanitation Legal and Institutional Reform", category: "Policy & Regulation", location: "Sri Lanka",
     image: `${ccmg}/corporate-advisory.png`, portrait: `${ccmg}/corporate-advisory.png`, gallery: [`${ccmg}/corporate-advisory.png`],
     details: [{ label: "Period", value: "2009–2010" }, { label: "Client", value: "ADB / National Water Supply & Drainage Board" }, { label: "Partner", value: "IDP Philippines" }, { label: "Role", value: "Legal and institutional advisory" }],

@@ -8,11 +8,11 @@ import FeatureTestimonial from "./components/FeatureTestimonial";
 import { ServicesSection } from "./components/ServicesSection";
 import { ProcessSection } from "./components/ProcessSection";
 import ResultsSection from "./components/ResultsSection";
-import TestimonialsSection from "./components/TestimonialsSection";
 import { BlogsSection } from "./components/BlogsSection";
 import ContactSection from "./components/ContactSection";
 import ClosingCta from "./components/ClosingCta";
 import Footer from "./components/Footer";
+import { CmsContentProvider, useCmsContent } from "./cms/CmsContentProvider";
 import {
   AboutPage,
   ArticlePage,
@@ -22,10 +22,10 @@ import {
   ProjectDetailPage,
   ProjectsPage,
 } from "./pages/RoutePages";
-import { articles, projects } from "./data/routeData";
 
-export default function App() {
+function AppRoutes() {
   const [path, setPath] = useState(() => window.location.pathname.replace(/\/+$/, "") || "/");
+  const cms = useCmsContent();
 
   useEffect(() => {
     const updatePath = () => setPath(window.location.pathname.replace(/\/+$/, "") || "/");
@@ -39,42 +39,47 @@ export default function App() {
 
   const projectSlug = path.startsWith("/projects/") ? path.slice("/projects/".length) : "";
   const articleSlug = path.startsWith("/blogs/") ? path.slice("/blogs/".length) : "";
-  const project = projects.find((item) => item.slug === projectSlug);
-  const article = articles.find((item) => item.slug === articleSlug);
+  const project = cms.projects.find((item) => item.slug === projectSlug);
+  const article = cms.articles.find((item) => item.slug === articleSlug);
+  const featuredProjects = cms.projects.filter((item) => item.featured).slice(0, 3);
 
   let content = (
     <>
-      <HeroHeader />
+      <HeroHeader hero={cms.home.hero} />
       <main id="main-content">
         <IntroStatement />
-        <ProjectsSection />
-        <PartnersSection />
+        <ProjectsSection projects={featuredProjects.length ? featuredProjects : cms.projects.slice(0, 3)} />
+        <PartnersSection partners={cms.partners} />
         <FeatureTestimonial />
-        <ServicesSection />
+        <ServicesSection services={cms.services} />
         <ProcessSection />
-        <ResultsSection />
-        <TestimonialsSection />
-        <BlogsSection />
+        <ResultsSection stats={cms.home.stats} />
+        <BlogsSection articles={cms.articles.slice(0, 2)} />
         <ContactSection />
-        <ClosingCta />
+        <ClosingCta {...cms.home.closingCta} />
       </main>
       <Footer />
     </>
   );
 
-  if (path === "/about") content = <AboutPage />;
-  if (path === "/projects") content = <ProjectsPage />;
-  if (project) content = <ProjectDetailPage project={project} />;
-  if (path === "/blogs") content = <BlogsPage />;
-  if (article) content = <ArticlePage article={article} />;
+  if (path === "/about") content = <AboutPage team={cms.team} />;
+  if (path === "/projects") content = <ProjectsPage projects={cms.projects} />;
+  if (project) content = <ProjectDetailPage project={project} projects={cms.projects} />;
+  if (path === "/blogs") content = <BlogsPage articles={cms.articles} />;
+  if (article) content = <ArticlePage article={article} articles={cms.articles} />;
   if (path === "/contact") content = <ContactPage />;
   if (path === "/legal-policy/legal-policy") content = <LegalPage />;
   if (path === "/legal-policy/privacy-policy") content = <LegalPage privacy />;
 
+  return <><a className="skip-link" href="#main-content">Skip to content</a><div id="main-content">{content}</div></>;
+}
+
+export default function App() {
   return (
     <MotionConfig reducedMotion="user">
-      <a className="skip-link" href="#main-content">Skip to content</a>
-      <div id="main-content">{content}</div>
+      <CmsContentProvider>
+        <AppRoutes />
+      </CmsContentProvider>
     </MotionConfig>
   );
 }

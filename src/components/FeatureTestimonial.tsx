@@ -8,8 +8,8 @@ export default function FeatureTestimonial() {
       <div className="feature-testimonial__card page-shell">
         <motion.img
           className="feature-testimonial__background"
-          src="/assets/ccmg/us-embassy.jpg"
-          alt="Institutional infrastructure in Colombo"
+          src="/assets/ccmg/feature-institutional-campus.png"
+          alt="Contemporary institutional infrastructure campus in Sri Lanka"
           initial={{ scale: 1.035 }}
           whileInView={{ scale: 1 }}
           viewport={{ once: true, amount: 0.2 }}

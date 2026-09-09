@@ -5,7 +5,8 @@ import ContactSection from "../components/ContactSection";
 import Footer from "../components/Footer";
 import { ArrowIcon } from "../components/icons";
 import SiteNav from "../components/SiteNav";
-import { articles, projects, team, type Article, type Project } from "../data/routeData";
+import type { CmsTeamMember } from "../data/cmsContent";
+import type { Article, Project } from "../data/routeData";
 import "./RoutePages.css";
 
 const reveal = {
@@ -56,7 +57,7 @@ function BlogCard({ article, compact = false }: { article: Article; compact?: bo
   );
 }
 
-export function AboutPage() {
+export function AboutPage({ team }: { team: CmsTeamMember[] }) {
   const timeline = [
     ["2006", "CCMG is founded in Sri Lanka as an advisory and transaction partner for complex public and private-sector mandates."],
     ["2009–2010", "Legal and institutional advisory supports stronger accountability and service quality in Sri Lanka’s water and sanitation sector."],
@@ -85,17 +86,6 @@ export function AboutPage() {
         </motion.div>
       </section>
 
-      <section className="about-director page-shell">
-        <motion.img {...reveal} src="/assets/ccmg/about-leadership-delivery.png" alt="Senior advisers coordinating the delivery of an urban infrastructure project" loading="lazy" />
-        <motion.div className="about-director__copy" {...reveal}>
-          <Kicker>Leadership</Kicker>
-          <h2>Strategy only matters when it can be executed.</h2>
-          <p>CCMG brings government, private-sector, and civil-society stakeholders to the same table, matching the right institutions and experts to the mandate.</p>
-          <p>We do not simply hand over a report. We stay close to implementation through approvals, utility coordination, contractor and authority interface, community engagement, and clear time, cost, quality, and ESHS controls.</p>
-          <strong>Mahendra Kumarasinghe <small>Chief Executive Officer</small></strong>
-        </motion.div>
-      </section>
-
       <section className="about-values">
         <div className="page-shell">
         <motion.div className="about-values__heading" {...reveal}><Kicker>Our journey</Kicker><h2>From local roots to complex mandates.</h2></motion.div>
@@ -108,7 +98,7 @@ export function AboutPage() {
       <section className="about-team page-shell">
         <motion.div className="about-team__heading" {...reveal}><Kicker>Our Team</Kicker><h2>The people behind the work</h2></motion.div>
         <div className="about-team__grid">
-          {team.map(([name, role, initials]) => <motion.article key={name} {...reveal}><div className="about-team__avatar" aria-label={`${name} portrait pending approval`}>{initials}</div><h3>{name}</h3><p>{role}</p></motion.article>)}
+          {team.map(({ name, role }, index) => <motion.article key={name} {...reveal}><span className="about-team__number">{String(index + 1).padStart(2, "0")}</span><div><h3>{name}</h3><p>{role}</p></div></motion.article>)}
         </div>
       </section>
 
@@ -117,7 +107,7 @@ export function AboutPage() {
   );
 }
 
-export function ProjectsPage() {
+export function ProjectsPage({ projects }: { projects: Project[] }) {
   return (
     <PageFrame>
       <section className="route-collection page-shell">
@@ -134,7 +124,7 @@ export function ProjectsPage() {
   );
 }
 
-export function ProjectDetailPage({ project }: { project: Project }) {
+export function ProjectDetailPage({ project, projects }: { project: Project; projects: Project[] }) {
   const propertyDetails = project.details;
   const related = projects.filter((item) => item.slug !== project.slug).slice(0, 2);
 
@@ -173,7 +163,7 @@ export function ProjectDetailPage({ project }: { project: Project }) {
   );
 }
 
-export function BlogsPage() {
+export function BlogsPage({ articles }: { articles: Article[] }) {
   return (
     <PageFrame>
       <section className="route-collection page-shell">
@@ -188,7 +178,7 @@ export function BlogsPage() {
   );
 }
 
-export function ArticlePage({ article }: { article: Article }) {
+export function ArticlePage({ article, articles }: { article: Article; articles: Article[] }) {
   const related = articles.filter((item) => item.slug !== article.slug).slice(0, 3);
   return (
     <PageFrame>

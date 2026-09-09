@@ -1,5 +1,5 @@
 import type { CollectionConfig } from "payload";
-import { ownerOnly, staffOnly } from "../access";
+import { ownerOnly } from "../access";
 
 export const Users: CollectionConfig = {
   slug: "users",
@@ -13,7 +13,9 @@ export const Users: CollectionConfig = {
     defaultColumns: ["email", "role", "updatedAt"],
   },
   access: {
-    admin: staffOnly,
+    // Admin-panel access is intentionally boolean; the rest of the CMS uses
+    // richer collection access rules for role-specific filtering.
+    admin: ({ req }) => Boolean(req.user),
     create: ownerOnly,
     delete: ownerOnly,
     read: ownerOnly,

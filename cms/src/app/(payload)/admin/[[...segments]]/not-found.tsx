@@ -1,9 +1,13 @@
 import config from "@payload-config";
-import { NotFoundPage, generateMetadata } from "@payloadcms/next/views";
+import { NotFoundPage } from "@payloadcms/next/views";
 import { importMap } from "../importMap.js";
 
-export { generateMetadata };
+type Args = {
+  params: Promise<{ segments: string[] }>;
+  searchParams: Promise<Record<string, string | string[]>>;
+};
 
-export default function NotFound() {
-  return NotFoundPage({ config, importMap });
-}
+const NotFound = ({ params, searchParams }: Args) =>
+  NotFoundPage({ config, importMap, params, searchParams });
+
+export default NotFound;

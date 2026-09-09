@@ -1,7 +1,11 @@
 import { ArrowIcon } from "./icons";
+import { useCmsContent } from "../cms/CmsContentProvider";
 import "./Footer.css";
 
 export default function Footer() {
+  const { site } = useCmsContent();
+  const phoneHref = site.phone.replace(/\D/g, "");
+
   return (
     <footer className="site-footer">
       <div className="site-footer__inner page-shell">
@@ -9,7 +13,7 @@ export default function Footer() {
           <a href="/" aria-label="Colombo Consultants & Management Group home">
             <img className="brand-logo" src="/assets/ccmg/company-logo-transparent-exact.png" alt="CCMG — Colombo Consultants & Management Group" />
           </a>
-          <p>Global reach, local insight. Turning complex mandates into projects that are socially responsible and commercially viable.</p>
+          <p>{site.tagline} Turning complex mandates into projects that are socially responsible and commercially viable.</p>
           <a className="button site-footer__button" href="/contact">
             Let’s Talk <ArrowIcon />
           </a>
@@ -26,9 +30,9 @@ export default function Footer() {
 
         <address className="site-footer__column site-footer__contact">
           <h2>Contact</h2>
-          <a href="mailto:sampath@colomboconsultants.lk">sampath@colomboconsultants.lk</a>
-          <a href="tel:+94112877204">+94 11 287 7204</a>
-          <span>512/C, Asiri Mawatha,<br />Battaramulla, Sri Lanka</span>
+          <a href={`mailto:${site.email}`}>{site.email}</a>
+          <a href={`tel:${phoneHref}`}>{site.phone}</a>
+          <span>{site.location}</span>
         </address>
 
         <div className="site-footer__legal">
@@ -36,8 +40,8 @@ export default function Footer() {
             <a href="/legal-policy/legal-policy">Terms</a>
             <a href="/legal-policy/privacy-policy">Private Policy</a>
           </div>
-          <a href="https://www.framer.com/@vinayak-thakur/" target="_blank" rel="noreferrer">
-            © Colombo Consultants &amp; Management Group
+          <a href={site.linkedinUrl || "/"} target={site.linkedinUrl ? "_blank" : undefined} rel={site.linkedinUrl ? "noreferrer" : undefined}>
+            © {site.companyName}
           </a>
         </div>
       </div>

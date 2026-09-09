@@ -1,3 +1,4 @@
+import "./src/env";
 import { postgresAdapter } from "@payloadcms/db-postgres";
 import { lexicalEditor } from "@payloadcms/richtext-lexical";
 import { buildConfig } from "payload";
@@ -7,6 +8,7 @@ import { CaseStudies } from "./src/collections/CaseStudies";
 import { ContactSubmissions } from "./src/collections/ContactSubmissions";
 import { Insights } from "./src/collections/Insights";
 import { Media } from "./src/collections/Media";
+import { Partners } from "./src/collections/Partners";
 import { Services } from "./src/collections/Services";
 import { TeamMembers } from "./src/collections/TeamMembers";
 import { Users } from "./src/collections/Users";
@@ -37,18 +39,31 @@ if (process.env.NODE_ENV === "production" && allowedOrigins.length === 0) {
 export default buildConfig({
   admin: {
     user: Users.slug,
+    components: {
+      afterNav: ["./components/NavigationFooter.tsx"],
+      beforeDashboard: ["./components/DashboardIntroduction.tsx"],
+      beforeLogin: ["./components/LoginIntroduction.tsx"],
+      graphics: {
+        Icon: "./components/CcmgIcon.tsx",
+        Logo: "./components/CcmgLogo.tsx",
+      },
+    },
     importMap: {
       baseDir: path.resolve(dirname, "src/app/(payload)"),
     },
   },
-  collections: [Users, Media, Services, CaseStudies, Insights, TeamMembers, ContactSubmissions],
+  collections: [Users, Media, Services, CaseStudies, Insights, TeamMembers, Partners, ContactSubmissions],
   cors: allowedOrigins,
   csrf: allowedOrigins,
   db: postgresAdapter({
     pool: {
       connectionString: databaseUrl,
     },
-    push: process.env.NODE_ENV !== "production",
+    // Keep the live Neon schema under versioned migration control. Automatic
+    // development pushes can be convenient, but must never modify the shared
+    // content database by accident.
+    push: false,
+    migrationDir: path.resolve(dirname, "src/migrations"),
   }),
   editor: lexicalEditor(),
   globals: [HomePage, SiteSettings],

@@ -1,31 +1,8 @@
 import { motion } from "motion/react";
-import type { Stat } from "../types/content";
+import type { CmsStat } from "../data/cmsContent";
 import "./ResultsSection.css";
 
-const stats: Stat[] = [
-  {
-    value: "19+",
-    label: "Years of excellence",
-    description: "Navigating complex regulatory landscapes and delivering viable frameworks across South Asia.",
-  },
-  {
-    value: "$4.2B",
-    label: "Project value",
-    description: "Cumulative value of infrastructure and energy projects structured and advised.",
-  },
-  {
-    value: "100%",
-    label: "Stakeholder alignment",
-    description: "Deep integration with government bodies, development banks, and private investors.",
-  },
-  {
-    value: "2006",
-    label: "Established",
-    description: "Sri Lankan advisory and transaction support for complex public and private-sector mandates.",
-  },
-];
-
-export default function ResultsSection() {
+export default function ResultsSection({ stats }: { stats: CmsStat[] }) {
   return (
     <section className="results" aria-labelledby="results-title">
       <div className="results__blueprint" aria-hidden="true">

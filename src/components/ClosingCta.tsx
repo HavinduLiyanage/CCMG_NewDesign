@@ -4,9 +4,11 @@ import "./ClosingCta.css";
 
 type ClosingCtaProps = {
   title?: string;
+  summary?: string;
+  label?: string;
 };
 
-export default function ClosingCta({ title = "Ready to transform your infrastructure strategy?" }: ClosingCtaProps) {
+export default function ClosingCta({ title = "Ready to transform your infrastructure strategy?", summary, label = "Book a Consultation" }: ClosingCtaProps) {
   return (
     <section className="closing-cta" aria-labelledby="closing-cta-title">
       <img src="/assets/xil7I6l5QGBFKgYQWzIcUX9pH8.webp" alt="Infrastructure development site" loading="lazy" />
@@ -19,8 +21,9 @@ export default function ClosingCta({ title = "Ready to transform your infrastruc
         transition={{ duration: 0.7 }}
       >
         <h2 id="closing-cta-title">{title}</h2>
+        {summary && <p className="closing-cta__summary">{summary}</p>}
         <a className="button closing-cta__button" href="/contact">
-          Book a Consultation <ArrowIcon />
+          {label} <ArrowIcon />
         </a>
       </motion.div>
     </section>

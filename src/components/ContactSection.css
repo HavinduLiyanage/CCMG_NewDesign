@@ -171,8 +171,14 @@
   }
 
   .contact__inner {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
     gap: 54px;
+  }
+
+  .contact__intro,
+  .contact__form {
+    min-width: 0;
+    width: 100%;
   }
 
   .contact__intro {
@@ -180,8 +186,11 @@
   }
 
   .contact__intro .section-title {
+    width: 100%;
     margin-top: 34px;
   }
+
+  .contact__intro > p:last-child { width: 100%; }
 
   .contact__form {
     min-height: 0;

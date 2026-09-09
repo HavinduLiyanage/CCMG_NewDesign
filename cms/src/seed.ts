@@ -1,9 +1,10 @@
 import { readFile } from "node:fs/promises";
 import { basename, extname, resolve } from "node:path";
+import "./env";
 import config from "@payload-config";
 import { getPayload } from "payload";
 
-type TextSection = { heading?: string; paragraphs: string[] };
+type TextSection = { heading?: string; paragraphs: readonly string[] };
 
 const publicAssets = resolve(process.cwd(), "..", "public", "assets");
 const published = { _status: "published" as const };
@@ -19,7 +20,7 @@ const mimeTypeFor = (filename: string) => {
   }
 };
 
-const richText = (sections: TextSection[]) => ({
+const richText = (sections: readonly TextSection[]) => ({
   root: {
     type: "root",
     children: sections.flatMap((section) => [
@@ -74,6 +75,26 @@ const services = [
   ["government-regulatory-engineering-support", "Government, Regulatory & Engineering Support", "Approvals pathways, compliance tracking, institutional coordination, design interface, construction-supervision support, and ESHS alignment.", mediaAssets.advisory, ["Permits & approvals", "Utility coordination", "Construction supervision", "ESHS management"]],
 ] as const;
 
+const partners = [
+  ["rosen", "ROSEN"],
+  ["sweroad", "Sweroad"],
+  ["greenenergy-gpo", "GreenEnergy GPO"],
+  ["ek-consult", "EK Consult"],
+  ["suez", "SUEZ"],
+  ["cecb", "CECB"],
+  ["ipd", "Institute for Participatory Development"],
+  ["alf-consulting", "ALF Consulting Engineers"],
+  ["ocreeds", "O.CREEDS"],
+  ["inter-consult", "Inter-Consult"],
+  ["cscec", "China State Construction Engineering Corporation"],
+  ["china-geo", "China Geo Engineering Group"],
+  ["china-poly", "China Poly Group Corporation"],
+  ["ages", "Consultants AGES"],
+  ["millennium-it-esp", "Millennium IT ESP"],
+  ["careedge", "CareEdge Analytics & Advisory"],
+  ["caddell", "Caddell Construction"],
+] as const;
+
 const caseStudies = [
   {
     slug: "mahaweli-water-security-investment-program", title: "Mahaweli Water Security Investment Program", category: "Water & Irrigation Infrastructure", location: "Mahaweli River Basin, Sri Lanka", client: "China State Construction Engineering Corporation", investmentValue: "ADB-funded programme", cover: mediaAssets.mahaweli, featured: true,
@@ -98,12 +119,6 @@ const caseStudies = [
     summary: "Design coordination, construction supervision and pre-bid support for safe, sustainable urban water supply.",
     metrics: [{ value: "2024–2025", label: "Period" }, { value: "World Bank", label: "Funder" }],
     story: ["For the Mallavi Urban Water Supply System, CCMG coordinated all stages of the World Bank-funded project from bidding through execution.", "The team supported construction supervision, design modifications, and mechanical-engineering designs to meet delivery and compliance requirements."],
-  },
-  {
-    slug: "jet-a1-aviation-fuel-pipeline", title: "Jet A-1 Aviation Fuel Pipeline", category: "Energy & Utilities", location: "Muthurajawela to Bandaranaike International Airport, Sri Lanka", client: "China State Construction Engineering Corporation", cover: mediaAssets.advisory, featured: false,
-    summary: "Exclusive local pre-bid advisory for a high-sensitivity aviation-fuel pipeline corridor.",
-    metrics: [{ value: "Bidding stage", label: "Status" }, { value: "~23 km", label: "Length" }],
-    story: ["CCMG provided exclusive local pre-bid advisory for a high-sensitivity Jet A-1 pipeline corridor traversing dense urban areas, highways, wetlands, and the airport perimeter.", "The team mapped permit and ESHS risks, assembled local expertise, and coordinated clarifications to support a compliant and competitive submission."],
   },
   {
     slug: "water-supply-sanitation-legal-reform", title: "Water Supply & Sanitation Legal and Institutional Reform", category: "Policy & Regulation", location: "Sri Lanka", client: "ADB / National Water Supply & Drainage Board", partner: "IDP Philippines", cover: mediaAssets.advisory, featured: false,
@@ -145,21 +160,37 @@ async function ensureMedia(source: { path: string; alt: string }) {
   return created.id;
 }
 
-async function upsertBySlug(collection: "services" | "case-studies" | "insights", slug: string, data: Record<string, unknown>) {
+async function upsertBySlug(collection: "services" | "case-studies" | "insights" | "partners", slug: string, data: Record<string, unknown>) {
   const existing = await payload.find({ collection, where: { slug: { equals: slug } }, limit: 1, overrideAccess: true });
-  if (existing.docs[0]) return payload.update({ collection, id: existing.docs[0].id, data, overrideAccess: true });
-  return payload.create({ collection, data, overrideAccess: true });
+  if (existing.docs[0]) return payload.update({ collection, id: existing.docs[0].id, data: data as never, overrideAccess: true });
+  return payload.create({ collection, data: data as never, overrideAccess: true });
+}
+
+async function removeCaseStudy(slug: string) {
+  const existing = await payload.find({ collection: "case-studies", where: { slug: { equals: slug } }, limit: 1, overrideAccess: true });
+  if (existing.docs[0]) {
+    await payload.delete({ collection: "case-studies", id: existing.docs[0].id, overrideAccess: true });
+  }
 }
 
 async function upsertTeamMember(name: string, data: Record<string, unknown>) {
   const existing = await payload.find({ collection: "team-members", where: { name: { equals: name } }, limit: 1, overrideAccess: true });
-  if (existing.docs[0]) return payload.update({ collection: "team-members", id: existing.docs[0].id, data, overrideAccess: true });
-  return payload.create({ collection: "team-members", data, overrideAccess: true });
+  if (existing.docs[0]) return payload.update({ collection: "team-members", id: existing.docs[0].id, data: data as never, overrideAccess: true });
+  return payload.create({ collection: "team-members", data: data as never, overrideAccess: true });
 }
 
 try {
   const media = new Map<string, string | number>();
   for (const [key, source] of Object.entries(mediaAssets)) media.set(key, await ensureMedia(source));
+
+  // This project was removed from the approved CCMG public portfolio. Keeping
+  // the seed idempotent also removes it if an earlier preview seed was run.
+  await removeCaseStudy("jet-a1-aviation-fuel-pipeline");
+
+  for (const [index, [slug, name]] of partners.entries()) {
+    const logo = await ensureMedia(asset(`ccmg/partners/${slug}.png`, `${name} logo`));
+    await upsertBySlug("partners", slug, { ...published, slug, name, logo, order: index + 1 });
+  }
 
   for (const [index, [slug, title, summary, cover, capabilities]] of services.entries()) {
     await upsertBySlug("services", slug, {
@@ -169,7 +200,7 @@ try {
     });
   }
 
-  const caseStudyIds = new Map<string, string | number>();
+  const caseStudyIds = new Map<string, number>();
   for (const [index, study] of caseStudies.entries()) {
     const { cover, story, ...caseStudy } = study;
     const coverKey = Object.entries(mediaAssets).find(([, value]) => value === study.cover)?.[0] ?? "";
@@ -180,7 +211,7 @@ try {
       order: index + 1,
       body: richText([{ paragraphs: [...story] }]),
     });
-    caseStudyIds.set(study.slug, document.id);
+    caseStudyIds.set(study.slug, Number(document.id));
   }
 
   for (const insightEntry of insights) {

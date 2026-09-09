@@ -1,30 +1,6 @@
 import type { PointerEvent } from "react";
-import type { Project } from "../types/content";
+import type { CmsProject } from "../data/cmsContent";
 import "./ProjectsSection.css";
-
-const projects = [
-  {
-    category: "Water & Irrigation Infrastructure",
-    title: "Mahaweli Water Security Investment Program",
-    location: "Mahaweli River Basin, Sri Lanka",
-    image: "/assets/ccmg/mahaweli-water-security.png",
-    href: "/projects/mahaweli-water-security-investment-program",
-  },
-  {
-    category: "Diplomatic Infrastructure",
-    title: "Development of the U.S. Embassy New Wing",
-    location: "Colombo, Sri Lanka",
-    image: "/assets/ccmg/us-embassy.jpg",
-    href: "/projects/us-embassy-new-wing",
-  },
-  {
-    category: "World Bank-funded Water Supply",
-    title: "Mallavi Urban Water Supply",
-    location: "Mallavi, Sri Lanka",
-    image: "/assets/ccmg/mallavi-water-supply.jpg",
-    href: "/projects/mallavi-urban-water-supply",
-  },
-] satisfies Project[];
 
 function updateTilt(event: PointerEvent<HTMLAnchorElement>) {
   if (event.pointerType === "touch") return;
@@ -43,11 +19,11 @@ function resetTilt(event: PointerEvent<HTMLAnchorElement>) {
   event.currentTarget.style.setProperty("--project-tilt-y", "0deg");
 }
 
-function ProjectCard({ project, duplicate = false }: { project: Project; duplicate?: boolean }) {
+function ProjectCard({ project, duplicate = false }: { project: CmsProject; duplicate?: boolean }) {
   return (
     <a
       className="projects-section__card"
-      href={project.href}
+      href={`/projects/${project.slug}`}
       aria-label={`${project.title}, ${project.location}`}
       tabIndex={duplicate ? -1 : undefined}
       onPointerMove={updateTilt}
@@ -70,7 +46,7 @@ function ProjectCard({ project, duplicate = false }: { project: Project; duplica
   );
 }
 
-function ProjectGroup({ duplicate = false }: { duplicate?: boolean }) {
+function ProjectGroup({ projects, duplicate = false }: { projects: CmsProject[]; duplicate?: boolean }) {
   return (
     <div
       className={`projects-section__group${duplicate ? " projects-section__group--duplicate" : ""}`}
@@ -87,7 +63,7 @@ function ProjectGroup({ duplicate = false }: { duplicate?: boolean }) {
   );
 }
 
-export function ProjectsSection() {
+export function ProjectsSection({ projects }: { projects: CmsProject[] }) {
   return (
     <section className="projects-section" id="projects" aria-labelledby="featured-projects-title">
       <div className="projects-section__inner">
@@ -105,8 +81,8 @@ export function ProjectsSection() {
 
         <div className="projects-section__viewport">
           <div className="projects-section__track">
-            <ProjectGroup />
-            <ProjectGroup duplicate />
+            <ProjectGroup projects={projects} />
+            <ProjectGroup projects={projects} duplicate />
           </div>
         </div>
       </div>
