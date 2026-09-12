@@ -8,8 +8,8 @@ export const ContactSubmissions: CollectionConfig = {
     defaultColumns: ["name", "email", "status", "createdAt"],
   },
   access: {
-    // The public form must post to a rate-limited server action, never directly
-    // to this collection's public REST endpoint.
+    // Public website enquiries are handled by Formspree. This collection stays
+    // private for staff-created records and any future first-party workflow.
     create: () => false,
     delete: contentPublisher,
     read: staffOnly,

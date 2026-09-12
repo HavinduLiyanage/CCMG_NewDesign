@@ -1,6 +1,7 @@
 import "./src/env";
 import { postgresAdapter } from "@payloadcms/db-postgres";
 import { lexicalEditor } from "@payloadcms/richtext-lexical";
+import { vercelBlobStorage } from "@payloadcms/storage-vercel-blob";
 import { buildConfig } from "payload";
 import path from "path";
 import { fileURLToPath } from "url";
@@ -23,6 +24,7 @@ const allowedOrigins = (process.env.CMS_CORS_ORIGINS ?? "")
   .filter(Boolean);
 const payloadSecret = process.env.PAYLOAD_SECRET;
 const databaseUrl = process.env.DATABASE_URL;
+const blobToken = process.env.BLOB_READ_WRITE_TOKEN;
 
 if (!payloadSecret) {
   throw new Error("PAYLOAD_SECRET must be set before CCMG CMS can start.");
@@ -34,6 +36,10 @@ if (!databaseUrl) {
 
 if (process.env.NODE_ENV === "production" && allowedOrigins.length === 0) {
   throw new Error("CMS_CORS_ORIGINS must include the public website origin in production.");
+}
+
+if (process.env.NODE_ENV === "production" && !blobToken) {
+  throw new Error("BLOB_READ_WRITE_TOKEN must be set in production so CMS uploads are persistent.");
 }
 
 export default buildConfig({
@@ -67,6 +73,19 @@ export default buildConfig({
   }),
   editor: lexicalEditor(),
   globals: [HomePage, SiteSettings],
+  plugins: [
+    vercelBlobStorage({
+      // Local development continues to use cms/media. Production uploads go
+      // directly to Vercel Blob, avoiding Vercel's 4.5 MB server-upload cap.
+      enabled: Boolean(blobToken),
+      collections: {
+        [Media.slug]: true,
+      },
+      token: blobToken,
+      clientUploads: true,
+      addRandomSuffix: true,
+    }),
+  ],
   secret: payloadSecret,
   serverURL: process.env.NEXT_PUBLIC_SERVER_URL,
   typescript: {

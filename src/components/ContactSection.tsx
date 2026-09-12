@@ -7,14 +7,58 @@ type ContactSectionProps = {
 };
 
 export default function ContactSection({ asMainHeading = false }: ContactSectionProps) {
-  const [submitted, setSubmitted] = useState(false);
+  const [status, setStatus] = useState<{ message: string; state: "error" | "idle" | "sending" | "success" }>({
+    message: "",
+    state: "idle",
+  });
   const Heading = asMainHeading ? "h1" : "h2";
+  const formspreeFormId = import.meta.env.VITE_FORMSPREE_FORM_ID as string | undefined;
 
-  function handleSubmit(event: FormEvent<HTMLFormElement>) {
+  async function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     const form = event.currentTarget;
     if (!form.reportValidity()) return;
-    setSubmitted(true);
+    if (!formspreeFormId) {
+      setStatus({ message: "The enquiry service is not connected yet. Please email CCMG directly.", state: "error" });
+      return;
+    }
+
+    const data = new FormData(form);
+    setStatus({ message: "Sending your enquiry…", state: "sending" });
+
+    try {
+      const response = await fetch(`https://formspree.io/f/${formspreeFormId}`, {
+        body: JSON.stringify({
+          email: data.get("email"),
+          marketingConsent: data.get("updates") === "on" ? "Yes" : "No",
+          message: data.get("message"),
+          name: data.get("name"),
+          organisation: data.get("organisation"),
+          serviceInterest: data.get("service"),
+          _gotcha: data.get("_gotcha"),
+          _subject: "New CCMG website enquiry",
+        }),
+        headers: {
+          Accept: "application/json",
+          "Content-Type": "application/json",
+        },
+        method: "POST",
+      });
+      const result = (await response.json().catch(() => ({}))) as {
+        error?: string;
+        errors?: Array<{ message?: string }>;
+      };
+      if (response.status === 429) throw new Error("Please wait a moment before sending another enquiry.");
+      if (!response.ok) throw new Error(result.errors?.[0]?.message || result.error || "We could not send your enquiry. Please try again.");
+
+      form.reset();
+      setStatus({ message: "Thank you — your enquiry has been received. A CCMG specialist will be in touch shortly.", state: "success" });
+    } catch (error) {
+      setStatus({
+        message: error instanceof Error ? error.message : "We could not send your enquiry. Please try again or email CCMG directly.",
+        state: "error",
+      });
+    }
   }
 
   return (
@@ -37,6 +81,7 @@ export default function ContactSection({ asMainHeading = false }: ContactSection
 
         <motion.form
           className="contact__form"
+          aria-busy={status.state === "sending"}
           onSubmit={handleSubmit}
           initial={{ opacity: 0, y: 28 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -55,7 +100,7 @@ export default function ContactSection({ asMainHeading = false }: ContactSection
             </label>
             <label>
               <span>Email</span>
-              <input type="email" name="email" placeholder="jane@framer.com" required />
+              <input type="email" name="email" placeholder="name@organisation.com" required />
             </label>
             <label className="contact__wide">
               <span>Organisation</span>
@@ -65,6 +110,7 @@ export default function ContactSection({ asMainHeading = false }: ContactSection
               <span>You are interested in</span>
               <select name="service" defaultValue="">
                 <option value="" disabled>Select a service...</option>
+                <option>Strategic Local Partnerships &amp; Representation</option>
                 <option>PPP &amp; Transaction Advisory</option>
                 <option>Strategic Advisory</option>
                 <option>Stakeholder Engagement</option>
@@ -73,21 +119,26 @@ export default function ContactSection({ asMainHeading = false }: ContactSection
               </select>
             </label>
             <label className="contact__wide">
-              <span>message</span>
-              <textarea name="message" placeholder="Write your message..." rows={5} />
+              <span>Message</span>
+              <textarea name="message" placeholder="Write your message..." rows={5} required minLength={10} maxLength={5000} />
             </label>
           </div>
+
+          <label className="contact__honeypot" aria-hidden="true">
+            <span>Website</span>
+            <input type="text" name="_gotcha" tabIndex={-1} autoComplete="off" />
+          </label>
 
           <label className="contact__consent">
             <input type="checkbox" name="updates" />
             <span>Yes, I’d like to receive relevant CCMG insights. Unsubscribe anytime.</span>
           </label>
 
-          <button className="contact__submit" type="submit">
-            {submitted ? "Enquiry Received" : "Send Enquiry"}
+          <button className="contact__submit" type="submit" disabled={status.state === "sending"}>
+            {status.state === "sending" ? "Sending Enquiry" : "Send Enquiry"}
           </button>
-          <p className="contact__status" aria-live="polite">
-            {submitted ? "Thanks — this preview form is not connected to the secure CMS endpoint yet." : ""}
+          <p className={`contact__status contact__status--${status.state}`} aria-live="polite">
+            {status.message}
           </p>
         </motion.form>
       </div>

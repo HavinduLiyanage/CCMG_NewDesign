@@ -14,6 +14,10 @@ This is a separate Payload CMS application for the existing Vite public site. It
 - Media: all site imagery and documents.
 - Contact submissions: staff-only inquiry records.
 
+## Public enquiries
+
+The public Vite contact form is handled by Formspree, which delivers enquiries to the CCMG mailbox configured in its dashboard. The CMS retains its private `Contact Submissions` collection for staff-created records or a future first-party contact workflow, but the Formspree integration does not expose database credentials or create records through Payload's public REST API.
+
 ## Security model
 
 - The CMS is intended for cms.colomboconsultants.lk; the public Vite site remains at www.colomboconsultants.lk.
@@ -58,4 +62,5 @@ This is a separate Payload CMS application for the existing Vite public site. It
 - Deploy this `cms` folder as a separate Node / Next.js application. Set `NEXT_PUBLIC_SERVER_URL` to its final HTTPS URL and set `CMS_CORS_ORIGINS` to only the final public-site and CMS origins.
 - The initial owner is deliberately a one-time bootstrap operation. After it has succeeded, remove `CMS_BOOTSTRAP_OWNER_*` values. Owners can create Publishers, Editors, and Viewers from the CMS instead.
 - `cms/media/` is local development storage and is intentionally ignored. Before allowing production media uploads, configure an object-storage adapter (such as S3-compatible storage, R2, or Vercel Blob) so new images persist across deployments.
-- The Vite public site is still using its approved static content as a safe fallback. Connecting its sections to this CMS REST API is the next integration step required for CMS edits to appear on the public website without a redeploy.
+- Before deploying to Vercel, create a Blob store and connect it to the CMS Vercel project. This supplies `BLOB_READ_WRITE_TOKEN`; the configured storage adapter then persists uploads and sends larger files directly from the editor's browser to Blob.
+- The Vite public site consumes approved static data only if the CMS is unavailable. Its normal content path is the CMS REST API, so published CMS edits appear without a public-site redeploy.

@@ -232,7 +232,7 @@ const privacySections = [
   ["1. Introduction", "Colombo Consultants & Management Group is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your personal information when you visit our website or engage with our services."],
   ["2. Information We Collect", "We may collect contact information when you fill out a contact form, usage data collected via analytics tools, and messages or inquiries you send directly."],
   ["3. How We Use Your Information", "We use your information to respond to inquiries, deliver and improve our services, send relevant updates with your consent, and improve the website experience."],
-  ["4. Data Sharing", "We do not sell your personal information. We may share data with trusted third-party service providers solely to operate our business, and require them to handle it securely."],
+  ["4. Data Sharing", "We do not sell your personal information. We use Formspree to process website contact-form submissions and may use other trusted service providers solely to operate our business. We require them to handle information securely."],
   ["5. Cookies", "Our website may use cookies to enhance your browsing experience and track analytics. You can disable cookies through your browser settings, though some features may not function properly."],
   ["6. Data Retention", "We retain your personal data only as long as necessary to fulfill the stated purposes or as required by law."],
   ["7. Your Rights", "Depending on your location, you may have the right to access, correct, or delete personal data, withdraw consent, or lodge a complaint with a data protection authority."],
