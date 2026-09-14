@@ -45,6 +45,10 @@
   --ccmg-paper: #f5f5f5;
   --ccmg-concrete: #ededed;
   --ccmg-white: #ffffff;
+  --ccmg-surface: #ffffff;
+  --ccmg-hover: #eaf5fc;
+  --ccmg-muted: #595954;
+  --ccmg-action: #0877b1;
   --font-body: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   --font-mono: "Chivo Mono", monospace;
   --font-serif: "Overused Grotesk", sans-serif;
@@ -57,8 +61,11 @@
   --theme-elevation-100: #ededed;
   --theme-elevation-150: #deded9;
   --theme-elevation-200: #c7c7c0;
+  --theme-elevation-250: #adada6;
   --theme-elevation-300: #999994;
+  --theme-elevation-350: #7d7d77;
   --theme-elevation-400: #696964;
+  --theme-elevation-450: #5b5b55;
   --theme-elevation-500: #4d4d48;
   --theme-elevation-600: #373734;
   --theme-elevation-700: #262624;
@@ -74,6 +81,11 @@
 }
 
 html[data-theme="dark"] {
+  color-scheme: dark;
+  --ccmg-surface: #20201d;
+  --ccmg-hover: #193440;
+  --ccmg-muted: #b8b8b0;
+  --ccmg-action: #63c5f5;
   --theme-bg: #161512;
   --theme-input-bg: #20201d;
   --theme-text: #f5f5f2;
@@ -83,8 +95,11 @@ html[data-theme="dark"] {
   --theme-elevation-100: #242420;
   --theme-elevation-150: #31312d;
   --theme-elevation-200: #484843;
+  --theme-elevation-250: #575751;
   --theme-elevation-300: #666660;
+  --theme-elevation-350: #7d7d75;
   --theme-elevation-400: #92928a;
+  --theme-elevation-450: #a1a199;
   --theme-elevation-500: #afafa8;
   --theme-elevation-600: #ccccC4;
   --theme-elevation-700: #dcdcd4;
@@ -95,7 +110,8 @@ html[data-theme="dark"] {
 
 html,
 body {
-  background: var(--ccmg-paper);
+  background: var(--theme-bg);
+  color: var(--theme-text);
 }
 
 body {
@@ -154,9 +170,9 @@ textarea {
 }
 
 .nav .nav-group__toggle {
-  color: rgb(255 255 255 / 44%);
+  color: #b8b8b0;
   font-family: var(--font-mono);
-  font-size: 0.64rem;
+  font-size: 0.75rem;
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -180,15 +196,16 @@ textarea {
 }
 
 .ccmg-admin-logo img {
+  display: block;
   height: auto;
   max-width: 132px;
   width: 132px;
 }
 
 .ccmg-admin-logo span {
-  color: rgb(255 255 255 / 46%);
+  color: var(--ccmg-muted);
   font-family: var(--font-mono);
-  font-size: 0.54rem;
+  font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.13em;
   line-height: 1;
@@ -198,6 +215,27 @@ textarea {
   color: var(--ccmg-blue);
   height: 29px;
   width: 29px;
+  display: block;
+  flex: 0 0 29px;
+}
+
+/* Payload reserves only 18px for its default mark. Give our globe room. */
+.app-header .step-nav__home {
+  width: 32px;
+  height: 32px;
+  min-width: 32px;
+  flex: 0 0 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-header .step-nav__home > span {
+  overflow: visible;
+}
+
+html[data-theme="dark"] .ccmg-admin-logo img {
+  filter: brightness(0) invert(1);
 }
 
 .ccmg-navigation-footer {
@@ -244,8 +282,9 @@ textarea {
 
 /* Header, lists, fields, and controls. */
 .app-header {
-  background: var(--ccmg-paper);
-  border-bottom: 1px solid #dfdfda;
+  background: var(--theme-bg);
+  color: var(--theme-text);
+  border-bottom: 1px solid var(--theme-border-color);
 }
 
 .app-header__content {
@@ -254,7 +293,7 @@ textarea {
 
 .app-header .step-nav__home,
 .app-header .step-nav__home a {
-  color: var(--ccmg-blue-deep);
+  color: var(--ccmg-action);
 }
 
 .btn,
@@ -263,34 +302,35 @@ textarea {
 .btn--style-pill {
   border-radius: 3px;
   font-family: var(--font-mono);
-  font-size: 0.67rem;
+  font-size: 0.75rem;
   font-weight: 700;
   letter-spacing: 0.07em;
   text-transform: uppercase;
 }
 
 .btn--style-primary {
-  background: var(--ccmg-ink);
-  border-color: var(--ccmg-ink);
-  color: var(--ccmg-white);
+  background: var(--theme-text);
+  border-color: var(--theme-text);
+  color: var(--theme-bg);
 }
 
 .btn--style-primary:hover,
 .btn--style-primary:focus-visible {
   background: var(--ccmg-blue-deep);
   border-color: var(--ccmg-blue-deep);
+  color: var(--ccmg-white);
 }
 
 .btn--style-secondary {
-  background: var(--ccmg-white);
-  border-color: var(--ccmg-ink);
-  color: var(--ccmg-ink);
+  background: var(--ccmg-surface);
+  border-color: var(--theme-border-color);
+  color: var(--theme-text);
 }
 
 .btn--style-secondary:hover,
 .btn--style-secondary:focus-visible {
-  border-color: var(--ccmg-blue-deep);
-  color: var(--ccmg-blue-deep);
+  border-color: var(--ccmg-action);
+  color: var(--ccmg-action);
 }
 
 .field-type input,
@@ -314,7 +354,8 @@ textarea {
 .collection-list .table thead th,
 .list-controls__label {
   font-family: var(--font-mono);
-  font-size: 0.63rem;
+  color: var(--theme-text);
+  font-size: 0.85rem;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -324,7 +365,8 @@ textarea {
 .collection-edit,
 .global-edit,
 .dashboard {
-  background: var(--ccmg-paper);
+  background: var(--theme-bg);
+  color: var(--theme-text);
 }
 
 .collection-edit__main,
@@ -337,22 +379,48 @@ textarea {
 .table table,
 .simple-table,
 .simple-table__table {
-  background: var(--ccmg-white);
+  background: var(--ccmg-surface);
+  color: var(--theme-text);
 }
 
 .table thead,
 .simple-table__thead {
-  background: #ecece7;
+  background: var(--theme-elevation-100);
+  color: var(--theme-text);
 }
 
 .table tr,
 .simple-table__tr {
-  border-color: #e1e1dc;
+  border-color: var(--theme-border-color);
 }
 
 .table tbody tr:hover,
 .simple-table__tbody tr:hover {
-  background: #f5fbfe;
+  background: var(--ccmg-hover);
+}
+
+.field-description,
+.field-type input::placeholder,
+.field-type textarea::placeholder {
+  color: var(--ccmg-muted);
+  opacity: 1;
+}
+
+.field-type input:not([type="checkbox"]):not([type="radio"]),
+.field-type textarea {
+  background: var(--theme-input-bg);
+  color: var(--theme-text);
+  border-color: var(--theme-border-color);
+}
+
+.table tbody a {
+  color: var(--theme-text);
+  text-decoration-color: var(--theme-elevation-300);
+  text-underline-offset: 3px;
+}
+
+.table tbody a:hover {
+  color: var(--ccmg-action);
 }
 
 .card {
@@ -502,26 +570,8 @@ textarea {
 
 /* Login gets the same quiet, high-contrast welcome, while keeping Payload's security flow intact. */
 .login {
-  /* Keep sign-in calm and legible even if the editor has chosen Payload's dark mode. */
-  background: var(--ccmg-paper);
-  color: var(--ccmg-ink);
-  --theme-bg: var(--ccmg-paper);
-  --theme-input-bg: var(--ccmg-white);
-  --theme-text: var(--ccmg-ink);
-  --theme-border-color: #d9d9d5;
-  --theme-elevation-0: #ffffff;
-  --theme-elevation-50: #f5f5f5;
-  --theme-elevation-100: #ededed;
-  --theme-elevation-150: #deded9;
-  --theme-elevation-200: #c7c7c0;
-  --theme-elevation-300: #999994;
-  --theme-elevation-400: #696964;
-  --theme-elevation-500: #4d4d48;
-  --theme-elevation-600: #373734;
-  --theme-elevation-700: #262624;
-  --theme-elevation-800: #1c1c1a;
-  --theme-elevation-900: #161512;
-  --theme-elevation-1000: #000000;
+  background: var(--theme-bg);
+  color: var(--theme-text);
 }
 
 .login::before {
@@ -533,23 +583,23 @@ textarea {
 }
 
 .login .ccmg-admin-logo span {
-  color: rgb(22 21 18 / 52%);
+  color: var(--ccmg-muted);
 }
 
 .login .field-label,
 .login .field-type .label,
 .login .login__form > a {
-  color: var(--ccmg-ink);
+  color: var(--theme-text);
 }
 
 .login .field-type input {
-  background: var(--ccmg-white);
-  border-color: #d1d1cb;
-  color: var(--ccmg-ink);
+  background: var(--theme-input-bg);
+  border-color: var(--theme-border-color);
+  color: var(--theme-text);
 }
 
 .login .field-type input::placeholder {
-  color: #777772;
+  color: var(--ccmg-muted);
 }
 
 .ccmg-login-introduction {
