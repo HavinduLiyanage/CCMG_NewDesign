@@ -2,6 +2,24 @@
 
 The public site and CMS deploy as two separate Vercel projects from this one repository. The public site remains a Vite single-page app; the CMS is a Node / Payload application with Neon Postgres.
 
+## Current Vercel domains (before custom-domain migration)
+
+- Public website: `https://ccmg-new-design.vercel.app`
+- CMS: `https://ccmg-cms-seven.vercel.app/admin`
+- Public Production variables: `VITE_CMS_URL=https://ccmg-cms-seven.vercel.app` and `VITE_FORMSPREE_FORM_ID=mwlkanoy`.
+- CMS Production URL: `NEXT_PUBLIC_SERVER_URL=https://ccmg-cms-seven.vercel.app`.
+- CMS Production origins: `CMS_CORS_ORIGINS=https://ccmg-new-design.vercel.app,https://ccmg-cms-seven.vercel.app`.
+
+Preserve any other deliberately configured exact origins. Environment-variable changes require a new deployment. Keep existing working `DATABASE_URL`, `PAYLOAD_SECRET`, and `BLOB_READ_WRITE_TOKEN`; confirm the token belongs to the CMS's connected storage. Do not rerun owner creation, migrations, or seeding merely because the site is being connected: the deployed CMS already has an account and content. Inspect migration status and content first.
+
+Use Production settings for this verification. Preview CMS deployments should use a separate Neon branch and storage configuration; do not automatically share production write credentials with all previews.
+
+The CMS build script now generates the Payload import map before `next build`. Vercel can use `npm run build`. An existing `npm run generate:importmap && npm run build` override is safe but generates the map twice.
+
+Run `npm run verify:production` from the repository root. This checks published APIs, exact-origin CORS, populated globals, and anonymous denial for users/contact submissions, without signing in or changing data. Optional arguments: `npm run verify:production -- https://cms.example.com https://www.example.com`. Passing checks does not yet prove the public site's build uses the right URL: verify its browser Network requests and a reversible published edit, then restore that edit.
+
+Because the public site falls back to bundled content when any CMS request fails, a functioning homepage is not sufficient evidence of live CMS integration. Check all seven content requests. New CMS content loads on page refresh, not as a live push to an already-open tab.
+
 ## 1. Public website project
 
 - **Root directory:** repository root (`.`)
