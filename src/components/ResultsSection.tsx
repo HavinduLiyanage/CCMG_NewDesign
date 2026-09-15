@@ -23,10 +23,13 @@ export default function ResultsSection({ stats }: { stats: CmsStat[] }) {
           </h2>
         </motion.header>
 
-        <div className="results__grid">
+        <div
+          className="results__grid"
+          data-count={Math.min(stats.length, 4)}
+        >
           {stats.map((stat, index) => (
             <motion.article
-              className="results__card"
+              className={`results__card${stat.value.trim().length > 7 ? " results__card--long-value" : ""}`}
               key={stat.label}
               initial={{ opacity: 0, y: 28 }}
               whileInView={{ opacity: 1, y: 0 }}
